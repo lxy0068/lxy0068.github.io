@@ -1,4 +1,4 @@
----
+![baidu4](https://github.com/user-attachments/assets/04e34e0c-e7a4-4a4d-b4b2-0ea4eb2b4eb5)---
 permalink: /
 title: ""
 excerpt: ""
@@ -90,7 +90,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 # 💻 Internships
 
-- *2023.07 - 2023.09*, Embedded Development Programmer[Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
+- *2023.07 - 2023.09*, Embedded Development Programmer [Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
 
 # 🎓 Social Service
 - *2022.09 - present* Monitor of Artificial Intelligence Class 1, 2022, School of Future Technology, South China University of Technology.
@@ -115,10 +115,10 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - *2024.04*, My partners and I were invited to attend the 2024 Baidu Create AI Developer Conference! <br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/202401/000.jpg" alt="The journey of Shunde1" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/202401/001.jpg" alt="The journey of Shunde2" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/202401/002.jpg" alt="The journey of Shunde3" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/202401/003.jpg" alt="The journey of Shunde4" width="330" height="270">  
+    <img src="images/baidu1.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/images/baidu2.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/images/baidu3.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/images/baidu4.jpg" alt="baidu" width="330" height="270">  
 </div>
 
 - *2024.02*, I took my family to travel to Guangzhou and Shenzhen and took them to see a bigger world! <br>
@@ -149,12 +149,12 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 <div id="slider" style="width: 900px; overflow: hidden; margin-left: 56px;">
     <div id="slider-inner">
-        <img src="images/wuxi1.png" alt="Image 4">
-        <img src="images/wuxi2.png" alt="Image 4">
-        <img src="images/friends1.png" alt="Image 1">
-        <img src="images/friends2.png" alt="Image 2">
-        <img src="images/friends3.png" alt="Image 3">
-        <img src="images/friends4.png" alt="Image 4">
+        <img src="images/wuxi1.jpg" alt="Image 5">
+        <img src="images/wuxi2.jpg" alt="Image 6">
+        <img src="images/friends1.jpg" alt="Image 1">
+        <img src="images/friends2.jpg" alt="Image 2">
+        <img src="images/friends3.jpg" alt="Image 3">
+        <img src="images/friends4.jpg" alt="Image 4">
     </div>
 </div>
 

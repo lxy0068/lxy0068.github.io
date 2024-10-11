@@ -101,8 +101,14 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - *2024.08*, I traveled to Nanjing, Suzhou and Shanghai to experience the traditional Chinese culture and modern charm！<br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/007.png" alt="Xinhai Revolution Museum" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/008.png" alt="Former site of the Whampoa Military Academy" width="330" height="270">
+    <img src="images/nanjing1.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/nanjing2.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/nanjing3.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/suzhou1.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/suzhou2.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/suzhou3.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/shanghai1.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/shanghai2.jpg" alt="Jianghu Trip" width="330" height="270">
 </div>
 <br>
 
@@ -118,26 +124,24 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - *2024.02*, I took my family to travel to Guangzhou and Shenzhen and took them to see a bigger world! <br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/202401/000.jpg" alt="The journey of Shunde1" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/202401/001.jpg" alt="The journey of Shunde2" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/202401/002.jpg" alt="The journey of Shunde3" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/202401/003.jpg" alt="The journey of Shunde4" width="330" height="270">  
+    <img src="images/family.jpg" alt="family" width="330" height="270">  
 </div>
 <br>
 
 - *2023.08*, I participated in the 2023 "Bay Entrepreneurship Camp" - a youth maker exchange activity in the Guangdong-Hong Kong-Macao Greater Bay Area, visited well-known companies such as Tencent, BYD, and INSEPP, and received entrepreneurship-themed training and "face-to-face" guidance from professional mentors!<br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/007.png" alt="Xinhai Revolution Museum" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/008.png" alt="Former site of the Whampoa Military Academy" width="330" height="270">
+    <img src="images/wanchuang1.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/wanchuang2.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/wanchuang3.jpg" alt="wanchuang" width="330" height="270">
 </div>
 <br>
 
 - *2023.05*, I participated in the Entrepreneurship Elite Class held by the School of Entrepreneurship Education of South China University of Technology and communicated with Microsoft mentor Guan Zhen!<br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/007.png" alt="Xinhai Revolution Museum" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/008.png" alt="Former site of the Whampoa Military Academy" width="330" height="270">
+    <img src="images/chuangyuan1.jpg" alt="chuangyuan" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/chuangyuan2.jpg" alt="chuangyuan" width="330" height="270">
 </div>
 <br>
 
@@ -145,13 +149,12 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 <div id="slider" style="width: 900px; overflow: hidden; margin-left: 56px;">
     <div id="slider-inner">
-        <img src="images/001.png" alt="Image 1">
-        <img src="images/002.png" alt="Image 2">
-        <img src="images/003.png" alt="Image 3">
-        <img src="images/004.png" alt="Image 4">
-        <img src="images/005.png" alt="Image 5">
-        <img src="images/006.png" alt="Image 6">
-        <img src="images/007.png" alt="Image 7">
+        <img src="images/wuxi1.png" alt="Image 4">
+        <img src="images/wuxi2.png" alt="Image 4">
+        <img src="images/friends1.png" alt="Image 1">
+        <img src="images/friends2.png" alt="Image 2">
+        <img src="images/friends3.png" alt="Image 3">
+        <img src="images/friends4.png" alt="Image 4">
     </div>
 </div>
 

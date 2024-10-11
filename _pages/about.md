@@ -38,23 +38,24 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 # 🔥 News
 
 - *2024.07*: &nbsp;🎉🎉 Go to Wuxi Future Technology Joint Research Center for internship!
-- *2024.06*: &nbsp;🎉🎉 Get the National College Student Innovation and Entrepreneurship Training Program Meritorious Completion<span style="color:red;">(Top 5%)</span>! 
-- *2024.06*: &nbsp;🎉🎉 Taihu Future Innovation Award <span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
-- *2024.04*: &nbsp;🎉🎉 Authorized a software copyright.
+- *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 
+- *2024.06*: &nbsp;🎉🎉 Win the Taihu Future Technology Innovation Award <span style="color:red;">(Top 3%)</span> by Wuxi government!
+- *2024.04*: &nbsp;🎉🎉 Authorized a software copyright!
 - *2024.04*: &nbsp;🎉🎉 Accepted an invention patent (under review).
+- *2024.02*: &nbsp;🎉🎉 Win the Bronze Award of the 14th SCUT "Xinwanda Cup" China University Students' Entrepreneurship Plan Competition!
 - *2023.12*: &nbsp;🎉🎉 Join [Prof. Qi Liu](https://drliuqi.github.io/)’s Laboratory at South China University of Technology！
-- *2023.11*: &nbsp;🎉🎉 Win the second place and the most popular award in the Creative Huayuan Challenge、
-- *2023.09*: &nbsp;🎉🎉 Win the Second-Class South China University of Technology Scholarship.
+- *2023.11*: &nbsp;🎉🎉 Win the second place and the most popular award in the Creative Huayuan Challenge!
+- *2023.09*: &nbsp;🎉🎉 Win the Second-Class South China University of Technology Scholarship!
 - *2023.09*: &nbsp;🎉🎉 Win the first prize in the Guangdong Division of the National Undergraduate Mathematical Modeling Contest!
 - *2023.08*: &nbsp;🎉🎉 Authorized a utility model patent!
 - *2023.05*: &nbsp;🎉🎉 Win the Meritorious Award in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
-- *2022.12*: &nbsp;🎉🎉 Get the Second Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM).
+- *2022.12*: &nbsp;🎉🎉 Win the Second Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM)!
 
 
 # 🎖 Honors and Awards
 - *2024.10* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation Competition, Hong Ping Evergreen Fund.
-- *2024.09* Outstanding student<span style="color:red;">(Top 1)</span> of Baidu Pinecone Elite Class of SCUT
-- *2024.06* Third-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government
+- *2024.09* Outstanding student<span style="color:red;"> (Top 1)</span> of Baidu Pinecone Elite Class of SCUT.
+- *2024.06* Third-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.06* Taihu Future Innovation Award<span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.05* Star Volunteer, South China University of Technology.
 - *2023.11* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation Competition，Hong Ping Evergreen Fund.

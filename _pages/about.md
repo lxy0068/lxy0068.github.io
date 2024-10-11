@@ -21,7 +21,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 😎😎<strong> welcome to my personal website! </strong>😎😎
 
-I’m Xingyan Liu, you can also call me Ethan. I’m now a junior undergraduate student from South China University of Technology at Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/) and [here]() is my CV for specific information.
+I’m Xingyan Liu, you can also call me Ethan. I’m now a junior undergraduate student from South China University of Technology at Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/) and [here](/Xingyan_Liu_CV.pdf) is my CV for specific information.
 
 I am interested in multimodality, data mining, and pattern recognition, as they open vast possibilities for understanding complex datasets across various domains. My interest lies in combining diverse data types to uncover hidden patterns, enabling richer and more insightful analyses. These interests align with my goal of contributing to research that integrates multiple perspectives and methodologies, fostering a more holistic approach to solving modern problems in data-driven fields.
 

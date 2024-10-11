@@ -38,7 +38,7 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 # 🔥 News
 
 - *2024.07*: &nbsp;🎉🎉 Go to Wuxi Future Technology Joint Research Center for internship!
-- *2024.06*: &nbsp;🎉🎉 Get the National College Student Innovation and Entrepreneurship Training Program Meritorious Project Completion<span style="color:red;">(Top 5%)</span>! 
+- *2024.06*: &nbsp;🎉🎉 Get the National College Student Innovation and Entrepreneurship Training Program Meritorious Completion<span style="color:red;">(Top 5%)</span>! 
 - *2024.06*: &nbsp;🎉🎉 Taihu Future Innovation Award <span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.04*: &nbsp;🎉🎉 Authorized a software copyright.
 - *2024.04*: &nbsp;🎉🎉 Accepted an invention patent (under review).
@@ -90,7 +90,7 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 # 💻 Internships
 
 - *2023.07 - 2023.09*, Embedded Development Programmer[Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
-- *2023.07 - 2023.09*, Embedded Development Programmer[Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
+
 
 # 🩴 My Interesting Life
 

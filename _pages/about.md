@@ -68,12 +68,15 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 
 # 🤖 Projects
 - *[Stock-quantitative-analysis-and-visualization-platform](https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform)*.
+
 ![image](https://github.com/user-attachments/assets/7d316aa8-aa2d-406c-b741-1044124c3387)
 
 - *[Small-target-traffic-sign-recognition-and-web-visualization-based-on-YOLOv8-platform](https://github.com/lxy0068/DLCV)*
+
 ![image](https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254)
 
 - *[Landlord](https://github.com/lxy0068/Landlord)*
+
 ![image](https://github.com/user-attachments/assets/507c020d-2b34-43fe-a94c-576779bdf6cb)
 
 

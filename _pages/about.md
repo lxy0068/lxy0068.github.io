@@ -63,6 +63,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - *2023.04* Outstanding student of the Entrepreneurship Elite Class by SCUT.
 
 # 📝 Publications
+<strong>Keep working on it!</strong>
 
 # 🤖 Projects
 - *[Stock-quantitative-analysis-and-visualization-platform](https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform)*.

@@ -1,22 +1,28 @@
 # main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "⌨️ About Me"
+    url: "/#-About Me"
 
-  - title: "News"
-    url: "/#-news"
+  - title: "🔥 News"
+    url: "/#-News"
 
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "🤖 Projects"
+    url: "/#-Projects"
 
-  - title: "Educations"
+  - title: "Honors and Awards"
+    url: "/#-Honors-and-Awards"
+    
+  - title: "📖 Educations"
     url: "/#-educations"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
+  - title: "💻 Internships"
     url: "/#-internships"
+    
+  - title: "🎓 Social Service"
+    url: "/#-Social-Service"
+
+  - title: "🩴 My Interesting Life"
+    url: "/#-My-Interesting-Life"

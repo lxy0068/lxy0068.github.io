@@ -96,21 +96,19 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 
 # 🎓 Social Service
 - *2022.09 - present* Monitor of Artificial Intelligence Class 1, 2022, School of Future Technology, South China University of Technology.
-- *2022.09 - 2024.05* Secretary of Cooperation and Development Department of Artificial Intelligence Association of South China University of Technology.
+- *2022.09 - 2024.05* Secretary of Cooperation and Development Department of Artificial Intelligence Association of SCUT.
 
 # 🩴 My Interesting Life
 
-- *2024.04*, I came to the Xinhai Revolution Museum and the former site of the Whampoa Military Academy for research and study, and felt the feelings of the family and country in history！<br>
+- *2024.08*, I traveled to Nanjing, Suzhou and Shanghai to experience the traditional Chinese culture and modern charm！<br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
     <img src="images/007.png" alt="Xinhai Revolution Museum" width="330" height="270">&nbsp;&nbsp;&nbsp;
     <img src="images/008.png" alt="Former site of the Whampoa Military Academy" width="330" height="270">
 </div>
-
-
 <br>
 
-- *2024.02*, I went to Shunde, Guangzhou for vacation and experienced the local culinary culture, including Shunde desserts and Shunde sashimi!<br>
+- *2024.04*, My partners and I were invited to attend the 2024 Baidu Create AI Developer Conference! <br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
     <img src="images/202401/000.jpg" alt="The journey of Shunde1" width="330" height="270">&nbsp;&nbsp;&nbsp;
@@ -119,6 +117,30 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
     <img src="images/202401/003.jpg" alt="The journey of Shunde4" width="330" height="270">  
 </div>
 
+- *2024.02*, I took my family to travel to Guangzhou and Shenzhen and took them to see a bigger world! <br>
+
+<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
+    <img src="images/202401/000.jpg" alt="The journey of Shunde1" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/202401/001.jpg" alt="The journey of Shunde2" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/202401/002.jpg" alt="The journey of Shunde3" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/202401/003.jpg" alt="The journey of Shunde4" width="330" height="270">  
+</div>
+<br>
+
+- *2023.08*, I participated in the 2023 "Bay Entrepreneurship Camp" - a youth maker exchange activity in the Guangdong-Hong Kong-Macao Greater Bay Area, visited well-known companies such as Tencent, BYD, and INSEPP, and received entrepreneurship-themed training and "face-to-face" guidance from professional mentors!<br>
+
+<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
+    <img src="images/007.png" alt="Xinhai Revolution Museum" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/008.png" alt="Former site of the Whampoa Military Academy" width="330" height="270">
+</div>
+<br>
+
+- *2023.05*, I participated in the Entrepreneurship Elite Class held by the School of Entrepreneurship Education of South China University of Technology and communicated with Microsoft mentor Guan Zhen!<br>
+
+<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
+    <img src="images/007.png" alt="Xinhai Revolution Museum" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/008.png" alt="Former site of the Whampoa Military Academy" width="330" height="270">
+</div>
 <br>
 
 - **Precious memories with my friends.**<br>

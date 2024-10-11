@@ -116,9 +116,9 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
     <img src="images/baidu1.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/images/baidu2.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/images/baidu3.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/images/baidu4.jpg" alt="baidu" width="330" height="270">  
+    <img src="images/baidu2.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/baidu3.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/baidu4.jpg" alt="baidu" width="330" height="270">  
 </div>
 
 - *2024.02*, I took my family to travel to Guangzhou and Shenzhen and took them to see a bigger world! <br>
@@ -131,7 +131,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - *2023.08*, I participated in the 2023 "Bay Entrepreneurship Camp" - a youth maker exchange activity in the Guangdong-Hong Kong-Macao Greater Bay Area, visited well-known companies such as Tencent, BYD, and INSEPP, and received entrepreneurship-themed training and "face-to-face" guidance from professional mentors!<br>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/wanchuang1.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
+    <img src="images/wanchuang.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
     <img src="images/wanchuang2.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
     <img src="images/wanchuang3.jpg" alt="wanchuang" width="330" height="270">
 </div>

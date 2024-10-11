@@ -21,11 +21,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 😎😎<strong> welcome to my personal website! </strong>😎😎
 
-I’m Xingyan Liu, you can also call me Ethan.I’m now a junior undergraduate student from South China University of Technology at Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/) and [here]() is my CV for specific information.
+I’m Xingyan Liu, you can also call me Ethan. I’m now a junior undergraduate student from South China University of Technology at Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/) and [here]() is my CV for specific information.
 
-My current research is on Incomplete knowledge graph based on multimodality. I am also very interested in research fields including Data Mining, Pattern Recognition and Multimodal Deep-Learning.
+I am deeply passionate about multimodality, data mining, and pattern recognition, as they open vast possibilities for understanding complex datasets across various domains. My interest lies in combining diverse data types—such as text, images, and numerical data—to uncover hidden patterns, enabling richer and more insightful analyses. These interests align with my goal of contributing to research that integrates multiple perspectives and methodologies, fostering a more holistic approach to solving modern problems in data-driven fields.
 
-I am driven by my interests and goals, always staying motivated and engaged in things that excite me. 
+I am driven by my interests and goals, always staying motivated and engaged in things that excite me.
 
 I dream of becoming a professor, enjoying the freedom to research and teach in a community of like-minded peers, while also exploring entrepreneurship to make a real-world impact. 
 

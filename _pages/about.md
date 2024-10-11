@@ -48,19 +48,20 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 - *2023.09*: &nbsp;🎉🎉 Win the first prize in the Guangdong Division of the National Undergraduate Mathematical Modeling Contest!
 - *2023.08*: &nbsp;🎉🎉 Authorized a utility model patent!
 - *2023.05*: &nbsp;🎉🎉 Win the Meritorious Award in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
-- *2023.04*: &nbsp;🎉🎉 Win the Outstanding student of the Entrepreneurship Elite Class by SCUT.
 - *2022.12*: &nbsp;🎉🎉 Get the Second Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM).
 
 
 # 🎖 Honors and Awards
 - *2024.10* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation Competition, Hong Ping Evergreen Fund.
+- *2024.09* Outstanding student<span style="color:red;">(Top 1)</span> of Baidu Pinecone Elite Class of SCUT
 - *2024.06* Third-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government
 - *2024.06* Taihu Future Innovation Award<span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.05* Star Volunteer, South China University of Technology.
 - *2023.11* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation Competition，Hong Ping Evergreen Fund.
-- *2023.10* Outstanding Student Leaders，South China University of Technology.
+- *2023.10* Excellent student cadres，South China University of Technology.
 - *2023.10* Merit Student Honors, South China University of Technology. 
 - *2023.09* Second-Class South China University of Technology Scholarship.
+- *2023.04* Outstanding student of the Entrepreneurship Elite Class by SCUT.
 
 # 📝 Publications
 
@@ -75,7 +76,6 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 ![image](https://github.com/user-attachments/assets/507c020d-2b34-43fe-a94c-576779bdf6cb)
 
 
-
 # 📖 Educations
 
 - *2022.09 - present*, South China University of Technology, Undergraduate. 
@@ -86,11 +86,13 @@ I approach my goals using a "backpropagation" method, breaking down big challeng
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 
-
 # 💻 Internships
 
 - *2023.07 - 2023.09*, Embedded Development Programmer[Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
 
+# 🎓 Social Service
+- *2022.09 - present* Monitor of Artificial Intelligence Class 1, 2022, School of Future Technology, South China University of Technology.
+- *2022.09 - 2024.05* Secretary of Cooperation and Development Department of Artificial Intelligence Association of South China University of Technology.
 
 # 🩴 My Interesting Life
 

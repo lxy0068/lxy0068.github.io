@@ -75,11 +75,13 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 ![image](https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254)
 
 - *[AlphaZero's Gobang](https://github.com/lxy0068/AlphaZero-Gobang)*
+
 ![image](https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70)
 
 - *[Landlord](https://github.com/lxy0068/Landlord)*
 
-![image](https://github.com/user-attachments/assets/507c020d-2b34-43fe-a94c-576779bdf6cb)
+![image](https://github.com/user-attachments/assets/237cef23-c214-4d51-a84e-6ba4e8a5f410)
+
 
 
 # 📖 Educations

@@ -34,7 +34,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 
 # 🔥 News
-
+- *2024.10*: &nbsp;🎉🎉 As the monitor, announce our class's achievement of winning the honorary title of "Advanced Class" at SCUT!
 - *2024.07*: &nbsp;🎉🎉 Go to Wuxi Future Technology Joint Research Center for internship!
 - *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 
 - *2024.06*: &nbsp;🎉🎉 Win the Taihu Future Technology Innovation Award <span style="color:red;">(Top 3%)</span> by Wuxi government!

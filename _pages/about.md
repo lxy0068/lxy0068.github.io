@@ -25,9 +25,8 @@ I’m Xingyan Liu, you can also call me Ethan. I’m now a junior undergraduate 
 
 I am interested in multimodality, data mining, and pattern recognition, as they open vast possibilities for understanding complex datasets across various domains. My interest lies in combining diverse data types to uncover hidden patterns, enabling richer and more insightful analyses. These interests align with my goal of contributing to research that integrates multiple perspectives and methodologies, fostering a more holistic approach to solving modern problems in data-driven fields.
 
-- 🔥 I am driven by my interests and goals, always staying motivated and engaged in things that excite me.
+- 🔥 I approach challenges by breaking down complex problems into achievable steps, continuously refining my approach through iterative learning and practical exploration, ensuring steady progress toward my goals.
 
-- 🔥 I approach my goals using a "backpropagation" method, breaking down big challenges into smaller, manageable steps and constantly adjusting my path through exploration and learning from experience.
 
 <strong><span style="color:red; font-size:larger;">Sincerely looking for 26 fall Ph.D position!</span></strong>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->

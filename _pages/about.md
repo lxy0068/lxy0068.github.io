@@ -33,8 +33,6 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 
 # 🔥 News
-- *2024.12*: &nbsp;🎉🎉 One paper has been submitted to ICME2025!
-- *2024.11*: &nbsp;🎉🎉 One paper has been submitted to CVPR2025!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
 - *2024.07*: &nbsp;🎉🎉 Go to Wuxi Future Technology Joint Research Center for internship!
 - *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 

@@ -28,7 +28,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - 🔥 I approach challenges by breaking down complex problems into achievable steps, continuously refining my approach through iterative learning and practical exploration, ensuring steady progress toward my goals.
 
 
-<strong><span style="color:red; font-size:larger;">Sincerely looking for 26 fall Ph.D position!</span></strong>
+<strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
@@ -257,29 +257,6 @@ window.addEventListener('resize', calculateTotalWidth);
 </div>
 
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

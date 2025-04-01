@@ -106,11 +106,14 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 # 💻 Internships
 
-- *2023.07 - 2023.09*, Embedded Development Programmer [Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
+- *2023.07 - 2023.10*, Embedded Development Programmer [Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
+- *2025.01 - 2025.04*, Digital Business Services -Engineering Internship [HSBC Technology](https://www.about.hsbc.com.cn/zh-cn/careers/technology), GuangZhou, China.
 
 # 🎓 Social Service
+- *2022.09 - present* i Volunteer cumulative volunteer time 120h+.
 - *2022.09 - present* Monitor of Artificial Intelligence Class 1, 2022, School of Future Technology, South China University of Technology.
 - *2022.09 - 2024.05* Secretary of Cooperation and Development Department of Artificial Intelligence Association of SCUT.
+
 
 # 🩴 My Interesting Life
 

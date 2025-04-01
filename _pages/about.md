@@ -33,6 +33,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 
 # 🔥 News
+- *2025.04*: &nbsp;🎉🎉 Our work Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems has been accepted by IJCNN2025. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
 - *2024.07*: &nbsp;🎉🎉 Go to Wuxi Future Technology Joint Research Center for internship!
 - *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 
@@ -62,7 +63,17 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 - *2023.04* Outstanding student of the Entrepreneurship Elite Class by SCUT.
 
 # 📝 Publications
-<strong>Keep working on it!</strong>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025</div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](https://arxiv.org/abs/2404.11960)
+
+**Xingyan Liu**, Yang Wang, Fansen Meng, [Yahui Jia/*](https://flyki.github.io/) (* represents the corresponding author)
+<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+-->
+- We propose a novel Homogeneous-Heterogeneous Relational Fusion (HRF) mechanism for the MDVRP that integrates spatial, topological, and task-specific features through two specialized GNNs: a) a GCN-based Homogeneous GNN (HoGNN) capturing node similarities, and b) a graph attention-based Heterogeneous GNN (HeGNN) modeling depot-customer constraints like vehicle capacity, with their fused outputs enhancing feature representations to optimize routing decisions.
+</div>
+</div>
 
 # 🤖 Projects
 - *[Stock-quantitative-analysis-and-visualization-platform](https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform)*.

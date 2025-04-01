@@ -66,7 +66,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025</div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](https://arxiv.org/abs/2404.11960)
+[Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/IJCNN2025_646.pdf)
 
 **Xingyan Liu**, Yang Wang, Fansen Meng, <a href="https://flyki.github.io/" target="_blank" rel="noopener noreferrer">Yahui Jia*</a>
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>

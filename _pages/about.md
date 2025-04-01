@@ -68,7 +68,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](https://arxiv.org/abs/2404.11960)
 
-**Xingyan Liu**, Yang Wang, Fansen Meng, [Yahui Jia*](https://flyki.github.io/) (* represents the corresponding author)
+**Xingyan Liu**, Yang Wang, Fansen Meng, [Yahui Jia*](https://flyki.github.io/)
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 -->
 - We propose a novel Homogeneous-Heterogeneous Relational Fusion (HRF) mechanism for the MDVRP that integrates spatial, topological, and task-specific features through two specialized GNNs: a) a GCN-based Homogeneous GNN (HoGNN) capturing node similarities, and b) a graph attention-based Heterogeneous GNN (HeGNN) modeling depot-customer constraints like vehicle capacity, with their fused outputs enhancing feature representations to optimize routing decisions.

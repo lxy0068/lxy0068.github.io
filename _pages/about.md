@@ -33,7 +33,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉🎉 Our work Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
+- *2025.04*: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
 - *2024.07*: &nbsp;🎉🎉 Go to Wuxi Future Technology Joint Research Center for internship!
 - *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 
@@ -66,7 +66,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025 <span style="color:red;">(Oral)</span></div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/IJCNN2025_646.pdf)
+[Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf)
 
 **Xingyan Liu**, Yang Wang, Fansen Meng, <a href="https://flyki.github.io/" target="_blank" rel="noopener noreferrer">Yahui Jia*</a>
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>

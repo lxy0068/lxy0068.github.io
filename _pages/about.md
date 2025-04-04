@@ -88,11 +88,6 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 
 ![image](https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70)
 
-- *[Landlord](https://github.com/lxy0068/Landlord)*
-
-![image](https://github.com/user-attachments/assets/237cef23-c214-4d51-a84e-6ba4e8a5f410)
-
-
 
 # 📖 Educations
 

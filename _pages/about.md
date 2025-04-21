@@ -102,7 +102,7 @@ I am interested in multimodality, data mining, and pattern recognition, as they 
 # 💻 Internships
 
 - *2023.07 - 2023.10*, Embedded Development Programmer [Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
-- *2025.01 - 2025.04*, Digital Business Services -Engineering Internship [HSBC Technology](https://www.about.hsbc.com.cn/zh-cn/careers/technology), GuangZhou, China.
+- *2024.12 - 2025.04*, Digital Business Services -Engineering Internship [HSBC Technology](https://www.about.hsbc.com.cn/zh-cn/careers/technology), GuangZhou, China.
 
 # 🎓 Social Service
 - *2022.09 - present* i Volunteer cumulative volunteer time 120h+.

@@ -21,11 +21,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <strong> welcome to my personal website! </strong>:smiley:
 
-I’m Xingyan Liu (you can also call me Ethan), currently a junior undergraduate student at the School of Future Technology, South China University of Technology in Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/).
+I’m Xingyan Liu(刘兴琰) (you can also call me Ethan), currently a junior undergraduate student at the School of Future Technology, South China University of Technology in Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/).
 
 My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks.
 
-🔥I employ systematic deconstruction of complex challenges into actionable subproblems, coupled with iterative refinement through empirical validation, to establish goal-oriented pathways for measurable progress.</span>🔥
+🔥I employ systematic deconstruction of complex challenges into actionable subproblems, coupled with iterative refinement through empirical validation, to establish goal-oriented pathways for measurable progress.🔥
 
 
 <strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>

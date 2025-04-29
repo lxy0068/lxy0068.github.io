@@ -25,14 +25,14 @@ I’m Xingyan Liu (you can also call me Ethan), currently a junior undergraduate
 
 My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks.
 
-:fire:<span style="color:red;">I employ systematic deconstruction of complex challenges into actionable subproblems, coupled with iterative refinement through empirical validation, to establish goal-oriented pathways for measurable progress.</span>:fire:
+🔥I employ systematic deconstruction of complex challenges into actionable subproblems, coupled with iterative refinement through empirical validation, to establish goal-oriented pathways for measurable progress.</span>🔥
 
 
 <strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-# :fire: News
+# 🔥 News
 - *2025.04*: &nbsp;🎉🎉 Win the second prize <span style="color:red;">(Top 3%)</span> in the National English Competition for College Students (NECCS)!
 - *2025.03*: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!

@@ -19,20 +19,20 @@ redirect_from:
 # ⌨️ About Me
 
 <span class='anchor' id='about-me'></span>
-😎😎<strong> welcome to my personal website! </strong>😎😎
+<strong> welcome to my personal website! </strong>:smiley:
 
-I’m Xingyan Liu, you can also call me Ethan. I’m now a junior undergraduate student from South China University of Technology at Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/) and [here]() is my CV for specific information.
+I’m Xingyan Liu (you can also call me Ethan), currently a junior undergraduate student at the School of Future Technology, South China University of Technology in Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/).
 
-I am interested in multimodality, data mining, and pattern recognition, as they open vast possibilities for understanding complex datasets across various domains. My interest lies in combining diverse data types to uncover hidden patterns, enabling richer and more insightful analyses. These interests align with my goal of contributing to research that integrates multiple perspectives and methodologies, fostering a more holistic approach to solving modern problems in data-driven fields.
+My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks.
 
-- 🔥 I approach challenges by breaking down complex problems into achievable steps, continuously refining my approach through iterative learning and practical exploration, ensuring steady progress toward my goals.
+:fire:<span style="color:red;">I employ systematic deconstruction of complex challenges into actionable subproblems, coupled with iterative refinement through empirical validation, to establish goal-oriented pathways for measurable progress.</span>:fire:
 
 
 <strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-# 🔥 News
+# :fire: News
 - *2025.04*: &nbsp;🎉🎉 Win the second prize <span style="color:red;">(Top 3%)</span> in the National English Competition for College Students (NECCS)!
 - *2025.03*: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!

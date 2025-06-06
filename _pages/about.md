@@ -46,7 +46,6 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 - *2023.11*: &nbsp;🎉🎉 Win the second place and the most popular award in the Creative Huayuan Challenge!
 - *2023.09*: &nbsp;🎉🎉 Win the Second-Class South China University of Technology Scholarship!
 - *2023.09*: &nbsp;🎉🎉 Win the first prize in the Guangdong Division of the National Undergraduate Mathematical Modeling Contest!
-- *2023.08*: &nbsp;🎉🎉 Authorized a utility model patent!
 - *2023.05*: &nbsp;🎉🎉 Win the Meritorious Award in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
 - *2022.12*: &nbsp;🎉🎉 Win the Second Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM)!
 

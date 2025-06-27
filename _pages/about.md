@@ -144,8 +144,24 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 
 # 💻 Internships
 
-- *2023.07 - 2023.10*, Embedded Development Programmer [Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
-- *2024.12 - 2025.04*, Digital Business Services -Engineering Internship [HSBC Technology](https://www.about.hsbc.com.cn/zh-cn/careers/technology), GuangZhou, China.
+<table>
+  <tr>
+    <td valign="top" width="80">
+      <img src="images/Rt-thread_logo.png" alt="Ruiside Electronic Technology" width="70"/>
+    </td>
+    <td valign="top">
+      - *2023.07 - 2023.10*, Embedded Development Programmer, [Ruiside Electronic Technology Co., Ltd.](https://www.rt-thread.com/), GuangZhou, China.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="80">
+      <img src="images/HSBC_BIG.png" alt="HSBC Technology" width="70"/>
+    </td>
+    <td valign="top">
+      - *2024.12 - 2025.04*, Digital Business Services - Engineering Internship, [HSBC Technology](https://www.about.hsbc.com.cn/zh-cn/careers/technology), GuangZhou, China.
+    </td>
+  </tr>
+</table>
 
 # 🎓 Social Service
 - *2022.09 - present* i Volunteer cumulative volunteer time 120h+.

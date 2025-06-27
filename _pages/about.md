@@ -150,7 +150,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
       <img src="images/Rt-thread_logo.png" alt="Ruiside Electronic Technology" width="70"/>
     </td>
     <td valign="top">
-      - *2023.07 - 2023.10*, Embedded Development Programmer, <a href="https://www.rt-thread.com/">Ruiside Electronic Technology Co., Ltd.</a>, GuangZhou, China.
+      - 2023.07 - 2023.10, Embedded Development Programmer, <a href="https://www.rt-thread.com/">Ruiside Electronic Technology Co., Ltd.</a>, GuangZhou, China.
     </td>
   </tr>
   <tr>
@@ -158,7 +158,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
       <img src="images/HSBC_BIG.png" alt="HSBC Technology" width="70"/>
     </td>
     <td valign="top">
-      - *2024.12 - 2025.04*, Digital Business Services - Engineering Internship, <a href="https://www.about.hsbc.com.cn/zh-cn/careers/technology">HSBC Technology</a>, GuangZhou, China.
+      - 2024.12 - 2025.04, Digital Business Services - Engineering Internship, <a href="https://www.about.hsbc.com.cn/zh-cn/careers/technology">HSBC Technology</a>, GuangZhou, China.
     </td>
   </tr>
 </table>

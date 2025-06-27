@@ -113,12 +113,28 @@ My research focuses on multimodal learning, data mining, and pattern recognition
       <strong>Cornell University</strong><br>
       International Innovative Talents Science Training Program (Feb. 2025 - May. 2025)<br>
       Focus on Cognitive Psychology and Neuroscience: Analyzing the correlation mechanisms between brain, thinking, and memory<br>
-      under the guidance of [Prof. Daniel Casasanto](https://www.human.cornell.edu/people/djc457).<br>
+      under the guidance of <a href="https://www.human.cornell.edu/people/djc457">Prof. Daniel Casasanto</a>.<br>
       <br>
-      <a href="https://www.neoscholar.com/#/advance/detail/course/1839197833154846722?activeName=grade&chapterId=">Certification</a>
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td valign="top" width="80">
+      <img src="images/USC_logo.png" alt="University of Southern California" width="70"/>
+    </td>
+    <td valign="top">
+      <strong>University of Southern California</strong><br>
+      AI Driving Robotics: From Theory to Real-world Applications (Jul. 2024 - Aug. 2024)<br>
+      Focus on integrating AI technologies (Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision) with robotic systems for autonomous decision-making<br>
+      under the guidance of <a href="https://viterbi.usc.edu/directory/faculty/Nguyen/Quan">Prof. Quan T. Nguyen</a>.<br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+
 
 <!-- # 💬 Invited Talks
 

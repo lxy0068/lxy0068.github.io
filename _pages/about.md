@@ -89,9 +89,36 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 ![image](https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70)
 
 
-# 📖 Educations
+# 📖 Education
 
-- *2022.09 - present*, South China University of Technology, Undergraduate. 
+<table>
+  <tr>
+    <td valign="top" width="80">
+      <img src="images/SCUT_logo.jpg" alt="South China University of Technology" width="70"/>
+    </td>
+    <td valign="top">
+      <strong>South China University of Technology</strong><br>
+      B.Eng, major in Artificial Intelligence (Sep. 2022 - Jun. 2026)<br>
+      GPA: 3.6/4.0
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td valign="top" width="80">
+      <img src="images/Cornell_University_Logo.png" alt="Cornell University" width="70"/>
+    </td>
+    <td valign="top">
+      <strong>Cornell University</strong><br>
+      International Innovative Talents Science Training Program (Feb. 2025 - May. 2025)<br>
+      Focus on Cognitive Psychology and Neuroscience: Analyzing the correlation mechanisms between brain, thinking, and memory<br>
+      under the guidance of [Prof. Daniel Casasanto](https://www.human.cornell.edu/people/djc457).<br>
+      <br>
+      <a href="https://www.neoscholar.com/#/advance/detail/course/1839197833154846722?activeName=grade&chapterId=">Certification</a>
+    </td>
+  </tr>
+</table>
 
 <!-- # 💬 Invited Talks
 

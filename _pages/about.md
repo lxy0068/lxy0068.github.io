@@ -99,7 +99,6 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <td valign="top">
       <strong>South China University of Technology</strong><br>
       B.Eng, major in Artificial Intelligence (Sep. 2022 - Jun. 2026)<br>
-      GPA: 3.6/4.0
     </td>
   </tr>
 </table>
@@ -118,23 +117,6 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     </td>
   </tr>
 </table>
-
-<table>
-  <tr>
-    <td valign="top" width="80">
-      <img src="images/USC_logo.png" alt="University of Southern California" width="70"/>
-    </td>
-    <td valign="top">
-      <strong>University of Southern California</strong><br>
-      AI Driving Robotics: From Theory to Real-world Applications (Jul. 2024 - Aug. 2024)<br>
-      Focus on integrating AI technologies (Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision) with robotic systems for autonomous decision-making<br>
-      under the guidance of <a href="https://viterbi.usc.edu/directory/faculty/Nguyen/Quan">Prof. Quan T. Nguyen</a>.<br>
-      <br>
-    </td>
-  </tr>
-</table>
-
-
 
 <!-- # 💬 Invited Talks
 
@@ -164,7 +146,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 </table>
 
 # 🎓 Social Service
-- *2022.09 - present* i Volunteer cumulative volunteer time 120h+.
+- *2022.09 - present* I Volunteer cumulative volunteer time 120h+.
 - *2022.09 - present* Monitor of Artificial Intelligence Class 1, 2022, School of Future Technology, South China University of Technology.
 - *2022.09 - 2024.05* Secretary of Cooperation and Development Department of Artificial Intelligence Association of SCUT.
 

@@ -110,7 +110,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     </td>
     <td valign="top">
       <strong>Cornell University</strong><br>
-      International Innovative Talents Science Training Program (Feb. 2025 - May. 2025)<br>
+      International Innovative Talents Science Training Program (Feb. 2025 - Jun. 2025)<br>
       Focus on Cognitive Psychology and Neuroscience: Analyzing the correlation mechanisms between brain, thinking, and memory<br>
       under the guidance of <a href="https://www.human.cornell.edu/people/djc457">Prof. Daniel Casasanto</a>.<br>
       <br>

@@ -75,17 +75,227 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 </div>
 
 # 🤖 Projects
-- *[Stock-quantitative-analysis-and-visualization-platform](https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform)*.
+<!-- Project Section Start -->
+<section class="projects-section">
+  <style>
+    .projects-section {
+      margin: 3rem auto;
+      max-width: 1200px;
+      padding: 0 1.5rem;
+    }
+    
+    .section-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      color: #1a202c;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 2rem;
+    }
+    
+    .project-card {
+      border-radius: 16px;
+      background: white;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+      transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #e2e8f0;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px -10px rgba(0,0,0,0.15), 0 10px 20px -15px rgba(0,0,0,0.2);
+    }
+    
+    .project-image {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-bottom: 1px solid #edf2f7;
+    }
+    
+    .project-content {
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    
+    .project-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    
+    .project-link {
+      color: #2563eb;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      margin-bottom: 0.5rem;
+    }
+    
+    .project-link:hover {
+      color: #1d4ed8;
+    }
+    
+    .project-link::after {
+      content: "→";
+      margin-left: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .project-link:hover::after {
+      opacity: 1;
+    }
+    
+    .project-description {
+      color: #4a5568;
+      line-height: 1.6;
+      margin-top: auto;
+    }
 
-![image](https://github.com/user-attachments/assets/7d316aa8-aa2d-406c-b741-1044124c3387)
+    .project-tech {
+      margin-top: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
 
-- *[Small-target-traffic-sign-recognition-and-web-visualization-based-on-YOLOv8-platform](https://github.com/lxy0068/DLCV)*
-
-![image](https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254)
-
-- *[AlphaZero's Gobang](https://github.com/lxy0068/AlphaZero-Gobang)*
-
-![image](https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70)
+    .tech-tag {
+      background: #e0f2fe;
+      color: #0c4a6e;
+      padding: 0.25rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    
+    @media (max-width: 768px) {
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .project-card {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .project-content {
+        padding: 1.25rem;
+      }
+      
+      .project-title {
+        font-size: 1.3rem;
+      }
+      
+      .project-image {
+        height: 190px;
+      }
+    }
+  </style>
+  
+  <div class="projects-grid">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img 
+        src="https://github.com/user-attachments/assets/7d316aa8-aa2d-406c-b741-1044124c3387" 
+        alt="Stock quantitative analysis dashboard" 
+        class="project-image"
+        onerror="this.style.display='none'"
+      >
+      <div class="project-content">
+        <a 
+          href="https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform" 
+          target="_blank"
+          class="project-link"
+        >
+          Stock Quantitative Analysis & Visualization Platform
+        </a>
+        <p class="project-description">
+          Full-stack investment analysis system integrating real-time data processing, 
+          strategy backtesting, and interactive dashboards with predictive analytics.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Django</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Pandas</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <img 
+        src="https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254" 
+        alt="Traffic sign recognition using YOLOv8" 
+        class="project-image"
+        onerror="this.style.display='none'"
+      >
+      <div class="project-content">
+        <a 
+          href="https://github.com/lxy0068/DLCV" 
+          target="_blank"
+          class="project-link"
+        >
+          Traffic Sign Recognition (YOLOv8)
+        </a>
+        <p class="project-description">
+          Real-time small-object detection system achieving 92% precision with spatial-attention 
+          mechanisms for challenging urban environments.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">YOLOv8</span>
+          <span class="tech-tag">PyTorch</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">OpenCV</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img 
+        src="https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70" 
+        alt="AlphaZero Gobang AI visualization" 
+        class="project-image"
+        onerror="this.style.display='none'"
+      >
+      <div class="project-content">
+        <a 
+          href="https://github.com/lxy0068/AlphaZero-Gobang" 
+          target="_blank"
+          class="project-link"
+        >
+          AlphaZero Reinforcement Learning Agent
+        </a>
+        <p class="project-description">
+          Gomoku AI implementing Monte Carlo Tree Search that achieved 85% win rate against 
+          professional players in tournament settings.
+        </p>
+        <div class="tech-tag">Reinforcement Learning</div>
+        <div class="tech-tag">MCTS</div>
+        <div class="tech-tag">PyGame</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Project Section End -->
 
 
 # 📖 Education

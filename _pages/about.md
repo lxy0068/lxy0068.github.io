@@ -80,7 +80,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
   <div class="section-header">
     <h2 class="section-title">
       <span class="emoji-icon">🤖</span>
-      Featured Projects
+      Projects
     </h2>
     <div class="section-divider"></div>
   </div>
@@ -451,7 +451,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 <!-- Projects Section End -->
 
 
-# 📖 Education
+# 📖 Educations
 
 <table>
   <tr>

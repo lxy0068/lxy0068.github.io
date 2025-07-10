@@ -74,7 +74,6 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 </div>
 </div>
 
-# 🤖 Projects
 <!-- Projects Section Start -->
 <section id="projects">
   <div class="section-header">

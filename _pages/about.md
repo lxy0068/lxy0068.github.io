@@ -75,16 +75,9 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 </div>
 
 # 🤖 projects
+
 <!-- Projects Section Start -->
 <section id="projects">
-  <div class="section-header">
-    <h2 class="section-title">
-      <span class="emoji-icon">🤖</span>
-      Projects
-    </h2>
-    <div class="section-divider"></div>
-  </div>
-
   <div class="projects-grid">
     <!-- Project 1 -->
     <div class="project-card">

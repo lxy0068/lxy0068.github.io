@@ -41,7 +41,6 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 - *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 
 - *2024.06*: &nbsp;🎉🎉 Win the Taihu Future Technology Innovation Award <span style="color:red;">(Top 3%)</span> by Wuxi government!
 - *2024.04*: &nbsp;🎉🎉 Authorized a software copyright!
-- *2024.04*: &nbsp;🎉🎉 Accepted an invention patent (under review).
 - *2024.02*: &nbsp;🎉🎉 Win the Bronze Award of the 14th SCUT "Xinwanda Cup" China University Students' Entrepreneurship Plan Competition!
 - *2023.11*: &nbsp;🎉🎉 Win the second place and the most popular award in the Creative Huayuan Challenge!
 - *2023.09*: &nbsp;🎉🎉 Win the Second-Class South China University of Technology Scholarship!

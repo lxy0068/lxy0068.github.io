@@ -75,227 +75,380 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 </div>
 
 # 🤖 Projects
-<!-- Project Section Start -->
-<section class="projects-section">
-  <style>
-    .projects-section {
-      margin: 3rem auto;
-      max-width: 1200px;
-      padding: 0 1.5rem;
-    }
-    
-    .section-title {
-      font-size: 2.25rem;
-      font-weight: 700;
-      margin-bottom: 1.5rem;
-      color: #1a202c;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 2rem;
-    }
-    
-    .project-card {
-      border-radius: 16px;
-      background: white;
-      overflow: hidden;
-      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
-      transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #e2e8f0;
-    }
-    
-    .project-card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px -10px rgba(0,0,0,0.15), 0 10px 20px -15px rgba(0,0,0,0.2);
-    }
-    
-    .project-image {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      border-bottom: 1px solid #edf2f7;
-    }
-    
-    .project-content {
-      padding: 1.75rem;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-    
-    .project-title {
-      font-size: 1.5rem;
-      font-weight: 700;
-      margin-bottom: 0.75rem;
-    }
-    
-    .project-link {
-      color: #2563eb;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.3s ease;
-      margin-bottom: 0.5rem;
-    }
-    
-    .project-link:hover {
-      color: #1d4ed8;
-    }
-    
-    .project-link::after {
-      content: "→";
-      margin-left: 4px;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    
-    .project-link:hover::after {
-      opacity: 1;
-    }
-    
-    .project-description {
-      color: #4a5568;
-      line-height: 1.6;
-      margin-top: auto;
-    }
+<!-- Projects Section Start -->
+<section id="projects">
+  <div class="section-header">
+    <h2 class="section-title">
+      <span class="emoji-icon">🤖</span>
+      Featured Projects
+    </h2>
+    <div class="section-divider"></div>
+  </div>
 
-    .project-tech {
-      margin-top: 0.8rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-
-    .tech-tag {
-      background: #e0f2fe;
-      color: #0c4a6e;
-      padding: 0.25rem 0.8rem;
-      border-radius: 999px;
-      font-size: 0.85rem;
-      font-weight: 500;
-    }
-    
-    @media (max-width: 768px) {
-      .projects-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .project-card {
-        max-width: 500px;
-        margin: 0 auto;
-      }
-    }
-    
-    @media (max-width: 480px) {
-      .project-content {
-        padding: 1.25rem;
-      }
-      
-      .project-title {
-        font-size: 1.3rem;
-      }
-      
-      .project-image {
-        height: 190px;
-      }
-    }
-  </style>
-  
   <div class="projects-grid">
     <!-- Project 1 -->
     <div class="project-card">
-      <img 
-        src="https://github.com/user-attachments/assets/7d316aa8-aa2d-406c-b741-1044124c3387" 
-        alt="Stock quantitative analysis dashboard" 
-        class="project-image"
-        onerror="this.style.display='none'"
-      >
-      <div class="project-content">
-        <a 
-          href="https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform" 
-          target="_blank"
-          class="project-link"
+      <div class="project-media">
+        <img 
+          src="https://github.com/user-attachments/assets/7d316aa8-aa2d-406c-b741-1044124c3387" 
+          alt="Stock platform dashboard" 
+          class="project-image"
+          onerror="this.parentElement.classList.add('image-error')"
         >
-          Stock Quantitative Analysis & Visualization Platform
-        </a>
+        <div class="project-overlay">
+          <a href="https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform" 
+             target="_blank" 
+             class="view-project-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
+            </svg>
+            View Project
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <h3 class="project-title">
+          <a href="https://github.com/lxy0068/Stock-quantitative-analysis-and-visualization-platform" 
+             target="_blank"
+             class="project-link">
+            Quantitative Stock Analysis Platform
+          </a>
+        </h3>
+        
         <p class="project-description">
-          Full-stack investment analysis system integrating real-time data processing, 
-          strategy backtesting, and interactive dashboards with predictive analytics.
+          Full-stack financial analytics system with real-time market data processing,
+          algorithmic strategy backtesting, and interactive visualization dashboards
         </p>
-        <div class="project-tech">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Django</span>
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">Pandas</span>
+        
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>Django</span>
+            <span>React</span>
+            <span>Machine Learning</span>
+          </div>
         </div>
       </div>
     </div>
     
+    <!-- Project 2 -->
     <div class="project-card">
-      <img 
-        src="https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254" 
-        alt="Traffic sign recognition using YOLOv8" 
-        class="project-image"
-        onerror="this.style.display='none'"
-      >
-      <div class="project-content">
-        <a 
-          href="https://github.com/lxy0068/DLCV" 
-          target="_blank"
-          class="project-link"
+      <div class="project-media">
+        <img 
+          src="https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254" 
+          alt="Traffic sign recognition interface" 
+          class="project-image"
+          onerror="this.parentElement.classList.add('image-error')"
         >
-          Traffic Sign Recognition (YOLOv8)
-        </a>
+        <div class="project-overlay">
+          <a href="https://github.com/lxy0068/DLCV" 
+             target="_blank" 
+             class="view-project-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
+            </svg>
+            View Project
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <h3 class="project-title">
+          <a href="https://github.com/lxy0068/DLCV" 
+             target="_blank"
+             class="project-link">
+            Traffic Sign Recognition (YOLOv8)
+          </a>
+        </h3>
+        
         <p class="project-description">
-          Real-time small-object detection system achieving 92% precision with spatial-attention 
-          mechanisms for challenging urban environments.
+          Real-time small-object detection system achieving 92% precision with spatial-attention
+          mechanisms optimized for urban environments
         </p>
-        <div class="project-tech">
-          <span class="tech-tag">YOLOv8</span>
-          <span class="tech-tag">PyTorch</span>
-          <span class="tech-tag">Flask</span>
-          <span class="tech-tag">OpenCV</span>
+        
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span>Computer Vision</span>
+            <span>YOLOv8</span>
+            <span>PyTorch</span>
+            <span>Flask</span>
+          </div>
         </div>
       </div>
     </div>
     
     <!-- Project 3 -->
     <div class="project-card">
-      <img 
-        src="https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70" 
-        alt="AlphaZero Gobang AI visualization" 
-        class="project-image"
-        onerror="this.style.display='none'"
-      >
-      <div class="project-content">
-        <a 
-          href="https://github.com/lxy0068/AlphaZero-Gobang" 
-          target="_blank"
-          class="project-link"
+      <div class="project-media">
+        <img 
+          src="https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70" 
+          alt="AlphaZero game interface" 
+          class="project-image"
+          onerror="this.parentElement.classList.add('image-error')"
         >
-          AlphaZero Reinforcement Learning Agent
-        </a>
+        <div class="project-overlay">
+          <a href="https://github.com/lxy0068/AlphaZero-Gobang" 
+             target="_blank" 
+             class="view-project-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
+            </svg>
+            View Project
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <h3 class="project-title">
+          <a href="https://github.com/lxy0068/AlphaZero-Gobang" 
+             target="_blank"
+             class="project-link">
+            AlphaZero Reinforcement Learning Agent
+          </a>
+        </h3>
+        
         <p class="project-description">
-          Gomoku AI implementing Monte Carlo Tree Search that achieved 85% win rate against 
-          professional players in tournament settings.
+          Monte Carlo Tree Search implementation achieving 85% win rate against professional
+          players in tournament settings
         </p>
-        <div class="tech-tag">Reinforcement Learning</div>
-        <div class="tech-tag">MCTS</div>
-        <div class="tech-tag">PyGame</div>
+        
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span>Reinforcement Learning</span>
+            <span>MCTS</span>
+            <span>PyGame</span>
+            <span>AI Algorithms</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Project Section End -->
+
+<style>
+  /* Projects Section */
+  #projects {
+    margin: 4rem auto;
+    max-width: 1280px;
+    padding: 0 2rem;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .emoji-icon {
+    font-size: 2.2rem;
+    display: inline-block;
+  }
+  
+  .section-divider {
+    height: 4px;
+    width: 120px;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    margin: 1.2rem auto;
+    border-radius: 2px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 2.5rem;
+  }
+  
+  .project-card {
+    border-radius: 18px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-media {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .project-media:hover .project-image {
+    transform: scale(1.05);
+  }
+  
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 99, 235, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .view-project-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: white;
+    color: #2563eb;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .view-project-btn:hover {
+    background: #f0f7ff;
+    transform: translateY(-3px);
+  }
+  
+  .project-content {
+    padding: 1.8rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+  
+  .project-link {
+    color: #1e40af;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .project-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+  
+  .project-description {
+    color: #4b5563;
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+  }
+  
+  .project-meta {
+    margin-top: auto;
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tech-tags span {
+    background: rgba(37, 99, 235, 0.1);
+    color: #1d4ed8;
+    padding: 0.4rem 0.9rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  /* Error state for images */
+  .project-media.image-error {
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6edff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-media.image-error::after {
+    content: "Image Preview";
+    color: #93c5fd;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1100px) {
+    .projects-grid {
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .project-media {
+      height: 220px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #projects {
+      padding: 0 1.25rem;
+    }
+    
+    .project-content {
+      padding: 1.4rem;
+    }
+    
+    .project-title {
+      font-size: 1.4rem;
+    }
+    
+    .project-media {
+      height: 200px;
+    }
+  }
+</style>
+<!-- Projects Section End -->
 
 
 # 📖 Education

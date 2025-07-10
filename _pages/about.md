@@ -222,88 +222,53 @@ My research focuses on multimodal learning, data mining, and pattern recognition
         </div>
       </div>
     </div>
-  </div>
-  <!-- Project 4 -->
-<div class="project-card">
-  <div class="project-media">
-    <img 
-      src="https://private-user-images.githubusercontent.com/124031162/375042358-b02462a7-07d0-4554-a69c-1f3b81331e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIxNzA0MjksIm5iZiI6MTc1MjE3MDEyOSwicGF0aCI6Ii8xMjQwMzExNjIvMzc1MDQyMzU4LWIwMjQ2MmE3LTA3ZDAtNDU1NC1hNjljLTFmM2I4MTMzMWU2NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxMFQxNzU1MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YjQwZjllMzUzNDFiNDFhMTVkOTBlNDBiMDY2M2EwZjdlZDYxOWZjODU1OGNmNTYzMDhhN2UwNjMxYTU3NmVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.NXD2DZbgatR9emNu2jdwzkowWTK8NAI6GfTQaHuFUj4" 
-      alt="GWO-LSSVM-Adaboost classification system" 
-      class="project-image"
-      onerror="this.parentElement.classList.add('image-error')"
-    >
-    <div class="project-overlay">
-      <a href="#" class="view-project-btn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path d="M7 17L17 7M17 7H9M17 7V15"></path>
-        </svg>
-        View Project
-      </a>
-    </div>
-  </div>
-  
-  <div class="project-content">
-    <h3 class="project-title">
-      <a href="#" class="project-link">
-        GWO-LSSVM-Adaboost Classification
-      </a>
-    </h3>
     
-    <p class="project-description">
-      Mathematical modeling competition solution using Grey Wolf Optimization to optimize
-      LSSVM parameters with Adaboost ensemble for robust data classification
-    </p>
-    
-    <div class="project-meta">
-      <div class="tech-tags">
-        <span>Matlab</span>
-        <span>Machine Learning</span>
-        <span>Grey Wolf Algorithm</span>
-        <span>Ensemble Learning</span>
+    <!-- Project 4 -->
+    <div class="project-card">
+      <div class="project-media">
+        <img 
+          src="https://private-user-images.githubusercontent.com/124031162/375042358-b02462a7-07d0-4554-a69c-1f3b81331e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIxNzA0MjksIm5iZiI6MTc1MjE3MDEyOSwicGF0aCI6Ii8xMjQwMzExNjIvMzc1MDQyMzU4LWIwMjQ2MmE3LTA3ZDAtNDU1NC1hNjljLTFmM2I4MTMzMWU2NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxMFQxNzU1MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YjQwZjllMzUzNDFiNDFhMTVkOTBlNDBiMDY2M2EwZjdlZDYxOWZjODU1OGNmNTYzMDhhN2UwNjMxYTU3NmVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.NXD2DZbgatR9emNu2jdwzkowWTK8NAI6GfTQaHuFUj4" 
+          alt="GWO-LSSVM-Adaboost classification system" 
+          class="project-image"
+          onerror="this.parentElement.classList.add('image-error')"
+        >
+        <div class="project-overlay">
+          <a href="#" 
+             target="_blank" 
+             class="view-project-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
+            </svg>
+            View Project
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <h3 class="project-title">
+          <a href="#" 
+             target="_blank"
+             class="project-link">
+            GWO-LSSVM-Adaboost Classification
+          </a>
+        </h3>
+        
+        <p class="project-description">
+          Mathematical modeling competition solution using Grey Wolf Optimization to optimize
+          LSSVM parameters with Adaboost ensemble for robust data classification
+        </p>
+        
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span>Matlab</span>
+            <span>GWO Algorithm</span>
+            <span>LSSVM</span>
+            <span>Ensemble Learning</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="project-card">
-  <div class="project-media">
-    <img 
-      src="https://private-user-images.githubusercontent.com/124031162/375042358-b02462a7-07d0-4554-a69c-1f3b81331e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIxNzA0MjksIm5iZiI6MTc1MjE3MDEyOSwicGF0aCI6Ii8xMjQwMzExNjIvMzc1MDQyMzU4LWIwMjQ2MmE3LTA3ZDAtNDU1NC1hNjljLTFmM2I4MTMzMWU2NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxMFQxNzU1MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YjQwZjllMzUzNDFiNDFhMTVkOTBlNDBiMDY2M2EwZjdlZDYxOWZjODU1OGNmNTYzMDhhN2UwNjMxYTU3NmVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.NXD2DZbgatR9emNu2jdwzkowWTK8NAI6GfTQaHuFUj4" 
-      alt="GWO-LSSVM-Adaboost classification system" 
-      class="project-image"
-      onerror="this.parentElement.classList.add('image-error')"
-    >
-    <div class="project-overlay">
-      <a href="#" class="view-project-btn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path d="M7 17L17 7M17 7H9M17 7V15"></path>
-        </svg>
-        View Project
-      </a>
-    </div>
-  </div>
-  
-  <div class="project-content">
-    <h3 class="project-title">
-      <a href="#" class="project-link">
-        GWO-LSSVM-Adaboost Classification
-      </a>
-    </h3>
-    
-    <p class="project-description">
-      Mathematical modeling competition solution using Grey Wolf Optimization to optimize
-      LSSVM parameters with Adaboost ensemble for robust data classification
-    </p>
-    
-    <div class="project-meta">
-      <div class="tech-tags">
-        <span>Matlab</span>
-        <span>Machine Learning</span>
-        <span>Grey Wolf Algorithm</span>
-        <span>Ensemble Learning</span>
-      </div>
-    </div>
-  </div>
-</div>
 </section>
 
 <style>

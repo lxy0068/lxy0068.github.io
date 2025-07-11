@@ -4,7 +4,7 @@ main:
     url: "/#about-me"
 
   - title: "Blogs"
-    url: "/#-blogs"
+    url: "/blogs/"
     
   - title: "News"
     url: "/#-news"

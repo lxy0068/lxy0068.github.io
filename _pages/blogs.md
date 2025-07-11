@@ -14,65 +14,54 @@ header:
 # 📚 Latest Articles
 
 <div class="blog-grid">
-  <!-- Blog Post 1 -->
-  <article class="blog-card">
-    <div class="blog-media">
-      <img src="/images/blog1-thumb.jpg" alt="Multimodal Learning" class="blog-thumbnail">
-      <div class="blog-date">2025.06.15</div>
-    </div>
-    <div class="blog-content">
-      <h2 class="blog-title">
-        <a href="/blogs/multimodal-learning">Advancements in Multimodal Representation Learning</a>
-      </h2>
-      <p class="blog-excerpt">
-        Exploring the latest techniques for integrating visual, textual and auditory data in unified embedding spaces...
-      </p>
-      <div class="blog-meta">
-        <span class="blog-category">AI Research</span>
-        <span class="blog-readtime">8 min read</span>
+  {% for post in site.posts %}
+    <article class="blog-card">
+      <div class="blog-media">
+        {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}" class="blog-thumbnail">
+        {% else %}
+          <div class="default-thumbnail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.5 21a3 3 0 003-3V9a3 3 0 00-3-3h-5.379a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H4.5a3 3 0 00-3 3v12a3 3 0 003 3h15z"/>
+            </svg>
+          </div>
+        {% endif %}
+        <div class="blog-date">
+          {{ post.date | date: "%Y.%m.%d" }}
+        </div>
+        <div class="blog-overlay">
+          <a href="{{ post.url }}" class="blog-link">Read Article</a>
+        </div>
       </div>
-    </div>
-  </article>
-  
-  <!-- Blog Post 2 -->
-  <article class="blog-card">
-    <div class="blog-media">
-      <img src="/images/blog2-thumb.jpg" alt="PhD Application" class="blog-thumbnail">
-      <div class="blog-date">2025.05.22</div>
-    </div>
-    <div class="blog-content">
-      <h2 class="blog-title">
-        <a href="/blogs/phd-application">Navigating the PhD Application Process in AI</a>
-      </h2>
-      <p class="blog-excerpt">
-        Practical advice for crafting a competitive PhD application based on my experience applying to top AI programs...
-      </p>
-      <div class="blog-meta">
-        <span class="blog-category">Career</span>
-        <span class="blog-readtime">12 min read</span>
+      <div class="blog-content">
+        <h2 class="blog-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p class="blog-excerpt">
+          {% if post.excerpt %}
+            {{ post.excerpt | strip_html | truncate: 120 }}
+          {% else %}
+            {{ post.content | strip_html | truncate: 120 }}
+          {% endif %}
+        </p>
+        <div class="blog-meta">
+          {% if post.categories %}
+            <span class="blog-category">
+              {{ post.categories | first }}
+            </span>
+          {% endif %}
+          <span class="blog-readtime">
+            {% assign words = post.content | number_of_words %}
+            {% if words < 360 %}
+              1 min read
+            {% else %}
+              {{ words | divided_by: 180 }} min read
+            {% endif %}
+          </span>
+        </div>
       </div>
-    </div>
-  </article>
-  
-  <!-- Blog Post 3 -->
-  <article class="blog-card">
-    <div class="blog-media">
-      <img src="/images/blog3-thumb.jpg" alt="Conference Experience" class="blog-thumbnail">
-      <div class="blog-date">2025.04.10</div>
-    </div>
-    <div class="blog-content">
-      <h2 class="blog-title">
-        <a href="/blogs/ijcnn-experience">Reflections on Presenting at IJCNN 2025</a>
-      </h2>
-      <p class="blog-excerpt">
-        Behind-the-scenes look at preparing for and presenting research at a top-tier AI conference...
-      </p>
-      <div class="blog-meta">
-        <span class="blog-category">Conferences</span>
-        <span class="blog-readtime">6 min read</span>
-      </div>
-    </div>
-  </article>
+    </article>
+  {% endfor %}
 </div>
 
 <style>
@@ -89,10 +78,11 @@ header:
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     height: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
   
   .blog-card:hover {
@@ -104,6 +94,7 @@ header:
     position: relative;
     height: 200px;
     overflow: hidden;
+    background-color: #f8f9fa;
   }
   
   .blog-thumbnail {
@@ -111,6 +102,21 @@ header:
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
+  }
+  
+  .default-thumbnail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3498db;
+  }
+  
+  .default-thumbnail svg {
+    width: 60px;
+    height: 60px;
+    opacity: 0.2;
   }
   
   .blog-card:hover .blog-thumbnail {
@@ -127,6 +133,41 @@ header:
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 600;
+    z-index: 2;
+  }
+  
+  .blog-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(37, 99, 235, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  
+  .blog-card:hover .blog-overlay {
+    opacity: 1;
+  }
+  
+  .blog-link {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .blog-link:hover {
+    background: white;
+    color: #2563eb;
   }
   
   .blog-content {
@@ -140,6 +181,7 @@ header:
     font-size: 1.4rem;
     margin-bottom: 12px;
     line-height: 1.4;
+    transition: color 0.3s ease;
   }
   
   .blog-title a {
@@ -158,6 +200,7 @@ header:
     line-height: 1.6;
     flex-grow: 1;
     margin-bottom: 15px;
+    font-size: 0.95rem;
   }
   
   .blog-meta {
@@ -174,14 +217,51 @@ header:
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .blog-category:hover {
+    background: rgba(52, 152, 219, 0.2);
+    transform: translateY(-2px);
   }
   
   .blog-readtime {
     color: #7f8c8d;
     font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .blog-readtime::before {
+    content: '⏱️';
+    font-size: 0.8rem;
+  }
+  
+  /* Animation for cards */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .blog-card {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
   }
   
   /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .blog-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  
   @media (max-width: 768px) {
     .blog-grid {
       grid-template-columns: 1fr;
@@ -189,6 +269,20 @@ header:
     
     .blog-media {
       height: 180px;
+    }
+    
+    .blog-title {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-content {
+      padding: 20px;
+    }
+    
+    .blog-excerpt {
+      font-size: 0.9rem;
     }
   }
 </style>

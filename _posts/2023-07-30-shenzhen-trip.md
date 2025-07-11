@@ -141,9 +141,4 @@ permalink: /shenzhen-trip/
       —— 2023年7月30日凌晨3点17分
     </div>
   </div>
-  
-  <div style="text-align: center; margin-top: 60px; padding-top: 30px; border-top: 1px solid #eee; font-style: italic; color: #666;">
-    <p>记录于2023年7月30日凌晨3点17分</p>
-    <p>摄影 & 文字：Xingyan Liu</p>
-  </div>
 </div>

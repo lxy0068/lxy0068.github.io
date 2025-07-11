@@ -748,6 +748,10 @@ My research focuses on multimodal learning, data mining, and pattern recognition
           <img src="images/shanghai2.jpg" alt="Shanghai trip">
           <div class="image-caption">Shanghai</div>
         </div>
+        <div class="gallery-item">
+          <img src="images/shanghai3.jpg" alt="Shanghai trip">
+          <div class="image-caption">Shanghai</div>
+        </div>
       </div>
     </div>
   </div>
@@ -759,10 +763,6 @@ My research focuses on multimodal learning, data mining, and pattern recognition
       <p class="event-description">My partners and I were invited to attend the 2024 Baidu Create AI Developer Conference!</p>
       
       <div class="event-gallery">
-        <div class="gallery-item">
-          <img src="images/baidu1.jpg" alt="Baidu Conference">
-          <div class="image-caption">Baidu Conference</div>
-        </div>
         <div class="gallery-item">
           <img src="images/baidu2.jpg" alt="Baidu Conference">
           <div class="image-caption">Baidu Conference</div>

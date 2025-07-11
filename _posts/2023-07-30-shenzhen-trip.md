@@ -11,7 +11,7 @@ permalink: /shenzhen-trip/
 
 <div class="travel-container">
   <div class="travel-header">
-    <h1 class="travel-title">2023年7月 · 从修行到建设</h1>
+    <h1 class="travel-title">从修行到建设</h1>
   </div>
   
   <div class="travel-section">

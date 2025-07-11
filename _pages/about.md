@@ -554,58 +554,272 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 
 # 🩴 My Interesting Life
 
-- *2024.08*, I traveled to Nanjing, Suzhou and Shanghai to experience the traditional Chinese culture and modern charm！<br>
+<style>
+  .life-events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+  }
 
-<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/nanjing1.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/nanjing2.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/nanjing3.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/suzhou1.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/suzhou2.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/suzhou3.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/shanghai1.jpg" alt="Jianghu Trip" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/shanghai2.jpg" alt="Jianghu Trip" width="330" height="270">
-</div>
-<br>
+  .life-event {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
 
-- *2024.04*, My partners and I were invited to attend the 2024 Baidu Create AI Developer Conference! <br>
+  .life-event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
 
-<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/baidu1.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/baidu2.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/baidu3.jpg" alt="baidu" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/baidu4.jpg" alt="baidu" width="330" height="270">  
-</div>
+  .event-content {
+    padding: 30px;
+  }
 
+  .event-date {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #e74c3c;
+    margin-bottom: 15px;
+    padding: 6px 15px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 50px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  }
 
-- *2023.08*, I participated in the 2023 "Bay Entrepreneurship Camp" - a youth maker exchange activity in the Guangdong-Hong Kong-Macao Greater Bay Area, visited well-known companies such as Tencent, BYD, and INSEPP, and received entrepreneurship-themed training and "face-to-face" guidance from professional mentors!<br>
+  .event-description {
+    font-size: 1.15rem;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
 
-<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/wanchuang1.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/wanchuang2.jpg" alt="wanchuang" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/wanchuang3.jpg" alt="wanchuang" width="330" height="270">
-</div>
-<br>
+  .event-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
 
-- *2023.05*, I participated in the Entrepreneurship Elite Class held by the School of Entrepreneurship Education of South China University of Technology and communicated with Microsoft mentor Guan Zhen!<br>
+  .gallery-item {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    height: 270px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.35s ease;
+  }
 
-<div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-    <img src="images/chuangyuan1.jpg" alt="chuangyuan" width="330" height="270">&nbsp;&nbsp;&nbsp;
-    <img src="images/chuangyuan2.jpg" alt="chuangyuan" width="330" height="270">
-</div>
-<br>
+  .gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
 
-- **Precious memories with my friends.**<br>
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
 
-<div id="slider" style="width: 900px; overflow: hidden; margin-left: 56px;">
-    <div id="slider-inner">
-        <img src="images/wuxi1.jpg" alt="Image 5">
-        <img src="images/wuxi2.jpg" alt="Image 6">
-        <img src="images/friends1.jpg" alt="Image 1">
-        <img src="images/friends2.jpg" alt="Image 2">
-        <img src="images/friends3.jpg" alt="Image 3">
-        <img src="images/friends4.jpg" alt="Image 4">
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-item:hover .image-caption {
+    opacity: 1;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .event-gallery {
+      gap: 15px;
+    }
+    .gallery-item {
+      height: 250px;
+    }
+    .event-content {
+      padding: 25px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .event-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .event-description {
+      font-size: 1.1rem;
+    }
+    .event-date {
+      font-size: 1.1rem;
+    }
+    .life-event {
+      border-radius: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .event-gallery {
+      grid-template-columns: 1fr;
+    }
+    .event-content {
+      padding: 20px;
+    }
+    .life-events-container {
+      gap: 35px;
+    }
+  }
+
+  /* Animation for events */
+  @keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .life-event {
+    animation: fadeSlideUp 0.6s ease-out forwards;
+  }
+
+  .life-event:nth-child(1) { animation-delay: 0.1s; }
+  .life-event:nth-child(2) { animation-delay: 0.2s; }
+  .life-event:nth-child(3) { animation-delay: 0.3s; }
+  .life-event:nth-child(4) { animation-delay: 0.4s; }
+</style>
+
+<div class="life-events-container">
+  <!-- Event 1: Travel to Nanjing, Suzhou and Shanghai -->
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2024.08</span>
+      <p class="event-description">I traveled to Nanjing, Suzhou and Shanghai to experience the traditional Chinese culture and modern charm!</p>
+      
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/nanjing1.jpg" alt="Nanjing trip">
+          <div class="image-caption">Nanjing</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/nanjing2.jpg" alt="Nanjing trip">
+          <div class="image-caption">Nanjing</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/nanjing3.jpg" alt="Nanjing trip">
+          <div class="image-caption">Nanjing</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/suzhou1.jpg" alt="Suzhou trip">
+          <div class="image-caption">Suzhou</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/suzhou2.jpg" alt="Suzhou trip">
+          <div class="image-caption">Suzhou</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/suzhou3.jpg" alt="Suzhou trip">
+          <div class="image-caption">Suzhou</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/shanghai1.jpg" alt="Shanghai trip">
+          <div class="image-caption">Shanghai</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/shanghai2.jpg" alt="Shanghai trip">
+          <div class="image-caption">Shanghai</div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Event 2: Baidu Create AI Developer Conference -->
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2024.04</span>
+      <p class="event-description">My partners and I were invited to attend the 2024 Baidu Create AI Developer Conference!</p>
+      
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/baidu1.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/baidu2.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/baidu3.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/baidu4.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Event 3: Bay Entrepreneurship Camp -->
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2023.08</span>
+      <p class="event-description">I participated in the 2023 "Bay Entrepreneurship Camp" - a youth maker exchange activity in the Guangdong-Hong Kong-Macao Greater Bay Area, visited well-known companies such as Tencent, BYD, and INSEPP, and received entrepreneurship-themed training and "face-to-face" guidance from professional mentors!</p>
+      
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/wanchuang1.jpg" alt="Bay Entrepreneurship Camp">
+          <div class="image-caption">Entrepreneurship Camp</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/wanchuang2.jpg" alt="Bay Entrepreneurship Camp">
+          <div class="image-caption">Company Visit</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/wanchuang3.jpg" alt="Bay Entrepreneurship Camp">
+          <div class="image-caption">Mentor Session</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Event 4: Entrepreneurship Elite Class -->
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2023.05</span>
+      <p class="event-description">I participated in the Entrepreneurship Elite Class held by the School of Entrepreneurship Education of South China University of Technology and communicated with Microsoft mentor Guan Zhen!</p>
+      
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/chuangyuan1.jpg" alt="Entrepreneurship Elite Class">
+          <div class="image-caption">Elite Class Session</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/chuangyuan2.jpg" alt="Entrepreneurship Elite Class">
+          <div class="image-caption">Discussion with Mentor</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 

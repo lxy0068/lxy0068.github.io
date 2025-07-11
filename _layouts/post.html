@@ -1,136 +1,278 @@
----
-layout: compress
----
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     
-    <style>
-      /* 文章专用样式 */
-      .page-container {
-        max-width: 800px;
-        margin: 0 auto;
+    body {
+      background: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.8;
+      color: #333;
+      overflow-x: hidden;
+    }
+    
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 30px;
+      background: white;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    }
+    
+    .article-header {
+      text-align: center;
+      margin-bottom: 50px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+      position: relative;
+    }
+    
+    .article-header::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, #3498db, #e74c3c);
+      border-radius: 3px;
+    }
+    
+    .article-title {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #2c3e50;
+      letter-spacing: -0.5px;
+    }
+    
+    .article-meta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+    
+    .meta-item {
+      background: rgba(52, 152, 219, 0.1);
+      padding: 5px 15px;
+      border-radius: 20px;
+      color: #3498db;
+    }
+    
+    .article-content {
+      font-size: 1.1rem;
+    }
+    
+    .section-title {
+      font-size: 1.8rem;
+      margin: 50px 0 30px;
+      color: #2c3e50;
+      position: relative;
+      padding-bottom: 10px;
+    }
+    
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 4px;
+      background: #e74c3c;
+      border-radius: 2px;
+    }
+    
+    .travel-image {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin: 40px 0;
+    }
+    
+    .image-caption {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #7f8c8d;
+      margin-top: 10px;
+      font-style: italic;
+    }
+    
+    .quote-block {
+      border-left: 4px solid #3498db;
+      padding: 20px 25px;
+      background: rgba(52, 152, 219, 0.05);
+      margin: 40px 0;
+      font-style: italic;
+      color: #444;
+      border-radius: 0 8px 8px 0;
+      position: relative;
+      font-size: 1.15rem;
+    }
+    
+    .quote-block::before {
+      content: """;
+      position: absolute;
+      top: -20px;
+      left: 5px;
+      font-size: 6rem;
+      color: rgba(52, 152, 219, 0.1);
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+    
+    .music-note {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 28px;
+      height: 28px;
+      background: #e74c3c;
+      color: white;
+      border-radius: 50%;
+      margin: 0 5px;
+      font-size: 1rem;
+      vertical-align: middle;
+      animation: bounce 1s infinite alternate;
+    }
+    
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-5px); }
+    }
+    
+    .highlight {
+      background: linear-gradient(to right, rgba(231, 76, 60, 0.1), transparent);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    
+    .article-footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid #eee;
+      font-style: italic;
+      color: #666;
+    }
+    
+    .author-signature {
+      margin-top: 15px;
+      font-weight: 500;
+      color: #3498db;
+    }
+    
+    /* 响应式调整 */
+    @media (max-width: 768px) {
+      .article-container {
         padding: 40px 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.8;
-        color: #333;
       }
       
-      .page-header {
-        text-align: center;
-        margin-bottom: 50px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #eee;
-      }
-      
-      .page-title {
-        font-size: 2.5rem;
-        margin-bottom: 15px;
-        color: #2c3e50;
-      }
-      
-      .page-subtitle {
-        font-size: 1.2rem;
-        color: #7f8c8d;
-        font-style: italic;
-      }
-      
-      .page-section {
-        margin-bottom: 60px;
+      .article-title {
+        font-size: 2rem;
       }
       
       .section-title {
+        font-size: 1.6rem;
+      }
+      
+      .article-meta {
+        gap: 10px;
+      }
+      
+      .meta-item {
+        padding: 4px 12px;
+        font-size: 0.85rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .article-container {
+        padding: 30px 15px;
+      }
+      
+      .article-title {
         font-size: 1.8rem;
-        margin-bottom: 20px;
-        color: #3498db;
-        position: relative;
-        padding-left: 20px;
       }
       
-      .section-title::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 8px;
-        height: 8px;
-        background: #e74c3c;
-        border-radius: 50%;
+      .section-title {
+        font-size: 1.4rem;
       }
-      
-      .page-image {
-        width: 100%;
-        border-radius: 12px;
-        margin: 30px 0;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      }
-      
-      .image-caption {
-        text-align: center;
-        font-size: 0.9rem;
-        color: #7f8c8d;
-        margin-bottom: 30px;
-        font-style: italic;
-      }
-      
-      .quote-block {
-        border-left: 4px solid #3498db;
-        padding: 15px 20px;
-        background: #f8f9fa;
-        margin: 30px 0;
-        font-style: italic;
-        color: #555;
-        border-radius: 0 8px 8px 0;
-      }
-      
-      .highlight {
-        background: rgba(231, 76, 60, 0.1);
-        padding: 2px 6px;
-        border-radius: 4px;
-      }
-      
-      @media (max-width: 768px) {
-        .page-title {
-          font-size: 2rem;
-        }
-        
-        .section-title {
-          font-size: 1.5rem;
-        }
-        
-        .page-container {
-          padding: 20px 15px;
-        }
-      }
-    </style>
-  </head>
+    }
+  </style>
+</head>
 
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    <div id="main" role="main">
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page-container">
-          <div class="page-header">
-            <h1 class="page-title">{{ page.title }}</h1>
-            {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
-          </div>
-          
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
+<body>
+  <div class="article-container">
+    <header class="article-header">
+      <h1 class="article-title">{{ page.title }}</h1>
+      <div class="article-meta">
+        <div class="meta-item">{{ page.date | date: "%Y.%m.%d" }}</div>
+        {% if page.categories %}
+          <div class="meta-item">{{ page.categories | first }}</div>
+        {% endif %}
+        {% assign words = content | number_of_words %}
+        <div class="meta-item">
+          {% if words < 360 %}1 min read{% else %}{{ words | divided_by: 180 }} min read{% endif %}
         </div>
-      </article>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+      </div>
+    </header>
+    
+    <article class="article-content">
+      {{ content }}
+    </article>
+    
+    <footer class="article-footer">
+      <p>记录于{{ page.date | date: "%Y年%m月%d日" }}</p>
+      <p class="author-signature">Xingyan Liu</p>
+    </footer>
+  </div>
+  
+  {% include scripts.html %}
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 图片加载动画
+    const images = document.querySelectorAll('.travel-image');
+    
+    images.forEach(img => {
+      img.style.opacity = '0';
+      img.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            img.style.opacity = '1';
+            img.style.transform = 'translateY(0)';
+            observer.unobserve(img);
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+      
+      observer.observe(img);
+    });
+  });
+  </script>
+</body>
 </html>

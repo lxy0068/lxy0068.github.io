@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "深圳之行 | 游记"
-subtitle: "重的未必深刻，轻也未必肤浅，纯粹一点的前行喽"
 date: 2023-07-30
 categories: [旅行随笔]
 tags: [深圳, 城市探索, 旅行]
@@ -11,6 +10,9 @@ permalink: /shenzhen-trip/
 ---
 
 <div class="travel-container">
+  <div class="travel-header">
+    <h1 class="travel-title">2023年7月 · 从修行到建设</h1>
+  </div>
   
   <div class="travel-section">
     <h2 class="section-title">出发</h2>

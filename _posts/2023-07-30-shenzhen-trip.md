@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "深圳之行 | 游记"
-subtitle："重的未必深刻，轻也未必肤浅，纯粹一点的前行喽"
+subtitle: "重的未必深刻，轻也未必肤浅，纯粹一点的前行喽"
 date: 2023-07-30
 categories: [旅行随笔]
 tags: [深圳, 城市探索, 旅行]

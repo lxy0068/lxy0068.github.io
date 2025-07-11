@@ -83,7 +83,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="images/Project1" 
+          src="images/Project1.png" 
           alt="Stock platform dashboard" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"
@@ -129,7 +129,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="images/Project2" 
+          src="images/Project2.png" 
           alt="Traffic sign recognition interface" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"
@@ -175,7 +175,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="images/Project3" 
+          src="images/Project3.png" 
           alt="AlphaZero game interface" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"
@@ -221,7 +221,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="images/Project4" 
+          src="images/Project4.png" 
           alt="GWO-LSSVM-Adaboost classification system" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"

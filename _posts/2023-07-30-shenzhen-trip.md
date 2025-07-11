@@ -131,7 +131,7 @@ permalink: /shenzhen-trip/
   <div class="travel-section">
     <h2 class="section-title">归途</h2>
     
-    <p>回到地铁站看到有面馆，不由地再吃了一顿，回去的路上是<span class="music-note">♪</span>《带我去找夜生活》<span class="music-note">♪</span>，边走边看这座城市，别有一番风味。之后大概会去南山逛逛，反正开摆，勤劳和懒惰都为生命纯粹点，<span class="highlight">重的未必深刻，轻也未必肤浅</span>，纯粹一点的前行喽。</p>
+    <p>回到地铁站看到有面馆，不由地再吃了一顿，回去的路上是<span class="music-note">♪</span>《带我去找夜生活》<span class="music-note">♪</span>，边走边看这座城市，别有一番风味。之后大概会去南山逛逛，反正开摆，勤劳和懒惰都为生命纯粹点，<span class="highlight">重的未必深刻，轻也未必肤浅，纯粹一点的前行喽。</span></p>
   </div>
   
   <div style="text-align: center; margin-top: 60px; padding-top: 30px; border-top: 1px solid #eee; font-style: italic; color: #666;">

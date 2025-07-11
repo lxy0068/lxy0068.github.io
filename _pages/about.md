@@ -83,7 +83,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="https://github.com/user-attachments/assets/7d316aa8-aa2d-406c-b741-1044124c3387" 
+          src="images/Project1" 
           alt="Stock platform dashboard" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"
@@ -129,7 +129,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="https://github.com/user-attachments/assets/3532da12-12b1-42ce-a894-0f20a3a16254" 
+          src="images/Project2" 
           alt="Traffic sign recognition interface" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"
@@ -175,7 +175,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="https://github.com/user-attachments/assets/4d0ea7d6-1a54-43d2-84a5-5d8cd4617c70" 
+          src="images/Project3" 
           alt="AlphaZero game interface" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"
@@ -221,7 +221,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     <div class="project-card">
       <div class="project-media">
         <img 
-          src="https://github.com/user-attachments/assets/b02462a7-07d0-4554-a69c-1f3b81331e65" 
+          src="images/Project4" 
           alt="GWO-LSSVM-Adaboost classification system" 
           class="project-image"
           onerror="this.parentElement.classList.add('image-error')"

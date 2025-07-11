@@ -44,17 +44,10 @@ permalink: /shenzhen-trip/
   
   <div class="travel-section">
     <h2 class="section-title">华为园区</h2>
-    
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0;">
-      <div style="flex: 1; min-width: 300px;">
-        <img src="/images/shenzhen/huawei-campus.jpg" alt="华为园区" class="travel-image">
-        <p class="image-caption">华为园区</p>
-      </div>
-      <div style="flex: 1; min-width: 300px;">
-        <img src="/images/shenzhen/huawei-employees.jpg" alt="华为员工" class="travel-image">
-        <p class="image-caption">清晨的华为员工</p>
-      </div>
-    </div>
+
+
+    <img src="/images/shenzhen/huawei-campus.jpg" alt="华为园区" class="travel-image">
+    <p class="image-caption">华为园区</p>
     
     <p>在途中我知道我没有目的地，所以也就没有终点，脚踩西瓜皮跟着感觉走。第一站是华为，坐10号线下车，地铁站内有员工通道，8点，通道上人们步履匆匆，穿着整洁。大多男员工穿着深色灰色T恤，挂着员工卡，背着深色防水背包，头型特色让人放心他们的技术。女员工看上去很优雅，和其中一位偶然对视，能够感受到机敏灵活的成熟气质。这里的员工给人的感觉是沉稳，但走路干脆，真喜欢那些技术过硬同时干实事的人。整条通道光线明亮，而且有一股香气，香气醒脑但不过分。很明显的感受出来，这条通道上的人区别于地铁上的大多数。一场不大不小的雨除去了夏日的热，让人更专注的观察思考。出站在街上走，围着片区走了一圈。不得不说计划单列市就是有钱，基建搞得很好，整洁宽敞有序。</p>
   </div>
@@ -75,9 +68,13 @@ permalink: /shenzhen-trip/
     
     <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0;">
       <div style="flex: 1; min-width: 300px;">
-        <img src="/images/shenzhen/convention-center.jpg" alt="会展中心" class="travel-image">
-        <p class="image-caption">会展中心周边</p>
+        <img src="/images/shenzhen/convention-center1.jpg" alt="会展中心" class="travel-image">
+        <p class="image-caption">会展中心周边1</p>
       </div>
+      <div style="flex: 1; min-width: 300px;">
+        <img src="/images/shenzhen/convention-center2.jpg" alt="会展中心" class="travel-image">
+        <p class="image-caption">会展中心周边2</p>
+      </div>      
       <div style="flex: 1; min-width: 300px;">
         <img src="/images/shenzhen/starbucks-inside.jpg" alt="星巴克" class="travel-image">
         <p class="image-caption">金融区的星巴克</p>
@@ -120,9 +117,13 @@ permalink: /shenzhen-trip/
         <p class="image-caption">邓公画像</p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/images/shenzhen/shenzhen-night.jpg" alt="深圳夜景" class="travel-image">
-        <p class="image-caption">深圳夜晚街景</p>
+        <img src="/images/shenzhen/shenzhen-night1.jpg" alt="深圳夜景" class="travel-image">
+        <p class="image-caption">深圳夜晚街景1</p>
       </div>
+      <div style="flex: 1; min-width: 300px;">
+        <img src="/images/shenzhen/shenzhen-night2.jpg" alt="深圳夜景" class="travel-image">
+        <p class="image-caption">深圳夜晚街景2</p>
+      </div>      
     </div>
     
     <p>最后来到了邓公的画像，是很长时间之前我最想去的地方。看过了多少材料都不如到实地深入的看一看感受感受。除了朴素的感情，大多是一种独立的反思。真实的历史远不是历史课本写的那样浪漫。想到吴晓波的《激荡四十年》（贼有意思），不管是人物，还是沉默的大多数，是乱象丛生，是险象环生，是壮士断腕，是百花齐放。</p>

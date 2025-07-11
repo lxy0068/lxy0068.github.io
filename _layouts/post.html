@@ -1,20 +1,136 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: compress
+---
 
-  {%- include head.html -%}
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    
+    <style>
+      /* 文章专用样式 */
+      .page-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.8;
+        color: #333;
+      }
+      
+      .page-header {
+        text-align: center;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+      }
+      
+      .page-title {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+      
+      .page-subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        font-style: italic;
+      }
+      
+      .page-section {
+        margin-bottom: 60px;
+      }
+      
+      .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        color: #3498db;
+        position: relative;
+        padding-left: 20px;
+      }
+      
+      .section-title::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 8px;
+        height: 8px;
+        background: #e74c3c;
+        border-radius: 50%;
+      }
+      
+      .page-image {
+        width: 100%;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      
+      .image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #7f8c8d;
+        margin-bottom: 30px;
+        font-style: italic;
+      }
+      
+      .quote-block {
+        border-left: 4px solid #3498db;
+        padding: 15px 20px;
+        background: #f8f9fa;
+        margin: 30px 0;
+        font-style: italic;
+        color: #555;
+        border-radius: 0 8px 8px 0;
+      }
+      
+      .highlight {
+        background: rgba(231, 76, 60, 0.1);
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+      
+      @media (max-width: 768px) {
+        .page-title {
+          font-size: 2rem;
+        }
+        
+        .section-title {
+          font-size: 1.5rem;
+        }
+        
+        .page-container {
+          padding: 20px 15px;
+        }
+      }
+    </style>
+  </head>
 
   <body>
 
-    {%- include header.html -%}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <div id="main" role="main">
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page-container">
+          <div class="page-header">
+            <h1 class="page-title">{{ page.title }}</h1>
+            {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+          </div>
+          
+          <section class="page__content" itemprop="text">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
 
-    {%- include footer.html -%}
+    {% include scripts.html %}
 
   </body>
-
 </html>

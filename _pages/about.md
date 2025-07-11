@@ -51,7 +51,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 
 # 🎖 Honors and Awards
 - *2024.10* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation Competition, Hong Ping Evergreen Fund.
-- *2024.09* [Outstanding student](images/Baiducalss.jpg)<span style="color:red;"> (Top 1)</span> of Baidu Pinecone Elite Class of SCUT.
+- *2024.09* [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span> of Baidu Pinecone Elite Class of SCUT.
 - *2024.06* Second-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.06* Taihu Future Innovation Award<span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.05* Star Volunteer, SCUT.

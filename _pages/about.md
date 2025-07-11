@@ -21,7 +21,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <strong> Welcome to my personal website! </strong> 😃
 
-I’m Xingyan Liu (you can also call me Ethan), currently a junior undergraduate student at the School of Future Technology, South China University of Technology in Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/).
+I’m Xingyan Liu (you can also call me Ethan), currently a junior undergraduate student at the School of Future Technology, [South China University of Technology](https://www.scut.edu.cn/new/) in Guangzhou, China, advised by [Prof. Qi Liu (IEEE Senior Member)](https://drliuqi.github.io/).
 
 My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks.
 
@@ -51,7 +51,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 
 # 🎖 Honors and Awards
 - *2024.10* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation Competition, Hong Ping Evergreen Fund.
-- *2024.09* Outstanding student<span style="color:red;"> (Top 1)</span> of Baidu Pinecone Elite Class of SCUT.
+- *2024.09* [Outstanding student](images/Baiducalss.jpg)<span style="color:red;"> (Top 1)</span> of Baidu Pinecone Elite Class of SCUT.
 - *2024.06* Second-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.06* Taihu Future Innovation Award<span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
 - *2024.05* Star Volunteer, SCUT.

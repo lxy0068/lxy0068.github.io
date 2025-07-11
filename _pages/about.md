@@ -822,6 +822,19 @@ My research focuses on multimodal learning, data mining, and pattern recognition
   </div>
 </div>
 
+- **Precious memories with my friends.**<br>
+
+<div id="slider" style="width: 900px; overflow: hidden; margin-left: 56px;">
+    <div id="slider-inner">
+        <img src="images/wuxi1.jpg" alt="Image 5">
+        <img src="images/wuxi2.jpg" alt="Image 6">
+        <img src="images/friends1.jpg" alt="Image 1">
+        <img src="images/friends2.jpg" alt="Image 2">
+        <img src="images/friends3.jpg" alt="Image 3">
+        <img src="images/friends4.jpg" alt="Image 4">
+    </div>
+</div>
+
 
 <script>
 var slider = document.getElementById('slider');

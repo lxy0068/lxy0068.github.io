@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "深圳之行 | 城市漫游笔记"
+title: "深圳之行 | 游记"
+subtitle："重的未必深刻，轻也未必肤浅，纯粹一点的前行喽"
 date: 2023-07-30
 categories: [旅行随笔]
 tags: [深圳, 城市探索, 旅行]
@@ -10,10 +11,6 @@ permalink: /shenzhen-trip/
 ---
 
 <div class="travel-container">
-  <div class="travel-header">
-    <h1 class="travel-title">深圳之行 | 漫游</h1>
-    <p class="travel-subtitle">2023年7月 · 从修行到建设</p>
-  </div>
   
   <div class="travel-section">
     <h2 class="section-title">出发</h2>
@@ -80,7 +77,7 @@ permalink: /shenzhen-trip/
         <p class="image-caption">会展中心周边</p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/images/shenzhen/starbucks-inside.jpg" alt="星巴克内部" class="travel-image">
+        <img src="/images/shenzhen/starbucks-inside.jpg" alt="星巴克" class="travel-image">
         <p class="image-caption">金融区的星巴克</p>
       </div>
     </div>
@@ -97,8 +94,8 @@ permalink: /shenzhen-trip/
         <p class="image-caption">世界之窗夜景</p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/images/shenzhen/fireworks.jpg" alt="烟花" class="travel-image">
-        <p class="image-caption">节日烟花</p>
+        <img src="/images/shenzhen/fireworks.jpg" alt="深南大道" class="travel-image">
+        <p class="image-caption">深南大道</p>
       </div>
     </div>
     
@@ -106,7 +103,7 @@ permalink: /shenzhen-trip/
     
     <div class="quote-block">
       "世界与你终生作伴却还是会孤单，这一切和时代无关本来就不简单"<br>
-      —— 刘森《县城》
+      —— 刘森《华北浪革》
     </div>
     
     <p>这个问题引发很多歌词涌出，可文艺可现实：李B"没有人在热河路谈恋爱，总有人在天黑时伤感""南京的雨不停的下不停的下，有些人却注定要相遇"，刘森"世界与你终生作伴却还是会孤单，这一切和时代无关本来就不简单"等等等。随机感如《重庆森林》，孤独感如《挪威的森林》，这个年纪总有一种特质，好似有无数个参数根本就无法描述。不管是客观描述还是主观感受，感情最重要的是舒适 理解和宽容吧，剩下的都不重要了。9点一过，景区放起了盛大的烟花，看的有些入迷就没拍照，很有意思。</p>
@@ -135,11 +132,6 @@ permalink: /shenzhen-trip/
     <h2 class="section-title">归途</h2>
     
     <p>回到地铁站看到有面馆，不由地再吃了一顿，回去的路上是<span class="music-note">♪</span>《带我去找夜生活》<span class="music-note">♪</span>，边走边看这座城市，别有一番风味。之后大概会去南山逛逛，反正开摆，勤劳和懒惰都为生命纯粹点，<span class="highlight">重的未必深刻，轻也未必肤浅</span>，纯粹一点的前行喽。</p>
-    
-    <div class="quote-block">
-      "纯粹一点的前行喽"<br>
-      —— 2023年7月30日凌晨3点17分
-    </div>
   </div>
   
   <div style="text-align: center; margin-top: 60px; padding-top: 30px; border-top: 1px solid #eee; font-style: italic; color: #666;">

@@ -5,7 +5,7 @@ date: 2023-07-30
 categories: [旅行随笔]
 tags: [深圳, 城市探索, 旅行]
 image: /images/shenzhen-header.jpg
-excerpt: "重的未必深刻，轻也未必肤浅"
+excerpt: "举世茫茫，唯有大道相伴"
 permalink: /shenzhen-trip/  
 ---
 

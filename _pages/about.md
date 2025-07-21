@@ -37,7 +37,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 - *2025.04*: &nbsp;🎉🎉 Win the second prize <span style="color:red;">(Top 3%)</span> in the National English Competition for College Students (NECCS)!
 - *2025.03*: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
-- *2024.07*: &nbsp;🎉🎉 [Go to Wuxi Future Technology Joint Research Center for internship!](https://www2.scut.edu.cn/ft/2024/0826/c29757a560023/page.htm)
+- *2024.07*: &nbsp;🎉🎉 [Go to Wuxi Future Technology Joint Research Center for internship!](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)
 - *2024.06*: &nbsp;🎉🎉 Win the National College Student Innovation and Entrepreneurship Training Program Great Completion <span style="color:red;">(Top 5%)</span>! 
 - *2024.06*: &nbsp;🎉🎉 Win the Taihu Future Technology Innovation Award <span style="color:red;">(Top 3%)</span> by Wuxi government!
 - *2024.04*: &nbsp;🎉🎉 Authorized a software copyright!

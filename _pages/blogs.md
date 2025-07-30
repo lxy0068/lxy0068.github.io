@@ -30,7 +30,7 @@ header:
           {{ post.date | date: "%Y.%m.%d" }}
         </div>
         <div class="blog-overlay">
-          <a href="{{ post.url }}" class="blog-link">Read Article</a>
+          <a href="{{ post.url }}" class="blog-link">阅读文章</a>
         </div>
       </div>
       <div class="blog-content">
@@ -51,11 +51,12 @@ header:
             </span>
           {% endif %}
           <span class="blog-readtime">
-            {% assign words = post.content | number_of_words %}
-            {% if words < 360 %}
+            {% assign content_length = post.content | strip_html | size %}
+            {% assign read_time = content_length | divided_by: 300.0 | round %}
+            {% if read_time < 1 %}
               1 min read
             {% else %}
-              {{ words | divided_by: 180 }} min read
+              {{ read_time }} min read
             {% endif %}
           </span>
         </div>

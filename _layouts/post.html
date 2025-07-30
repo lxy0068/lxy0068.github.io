@@ -230,9 +230,14 @@
         {% if page.categories %}
           <div class="meta-item">{{ page.categories | first }}</div>
         {% endif %}
-        {% assign words = content | number_of_words %}
+        {% assign content_length = content | strip_html | size %}
+        {% assign read_time = content_length | divided_by: 300.0 | round %}
         <div class="meta-item">
-          {% if words < 360 %}1 min read{% else %}{{ words | divided_by: 180 }} min read{% endif %}
+          {% if read_time < 1 %}
+            1 min read
+          {% else %}
+            {{ read_time }} min read
+          {% endif %}
         </div>
       </div>
     </header>

@@ -710,7 +710,30 @@ My research focuses on multimodal learning, data mining, and pattern recognition
 </style>
 
 <div class="life-events-container">
-  <!-- Event 1: Travel to Nanjing, Suzhou and Shanghai -->
+    <!-- Event : Taian -->
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2025.07</span>
+      <p class="event-description">I traveled to Tai'an to participate in the 18th Chinese Collegiate Computing Competition and experience the majesty of Mount Tai!</p>
+      
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/taian1.jpg" alt="Taian">
+          <div class="image-caption">Closing ceremony</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/taian2.jpg" alt="Taian">
+          <div class="image-caption">Award-winning photos</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/taian3.jpg" alt="Taian">
+          <div class="image-caption">The majestic power of Mount Tai</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Event : Travel to Nanjing, Suzhou and Shanghai -->
   <div class="life-event">
     <div class="event-content">
       <span class="event-date">2024.08</span>
@@ -757,7 +780,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     </div>
   </div>
 
-  <!-- Event 2: Baidu Create AI Developer Conference -->
+  <!-- Event : Baidu Create AI Developer Conference -->
   <div class="life-event">
     <div class="event-content">
       <span class="event-date">2024.04</span>
@@ -780,7 +803,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     </div>
   </div>
 
-  <!-- Event 3: Bay Entrepreneurship Camp -->
+  <!-- Event : Bay Entrepreneurship Camp -->
   <div class="life-event">
     <div class="event-content">
       <span class="event-date">2023.08</span>
@@ -803,7 +826,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
     </div>
   </div>
 
-  <!-- Event 4: Entrepreneurship Elite Class -->
+  <!-- Event : Entrepreneurship Elite Class -->
   <div class="life-event">
     <div class="event-content">
       <span class="event-date">2023.05</span>

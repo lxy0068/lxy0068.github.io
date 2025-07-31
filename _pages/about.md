@@ -816,11 +816,11 @@ My research focuses on multimodal learning, data mining, and pattern recognition
         </div>
         <div class="gallery-item">
           <img src="images/wanchuang2.jpg" alt="Bay Entrepreneurship Camp">
-          <div class="image-caption">Company Visit</div>
+          <div class="image-caption">Group photo</div>
         </div>
         <div class="gallery-item">
           <img src="images/wanchuang3.jpg" alt="Bay Entrepreneurship Camp">
-          <div class="image-caption">Mentor Session</div>
+          <div class="image-caption">Listen to the report</div>
         </div>
       </div>
     </div>

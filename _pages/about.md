@@ -723,7 +723,7 @@ My research focuses on multimodal learning, data mining, and pattern recognition
         </div>
         <div class="gallery-item">
           <img src="images/taian2.jpg" alt="Taian">
-          <div class="image-caption">Award-winning photos</div>
+          <div class="image-caption">Award-winning</div>
         </div>
         <div class="gallery-item">
           <img src="images/taian3.jpg" alt="Taian">

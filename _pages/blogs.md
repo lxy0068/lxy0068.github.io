@@ -11,7 +11,15 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-# 📚 Latest Articles
+<!-- Xingyan Liu Header Section -->
+<div class="name-header">
+  <div class="name-container">
+    <span class="name-first">Xingyan</span>
+    <span class="name-last">LIU</span>
+    <span class="name-alias">刘兴琰 / Ethan</span>
+  </div>
+  <div class="subtitle">Reflecting on the Path of Growth</div>
+</div>
 
 <div class="blog-grid">
   {% for post in site.posts %}
@@ -66,6 +74,65 @@ header:
 </div>
 
 <style>
+  /* Xingyan Liu Header Styles */
+  .name-header {
+    text-align: center;
+    margin: 60px 0 40px;
+  }
+  
+  .name-container {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .name-first {
+    color: #9d6cff;
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name-last {
+    color: #ffffff;
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-left: -5px;
+  }
+  
+  .name-alias {
+    display: block;
+    font-size: 1.5rem;
+    color: #6aafff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: -10px;
+  }
+  
+  .subtitle {
+    font-size: 1.8rem;
+    color: #8fa8ee;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+  }
+  
+  .subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #9d6cff, #6aafff);
+    margin: 8px auto 0;
+    border-radius: 2px;
+  }
+  
   /* Blog Grid Layout */
   .blog-grid {
     display: grid;
@@ -258,12 +325,32 @@ header:
   
   /* Responsive adjustments */
   @media (max-width: 900px) {
+    .name-first, .name-last {
+      font-size: 3.5rem;
+    }
+    
+    .subtitle {
+      font-size: 1.5rem;
+    }
+    
     .blog-grid {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   }
   
   @media (max-width: 768px) {
+    .name-first, .name-last {
+      font-size: 2.8rem;
+    }
+    
+    .name-alias {
+      font-size: 1.3rem;
+    }
+    
+    .subtitle {
+      font-size: 1.3rem;
+    }
+    
     .blog-grid {
       grid-template-columns: 1fr;
     }
@@ -278,6 +365,22 @@ header:
   }
   
   @media (max-width: 480px) {
+    .name-header {
+      margin: 40px 0 30px;
+    }
+    
+    .name-first, .name-last {
+      font-size: 2.3rem;
+    }
+    
+    .name-alias {
+      font-size: 1.1rem;
+    }
+    
+    .subtitle {
+      font-size: 1.1rem;
+    }
+    
     .blog-content {
       padding: 20px;
     }

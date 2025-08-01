@@ -16,7 +16,6 @@ header:
   <div class="name-container">
     <span class="name-first">Xingyan</span>
     <span class="name-last">LIU</span>
-    <span class="name-alias">刘兴琰 / Ethan</span>
   </div>
   <div class="subtitle">Reflecting on the Path of Growth</div>
 </div>

@@ -25,7 +25,7 @@ I'm **Xingyan Liu** (刘兴琰), also known as **Ethan**, currently pursuing my 
 
 My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks.
 
-🔥**Fueled by relentless internal drive and guided by the principles of liberative thought, cognitive dynamism, and adaptive evolution, I employ systematic deconstruction of complex challenges into actionable subproblems. This approach, coupled with iterative refinement through knowledge reasoning and empirical validation, establishes goal-oriented pathways to measurable scientific progress.**🔥
+🔥**Fueled by relentless internal drive and guided by the principles of ​​pragmatism​​, liberative thought, cognitive dynamism, and adaptive evolution, I employ systematic deconstruction of complex challenges into actionable subproblems. This approach, coupled with iterative refinement through knowledge reasoning and empirical validation, establishes ​​pragmatic​​, goal-oriented pathways to measurable scientific progress.**🔥
 
 
 <strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>

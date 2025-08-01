@@ -11,7 +11,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-<!-- Enhanced Xingyan Liu Header Section -->
 <div class="name-header">
   <div class="name-container">
     <span class="name-first">Xingyan</span>
@@ -24,124 +23,158 @@ header:
 <div class="blog-grid">
   {% for post in site.posts %}
     <article class="blog-card">
-      <!-- 博客卡片内容保持不变 -->
+      <div class="blog-media">
+        {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}" class="blog-thumbnail">
+        {% else %}
+          <div class="default-thumbnail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.5 21a3 3 0 003-3V9a3 3 0 00-3-3h-5.379a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H4.5a3 3 0 00-3 3v12a3 3 0 003 3h15z"/>
+            </svg>
+          </div>
+        {% endif %}
+        <div class="blog-date">
+          {{ post.date | date: "%Y.%m.%d" }}
+        </div>
+        <div class="blog-overlay">
+          <a href="{{ post.url }}" class="blog-link">Read</a>
+        </div>
+      </div>
+      <div class="blog-content">
+        <h2 class="blog-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p class="blog-excerpt">
+          {% if post.excerpt %}
+            {{ post.excerpt | strip_html | truncate: 120 }}
+          {% else %}
+            {{ post.content | strip_html | truncate: 120 }}
+          {% endif %}
+        </p>
+        <div class="blog-meta">
+          {% if post.categories %}
+            <span class="blog-category">
+              {{ post.categories | first }}
+            </span>
+          {% endif %}
+          <span class="blog-readtime">
+            {% assign content_length = post.content | strip_html | size %}
+            {% assign read_time = content_length | divided_by: 300.0 | round %}
+            {% if read_time < 1 %}
+              1 min read
+            {% else %}
+              {{ read_time }} min read
+            {% endif %}
+          </span>
+        </div>
+      </div>
     </article>
   {% endfor %}
 </div>
 
 <style>
-  /* Enhanced Xingyan Liu Header Styles */
+  /* Enhanced Header Styles */
   .name-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 60px 0 40px;
-    padding: 0 20px;
-    text-align: center;
+    min-height: 50vh;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
   }
   
   .name-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
-    position: relative;
-  }
-  
-  .name-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    margin-bottom: 1.25rem;
+    z-index: 2;
   }
   
   .name-first {
     color: #9d6cff;
     font-size: 4.5rem;
     font-weight: 800;
-    letter-spacing: -1.5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    display: inline-block;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: -0.2em;
   }
   
   .name-last {
     color: #ffffff;
     font-size: 4.5rem;
     font-weight: 800;
-    letter-spacing: -1.5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    display: inline-block;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: -0.2em;
   }
   
   .name-alias {
-    font-size: 1.5rem;
     color: #6aafff;
+    font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-top: 12px;
-    display: block;
+    margin-top: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   }
   
   .subtitle {
-    font-size: 1.8rem;
-    color: #8fa8ee;
+    font-size: 2rem;
     font-weight: 400;
     letter-spacing: 1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    color: #8fa8ee;
     position: relative;
-    display: inline-block;
-    padding: 12px 30px;
+    padding: 1rem 2rem;
     border-radius: 8px;
-    margin-top: 25px;
+    margin-top: 1.5rem;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    background: linear-gradient(45deg, transparent, transparent);
-    background-size: 200% 200%;
+    z-index: 3;
+    text-align: center;
+    background: transparent;
+    overflow: hidden;
+    cursor: default;
   }
   
   .subtitle::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 8px;
-    background: linear-gradient(135deg, rgba(157, 108, 255, 0.15), rgba(106, 175, 255, 0.15));
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(157, 108, 255, 0.15), rgba(106, 175, 255, 0.15));
     z-index: -1;
-    transition: opacity 0.5s ease;
     opacity: 0;
+    transition: opacity 0.3s ease;
   }
   
   .subtitle:hover {
     color: #ffffff;
-    transform: translateY(-3px);
-    background: linear-gradient(135deg, #9d6cff, #6aafff);
-    background-size: 200% 200%;
-    animation: gradient-pulse 2s ease infinite;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   }
   
   .subtitle:hover::before {
+    background: linear-gradient(135deg, #9d6cff, #6aafff);
+    animation: gradient-pulse 2s ease infinite;
     opacity: 1;
   }
   
   @keyframes gradient-pulse {
     0% {
       background-position: 0% 50%;
-      box-shadow: 0 8px 18px rgba(157, 108, 255, 0.3);
     }
     50% {
       background-position: 100% 50%;
-      box-shadow: 0 8px 25px rgba(106, 175, 255, 0.4);
     }
     100% {
       background-position: 0% 50%;
-      box-shadow: 0 8px 18px rgba(157, 108, 255, 0.3);
     }
   }
-  
+
   /* 以下是原有博客样式保持不变 */
   /* Blog Grid Layout */
   .blog-grid {
@@ -339,8 +372,12 @@ header:
       font-size: 3.5rem;
     }
     
+    .name-alias {
+      font-size: 1.4rem;
+    }
+    
     .subtitle {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
     
     .blog-grid {
@@ -354,11 +391,12 @@ header:
     }
     
     .name-alias {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
     
     .subtitle {
       font-size: 1.3rem;
+      padding: 0.8rem 1.6rem;
     }
     
     .blog-grid {
@@ -376,7 +414,8 @@ header:
   
   @media (max-width: 480px) {
     .name-header {
-      margin: 40px 0 30px;
+      padding: 1rem;
+      min-height: 40vh;
     }
     
     .name-first, .name-last {
@@ -389,7 +428,8 @@ header:
     
     .subtitle {
       font-size: 1.1rem;
-      padding: 8px 20px;
+      padding: 0.6rem 1.2rem;
+      margin-top: 1rem;
     }
     
     .blog-content {

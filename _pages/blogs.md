@@ -127,7 +127,8 @@ header:
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     background: rgba(255, 255, 255, 0.1);
     padding: 0.5rem 1.5rem;
@@ -150,7 +151,7 @@ header:
     position: relative;
     padding: 1rem 2rem;
     border-radius: 8px;
-    margin-top: 1.5rem;
+    margin-top: 0;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     z-index: 3;
     text-align: center;
@@ -199,7 +200,6 @@ header:
     }
   }
 
-  /* 以下是原有博客样式保持不变 */
   /* Blog Grid Layout */
   .blog-grid {
     display: grid;
@@ -450,12 +450,13 @@ header:
     .name-alias {
       font-size: 1.2rem;
       padding: 0.4rem 1.2rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
     
     .subtitle {
       font-size: 1.1rem;
       padding: 0.6rem 1.2rem;
-      margin-top: 1rem;
     }
     
     .blog-content {

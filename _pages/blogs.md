@@ -13,9 +13,8 @@ header:
 
 <div class="name-header">
   <div class="name-container">
-    <span class="name-first">Xingyan</span>
-    <span class="name-last">LIU</span>
-    <span class="name-alias">刘兴琰 / Ethan</span>
+    <span class="name-first">Xingyan LIU</span>
+    <span class="name-alias">刘兴琰</span>
   </div>
   <div class="subtitle">Reflecting on the Path of Growth</div>
 </div>
@@ -83,6 +82,10 @@ header:
     padding: 2rem;
     position: relative;
     z-index: 1;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    margin-bottom: 3rem;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
   }
   
   .name-container {
@@ -94,30 +97,48 @@ header:
   }
   
   .name-first {
-    color: #9d6cff;
     font-size: 4.5rem;
     font-weight: 800;
     letter-spacing: -2px;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
     margin-bottom: -0.2em;
+    background: linear-gradient(90deg, #9d6cff, #6aafff, #9d6cff);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-flow 5s ease infinite;
   }
   
-  .name-last {
-    color: #ffffff;
-    font-size: 4.5rem;
-    font-weight: 800;
-    letter-spacing: -2px;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: -0.2em;
+  @keyframes gradient-flow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
   
   .name-alias {
-    color: #6aafff;
-    font-size: 1.6rem;
+    color: #e0f7ff;
+    font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 0.5rem;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+  }
+  
+  .name-alias:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
   .subtitle {
@@ -125,7 +146,7 @@ header:
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-    color: #8fa8ee;
+    color: #c7e3ff;
     position: relative;
     padding: 1rem 2rem;
     border-radius: 8px;
@@ -133,9 +154,11 @@ header:
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     z-index: 3;
     text-align: center;
-    background: transparent;
+    background: rgba(157, 108, 255, 0.15);
     overflow: hidden;
     cursor: default;
+    max-width: 80%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   }
   
   .subtitle::before {
@@ -155,6 +178,7 @@ header:
     color: #ffffff;
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: rgba(157, 108, 255, 0.25);
   }
   
   .subtitle:hover::before {
@@ -182,6 +206,7 @@ header:
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
     margin-top: 40px;
+    padding: 0 2rem;
   }
   
   .blog-card {
@@ -368,12 +393,12 @@ header:
   
   /* Responsive adjustments */
   @media (max-width: 900px) {
-    .name-first, .name-last {
+    .name-first {
       font-size: 3.5rem;
     }
     
     .name-alias {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
     
     .subtitle {
@@ -386,12 +411,12 @@ header:
   }
   
   @media (max-width: 768px) {
-    .name-first, .name-last {
+    .name-first {
       font-size: 2.8rem;
     }
     
     .name-alias {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
     
     .subtitle {
@@ -418,12 +443,13 @@ header:
       min-height: 40vh;
     }
     
-    .name-first, .name-last {
+    .name-first {
       font-size: 2.3rem;
     }
     
     .name-alias {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
+      padding: 0.4rem 1.2rem;
     }
     
     .subtitle {

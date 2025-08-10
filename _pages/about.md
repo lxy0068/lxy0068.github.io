@@ -23,7 +23,7 @@ redirect_from:
 
 I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at the [School of Future Technology](https://www2.scut.edu.cn/ft/), [South China University of Technology](https://www.scut.edu.cn/new/) in Guangzhou, China. My advisor is [Prof. Qi Liu](https://drliuqi.github.io/), an IEEE Senior Member.
 
-My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks.
+<!-- My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks. -->
 
 🔥**Fueled by relentless internal drive and guided by the principles of ​​pragmatism​​, liberative thought, cognitive dynamism, and adaptive evolution, I employ systematic deconstruction of complex challenges into actionable subproblems. This approach, coupled with iterative refinement through knowledge reasoning and empirical validation, establishes ​​pragmatic​​, goal-oriented pathways to measurable progress.**
 

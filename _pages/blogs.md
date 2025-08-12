@@ -1,3 +1,4 @@
+---
 permalink: /blogs/
 title: "My Blogs"
 excerpt: "My thoughts and insights"
@@ -11,8 +12,6 @@ header:
 ---
 
 <div class="name-header">
-  <canvas id="particle-canvas"></canvas>
-  
   <div class="name-container">
     <span class="name-first">Xingyan LIU</span>
     <span class="name-alias">刘兴琰</span>
@@ -73,6 +72,7 @@ header:
 </div>
 
 <style>
+  /* Enhanced Header Styles */
   .name-header {
     display: flex;
     flex-direction: column;
@@ -86,17 +86,6 @@ header:
     margin-bottom: 3rem;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-  }
-  
-  #particle-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    pointer-events: none;
   }
   
   .name-container {
@@ -211,6 +200,7 @@ header:
     }
   }
 
+  /* Blog Grid Layout */
   .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -384,6 +374,7 @@ header:
     font-size: 0.8rem;
   }
   
+  /* Animation for cards */
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -400,6 +391,7 @@ header:
     opacity: 0;
   }
   
+  /* Responsive adjustments */
   @media (max-width: 900px) {
     .name-first {
       font-size: 3.5rem;
@@ -476,150 +468,3 @@ header:
     }
   }
 </style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const canvas = document.getElementById('particle-canvas');
-    const ctx = canvas.getContext('2d');
-    
-    function resizeCanvas() {
-      canvas.width = canvas.parentElement.clientWidth;
-      canvas.height = canvas.parentElement.clientHeight;
-    }
-    
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
-    
-    class Particle {
-      constructor(x, y, color) {
-        this.x = x || Math.random() * canvas.width;
-        this.y = y || Math.random() * canvas.height;
-        this.size = Math.random() * 3 + 1;
-        this.color = color || `rgba(157, 108, 255, ${Math.random() * 0.5 + 0.1})`;
-        this.speedX = Math.random() * 2 - 1;
-        this.speedY = Math.random() * 2 - 1;
-        this.originalX = this.x;
-        this.originalY = this.y;
-        this.distance = Math.random() * 100 + 50;
-        this.angle = Math.random() * Math.PI * 2;
-        this.rotationSpeed = Math.random() * 0.02 - 0.01;
-        this.connected = false;
-      }
-      
-      update() {
-        this.angle += this.rotationSpeed;
-        this.x = this.originalX + Math.cos(this.angle) * this.distance;
-        this.y = this.originalY + Math.sin(this.angle) * this.distance;
-        
-        if (this.x < 0 || this.x > canvas.width) {
-          this.speedX = -this.speedX;
-        }
-        if (this.y < 0 || this.y > canvas.height) {
-          this.speedY = -this.speedY;
-        }
-        
-        this.x += this.speedX;
-        this.y += this.speedY;
-      }
-      
-      draw() {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = this.color;
-        ctx.fill();
-      }
-    }
-    
-    class Connection {
-      constructor(particle1, particle2) {
-        this.particle1 = particle1;
-        this.particle2 = particle2;
-        this.opacity = 0;
-        this.maxOpacity = Math.random() * 0.3 + 0.1;
-        this.fadingIn = true;
-        this.fadeSpeed = Math.random() * 0.01 + 0.005;
-      }
-      
-      update() {
-        const dx = this.particle1.x - this.particle2.x;
-        const dy = this.particle1.y - this.particle2.y;
-        this.distance = Math.sqrt(dx * dx + dy * dy);
-        
-        if (this.fadingIn) {
-          this.opacity += this.fadeSpeed;
-          if (this.opacity >= this.maxOpacity) {
-            this.fadingIn = false;
-          }
-        } else {
-          this.opacity -= this.fadeSpeed;
-          if (this.opacity <= 0) {
-            this.fadingIn = true;
-          }
-        }
-      }
-      
-      draw() {
-        if (this.distance < 150) {
-          ctx.beginPath();
-          ctx.moveTo(this.particle1.x, this.particle1.y);
-          ctx.lineTo(this.particle2.x, this.particle2.y);
-          ctx.strokeStyle = `rgba(157, 108, 255, ${this.opacity})`;
-          ctx.lineWidth = 0.5;
-          ctx.stroke();
-        }
-      }
-    }
-    
-    const particles = [];
-    const connections = [];
-    const particleCount = 50;
-    
-    for (let i = 0; i < particleCount; i++) {
-      particles.push(new Particle());
-    }
-    
-    for (let i = 0; i < particles.length; i++) {
-      for (let j = i + 1; j < particles.length; j++) {
-        connections.push(new Connection(particles[i], particles[j]));
-      }
-    }
-    
-    const centerX = canvas.width / 2;
-    const centerY = canvas.height / 2;
-    const centerParticle = new Particle(centerX, centerY, 'rgba(106, 175, 255, 0.8)');
-    centerParticle.size = 4;
-    centerParticle.speedX = 0;
-    centerParticle.speedY = 0;
-    particles.push(centerParticle);
-    
-    function animate() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
-      particles.forEach(particle => {
-        particle.update();
-        particle.draw();
-      });
-      
-      connections.forEach(connection => {
-        connection.update();
-        connection.draw();
-      });
-      
-      requestAnimationFrame(animate);
-    }
-    
-    animate();
-    
-    let mouseX = 0;
-    let mouseY = 0;
-    
-    canvas.addEventListener('mousemove', (e) => {
-      const rect = canvas.getBoundingClientRect();
-      mouseX = e.clientX - rect.left;
-      mouseY = e.clientY - rect.top;
-      
-      centerParticle.x = mouseX;
-      centerParticle.y = mouseY;
-    });
-  });
-</script>

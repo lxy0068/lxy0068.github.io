@@ -11,7 +11,8 @@ header:
 ---
 
 <div class="name-header">
-  <div class="particles-container" id="particles-js"></div>
+  <canvas id="particle-canvas"></canvas>
+  
   <div class="name-container">
     <span class="name-first">Xingyan LIU</span>
     <span class="name-alias">刘兴琰</span>
@@ -72,7 +73,6 @@ header:
 </div>
 
 <style>
-  /* Enhanced Header Styles */
   .name-header {
     display: flex;
     flex-direction: column;
@@ -89,13 +89,14 @@ header:
     overflow: hidden;
   }
   
-  .particles-container {
+  #particle-canvas {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
+    pointer-events: none;
   }
   
   .name-container {
@@ -145,7 +146,6 @@ header:
     border-radius: 30px;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
-    z-index: 2;
   }
   
   .name-alias:hover {
@@ -211,7 +211,6 @@ header:
     }
   }
 
-  /* Blog Grid Layout */
   .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -385,7 +384,6 @@ header:
     font-size: 0.8rem;
   }
   
-  /* Animation for cards */
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -402,7 +400,6 @@ header:
     opacity: 0;
   }
   
-  /* Responsive adjustments */
   @media (max-width: 900px) {
     .name-first {
       font-size: 3.5rem;
@@ -480,199 +477,149 @@ header:
   }
 </style>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Initialize particles.js with scientific theme
-    particlesJS('particles-js', {
-      "particles": {
-        "number": {
-          "value": 80,
-          "density": {
-            "enable": true,
-            "value_area": 800
-          }
-        },
-        "color": {
-          "value": ["#9d6cff", "#6aafff", "#4fd1c5", "#f687b3"]
-        },
-        "shape": {
-          "type": ["circle", "triangle", "polygon"],
-          "stroke": {
-            "width": 0,
-            "color": "#000000"
-          },
-          "polygon": {
-            "nb_sides": 5
-          }
-        },
-        "opacity": {
-          "value": 0.6,
-          "random": true,
-          "anim": {
-            "enable": true,
-            "speed": 1,
-            "opacity_min": 0.1,
-            "sync": false
-          }
-        },
-        "size": {
-          "value": 3,
-          "random": true,
-          "anim": {
-            "enable": true,
-            "speed": 2,
-            "size_min": 0.3,
-            "sync": false
-          }
-        },
-        "line_linked": {
-          "enable": true,
-          "distance": 150,
-          "color": "#9d6cff",
-          "opacity": 0.3,
-          "width": 1
-        },
-        "move": {
-          "enable": true,
-          "speed": 1.5,
-          "direction": "none",
-          "random": true,
-          "straight": false,
-          "out_mode": "out",
-          "bounce": false,
-          "attract": {
-            "enable": true,
-            "rotateX": 600,
-            "rotateY": 1200
-          }
-        }
-      },
-      "interactivity": {
-        "detect_on": "canvas",
-        "events": {
-          "onhover": {
-            "enable": true,
-            "mode": "grab"
-          },
-          "onclick": {
-            "enable": true,
-            "mode": "push"
-          },
-          "resize": true
-        },
-        "modes": {
-          "grab": {
-            "distance": 140,
-            "line_linked": {
-              "opacity": 0.8
-            }
-          },
-          "bubble": {
-            "distance": 400,
-            "size": 40,
-            "duration": 2,
-            "opacity": 8,
-            "speed": 3
-          },
-          "repulse": {
-            "distance": 200,
-            "duration": 0.4
-          },
-          "push": {
-            "particles_nb": 4
-          },
-          "remove": {
-            "particles_nb": 2
-          }
-        }
-      },
-      "retina_detect": true
-    });
-
-    // Add scientific symbols to particles
-    const symbols = ["α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "λ", "μ", "π", "σ", "τ", "φ", "ψ", "ω", 
-                    "∑", "∏", "∫", "∂", "∇", "∞", "≈", "≠", "≡", "≤", "≥", "∈", "∉", "⊆", "∩", "∪"];
-    
-    const container = document.getElementById('particles-js');
-    const canvas = container.querySelector('canvas');
+    const canvas = document.getElementById('particle-canvas');
     const ctx = canvas.getContext('2d');
     
-    // Override particle drawing to include symbols
-    const pJS = window.pJSDom[0].pJS;
-    pJS.fn.particlesDraw = function() {
-      ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
+    function resizeCanvas() {
+      canvas.width = canvas.parentElement.clientWidth;
+      canvas.height = canvas.parentElement.clientHeight;
+    }
+    
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+    
+    class Particle {
+      constructor(x, y, color) {
+        this.x = x || Math.random() * canvas.width;
+        this.y = y || Math.random() * canvas.height;
+        this.size = Math.random() * 3 + 1;
+        this.color = color || `rgba(157, 108, 255, ${Math.random() * 0.5 + 0.1})`;
+        this.speedX = Math.random() * 2 - 1;
+        this.speedY = Math.random() * 2 - 1;
+        this.originalX = this.x;
+        this.originalY = this.y;
+        this.distance = Math.random() * 100 + 50;
+        this.angle = Math.random() * Math.PI * 2;
+        this.rotationSpeed = Math.random() * 0.02 - 0.01;
+        this.connected = false;
+      }
       
-      // Draw connecting lines first
-      for(let i = 0; i < pJS.particles.array.length; i++) {
-        for(let j = i + 1; j < pJS.particles.array.length; j++) {
-          const distance = Math.sqrt(
-            Math.pow(pJS.particles.array[i].x - pJS.particles.array[j].x, 2) + 
-            Math.pow(pJS.particles.array[i].y - pJS.particles.array[j].y, 2)
-          );
-          
-          if(distance <= pJS.particles.line_linked.distance) {
-            const opacity = 1 - distance / pJS.particles.line_linked.distance;
-            ctx.strokeStyle = `rgba(157, 108, 255, ${opacity * 0.3})`;
-            ctx.lineWidth = pJS.particles.line_linked.width;
-            ctx.beginPath();
-            ctx.moveTo(pJS.particles.array[i].x, pJS.particles.array[i].y);
-            ctx.lineTo(pJS.particles.array[j].x, pJS.particles.array[j].y);
-            ctx.stroke();
+      update() {
+        this.angle += this.rotationSpeed;
+        this.x = this.originalX + Math.cos(this.angle) * this.distance;
+        this.y = this.originalY + Math.sin(this.angle) * this.distance;
+        
+        if (this.x < 0 || this.x > canvas.width) {
+          this.speedX = -this.speedX;
+        }
+        if (this.y < 0 || this.y > canvas.height) {
+          this.speedY = -this.speedY;
+        }
+        
+        this.x += this.speedX;
+        this.y += this.speedY;
+      }
+      
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = this.color;
+        ctx.fill();
+      }
+    }
+    
+    class Connection {
+      constructor(particle1, particle2) {
+        this.particle1 = particle1;
+        this.particle2 = particle2;
+        this.opacity = 0;
+        this.maxOpacity = Math.random() * 0.3 + 0.1;
+        this.fadingIn = true;
+        this.fadeSpeed = Math.random() * 0.01 + 0.005;
+      }
+      
+      update() {
+        const dx = this.particle1.x - this.particle2.x;
+        const dy = this.particle1.y - this.particle2.y;
+        this.distance = Math.sqrt(dx * dx + dy * dy);
+        
+        if (this.fadingIn) {
+          this.opacity += this.fadeSpeed;
+          if (this.opacity >= this.maxOpacity) {
+            this.fadingIn = false;
+          }
+        } else {
+          this.opacity -= this.fadeSpeed;
+          if (this.opacity <= 0) {
+            this.fadingIn = true;
           }
         }
       }
       
-      // Draw particles with symbols
-      for(let i = 0; i < pJS.particles.array.length; i++) {
-        const p = pJS.particles.array[i];
-        
-        // Draw shape
-        if(pJS.particles.shape.type === 'circle' || 
-           (Array.isArray(pJS.particles.shape.type) && p.shape === 'circle')) {
-          ctx.fillStyle = p.color;
+      draw() {
+        if (this.distance < 150) {
           ctx.beginPath();
-          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-          ctx.closePath();
-          ctx.fill();
+          ctx.moveTo(this.particle1.x, this.particle1.y);
+          ctx.lineTo(this.particle2.x, this.particle2.y);
+          ctx.strokeStyle = `rgba(157, 108, 255, ${this.opacity})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
         }
-        
-        // Add symbol to particle
-        ctx.font = `${p.radius * 1.5}px Arial`;
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillStyle = '#ffffff';
-        const symbol = symbols[Math.floor(Math.random() * symbols.length)];
-        ctx.fillText(symbol, p.x, p.y);
       }
-    };
+    }
     
-    // Add periodic bursts of particles to simulate scientific discovery
-    setInterval(() => {
-      if(pJS.particles.array.length < 100) {
-        pJS.particles.array.push(
-          pJS.fn.particleCreate(
-            Math.random() * pJS.canvas.w,
-            Math.random() * pJS.canvas.h
-          )
-        );
+    const particles = [];
+    const connections = [];
+    const particleCount = 50;
+    
+    for (let i = 0; i < particleCount; i++) {
+      particles.push(new Particle());
+    }
+    
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        connections.push(new Connection(particles[i], particles[j]));
       }
-    }, 2000);
+    }
     
-    // Add mouse move interaction for innovation effect
-    document.addEventListener('mousemove', (e) => {
-      const mouseX = e.clientX;
-      const mouseY = e.clientY;
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+    const centerParticle = new Particle(centerX, centerY, 'rgba(106, 175, 255, 0.8)');
+    centerParticle.size = 4;
+    centerParticle.speedX = 0;
+    centerParticle.speedY = 0;
+    particles.push(centerParticle);
+    
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
       
-      // Create ripple effect when mouse moves
-      for(let i = 0; i < 3; i++) {
-        setTimeout(() => {
-          const p = pJS.fn.particleCreate(mouseX, mouseY);
-          p.velocity.x = (Math.random() - 0.5) * 3;
-          p.velocity.y = (Math.random() - 0.5) * 3;
-          pJS.particles.array.push(p);
-        }, i * 100);
-      }
+      particles.forEach(particle => {
+        particle.update();
+        particle.draw();
+      });
+      
+      connections.forEach(connection => {
+        connection.update();
+        connection.draw();
+      });
+      
+      requestAnimationFrame(animate);
+    }
+    
+    animate();
+    
+    let mouseX = 0;
+    let mouseY = 0;
+    
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      mouseX = e.clientX - rect.left;
+      mouseY = e.clientY - rect.top;
+      
+      centerParticle.x = mouseX;
+      centerParticle.y = mouseY;
     });
   });
 </script>

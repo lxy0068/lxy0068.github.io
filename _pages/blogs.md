@@ -501,7 +501,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // 粒子数组
   const particles = [];
   const particleCount = 60; // 粒子数量
-  const connectionDistance = 100; // 连接线距离
+  const connectionDistance = 120; // 增加连接线距离阈值
   
   // 调整粒子密度以匹配屏幕尺寸
   const calculateDensity = () => {
@@ -518,10 +518,10 @@ document.addEventListener('DOMContentLoaded', function() {
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         size: Math.random() * 3 + 1, // 粒子大小
-        speed: Math.random() * 1.5 + 0.5, // 运动速度
+        speed: Math.random() * 1.1 + 0.5, // 运动速度
         direction: Math.random() * Math.PI * 2,
         color: colorPalette[Math.floor(Math.random() * colorPalette.length)],
-        opacity: Math.random() * 0.3 + 0.3, // 透明度
+        opacity: Math.random() * 0.3 + 0.4, // 提高透明度
       });
     }
   };
@@ -547,6 +547,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 创建连接线（体现科研协作）
   const drawConnections = () => {
+    ctx.lineCap = 'round'; // 使连接线更平滑
+    
     for (let i = 0; i < particles.length; i++) {
       for (let j = i + 1; j < particles.length; j++) {
         const p1 = particles[i];
@@ -558,13 +560,23 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (distance < connectionDistance) {
           // 距离越近，连线越明显
-          const opacity = 1 - distance / connectionDistance;
+          const opacity = Math.min(1, 1.2 - distance / connectionDistance);
           ctx.beginPath();
-          ctx.strokeStyle = `rgba(157, 108, 255, ${opacity * 0.2})`;
-          ctx.lineWidth = opacity * 0.5;
+          ctx.strokeStyle = `rgba(157, 108, 255, ${opacity * 0.3})`; // 增加可见性
+          ctx.lineWidth = opacity * 1.2; // 增加线宽
           ctx.moveTo(p1.x, p1.y);
           ctx.lineTo(p2.x, p2.y);
           ctx.stroke();
+          
+          // 添加额外的发光效果
+          if (distance < connectionDistance/2) {
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(200, 180, 255, ${opacity * 0.15})`;
+            ctx.lineWidth = opacity * 3;
+            ctx.moveTo(p1.x, p1.y);
+            ctx.lineTo(p2.x, p2.y);
+            ctx.stroke();
+          }
         }
       }
     }
@@ -584,6 +596,14 @@ document.addEventListener('DOMContentLoaded', function() {
       ctx.fillStyle = particle.color;
       ctx.globalAlpha = particle.opacity;
       ctx.fill();
+      
+      // 添加粒子发光效果
+      ctx.beginPath();
+      ctx.arc(particle.x, particle.y, particle.size * 2.5, 0, Math.PI * 2);
+      ctx.fillStyle = particle.color;
+      ctx.globalAlpha = particle.opacity * 0.2;
+      ctx.fill();
+      
       ctx.globalAlpha = 1;
     });
   };

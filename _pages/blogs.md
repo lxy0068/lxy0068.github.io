@@ -8,10 +8,13 @@ classes: wide
 header:
   overlay_image: /images/blog-header.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
 
 <div class="name-header">
+  <!-- 添加粒子效果容器 -->
+  <canvas id="particles-canvas" class="particles-canvas"></canvas>
+  
   <div class="name-container">
     <span class="name-first">Xingyan LIU</span>
     <span class="name-alias">刘兴琰</span>
@@ -86,6 +89,18 @@ header:
     margin-bottom: 3rem;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden; /* 确保粒子不会溢出头部区域 */
+  }
+  
+  /* 粒子效果画布样式 */
+  .particles-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
   }
   
   .name-container {
@@ -94,6 +109,7 @@ header:
     align-items: center;
     margin-bottom: 1.25rem;
     z-index: 2;
+    position: relative;
   }
   
   .name-first {
@@ -135,6 +151,8 @@ header:
     border-radius: 30px;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    z-index: 2;
+    position: relative;
   }
   
   .name-alias:hover {
@@ -468,3 +486,139 @@ header:
     }
   }
 </style>
+
+<script>
+// 在页面加载完成后初始化粒子效果
+document.addEventListener('DOMContentLoaded', function() {
+  const canvas = document.getElementById('particles-canvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
+  
+  // 科研风格的色彩方案
+  const colorPalette = ['#9d6cff', '#6aafff', '#7b68ee', '#9370db', '#4169e1'];
+  
+  // 粒子数组
+  const particles = [];
+  const particleCount = 60; // 粒子数量
+  const connectionDistance = 100; // 连接线距离
+  
+  // 调整粒子密度以匹配屏幕尺寸
+  const calculateDensity = () => {
+    const area = canvas.width * canvas.height;
+    return Math.min(Math.max(Math.floor(area / 8000), 30), 80);
+  };
+  
+  // 创建粒子
+  const createParticles = () => {
+    const density = calculateDensity();
+    
+    for (let i = 0; i < density; i++) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        size: Math.random() * 3 + 1, // 粒子大小
+        speed: Math.random() * 1.5 + 0.5, // 运动速度
+        direction: Math.random() * Math.PI * 2,
+        color: colorPalette[Math.floor(Math.random() * colorPalette.length)],
+        opacity: Math.random() * 0.3 + 0.3, // 透明度
+      });
+    }
+  };
+  
+  // 粒子移动逻辑
+  const moveParticles = () => {
+    particles.forEach(particle => {
+      // 轻微改变方向（科研的不确定感）
+      particle.direction += (Math.random() - 0.5) * 0.2;
+      
+      // 移动粒子
+      particle.x += Math.cos(particle.direction) * particle.speed;
+      particle.y += Math.sin(particle.direction) * particle.speed;
+      
+      // 边界处理 - 在边界处重置
+      if (particle.x < 0 || particle.x > canvas.width ||
+          particle.y < 0 || particle.y > canvas.height) {
+        particle.x = Math.random() * canvas.width;
+        particle.y = Math.random() * canvas.height;
+      }
+    });
+  };
+  
+  // 创建连接线（体现科研协作）
+  const drawConnections = () => {
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const p1 = particles[i];
+        const p2 = particles[j];
+        
+        const dx = p1.x - p2.x;
+        const dy = p1.y - p2.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        
+        if (distance < connectionDistance) {
+          // 距离越近，连线越明显
+          const opacity = 1 - distance / connectionDistance;
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(157, 108, 255, ${opacity * 0.2})`;
+          ctx.lineWidth = opacity * 0.5;
+          ctx.moveTo(p1.x, p1.y);
+          ctx.lineTo(p2.x, p2.y);
+          ctx.stroke();
+        }
+      }
+    }
+  };
+  
+  // 绘制粒子
+  const drawParticles = () => {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // 绘制连接线
+    drawConnections();
+    
+    // 绘制粒子
+    particles.forEach(particle => {
+      ctx.beginPath();
+      ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
+      ctx.fillStyle = particle.color;
+      ctx.globalAlpha = particle.opacity;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    });
+  };
+  
+  // 动画循环
+  const animate = () => {
+    moveParticles();
+    drawParticles();
+    requestAnimationFrame(animate);
+  };
+  
+  // 响应式处理
+  const resizeHandler = () => {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    particles.length = 0;
+    createParticles();
+  };
+  
+  // 初始化
+  const init = () => {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    
+    // 创建初始粒子
+    createParticles();
+    
+    // 启动动画
+    animate();
+    
+    // 窗口大小变化时重新初始化
+    window.addEventListener('resize', resizeHandler);
+  };
+  
+  // 启动粒子系统
+  init();
+});
+</script>

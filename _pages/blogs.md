@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', function() {
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         size: Math.random() * 3 + 1, // 粒子大小
-        speed: Math.random() * 1.2 + 0.5, // 运动速度
+        speed: Math.random() * 1.2 + 0.6, // 运动速度
         direction: Math.random() * Math.PI * 2,
         color: colorPalette[Math.floor(Math.random() * colorPalette.length)],
         opacity: Math.random() * 0.3 + 0.4, // 提高透明度

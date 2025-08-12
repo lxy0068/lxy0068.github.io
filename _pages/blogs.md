@@ -1,4 +1,3 @@
----
 permalink: /blogs/
 title: "My Blogs"
 excerpt: "My thoughts and insights"
@@ -12,6 +11,7 @@ header:
 ---
 
 <div class="name-header">
+  <div class="particles-container" id="particles-js"></div>
   <div class="name-container">
     <span class="name-first">Xingyan LIU</span>
     <span class="name-alias">刘兴琰</span>
@@ -86,6 +86,16 @@ header:
     margin-bottom: 3rem;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  .particles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
   
   .name-container {
@@ -135,6 +145,7 @@ header:
     border-radius: 30px;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    z-index: 2;
   }
   
   .name-alias:hover {
@@ -468,3 +479,200 @@ header:
     }
   }
 </style>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize particles.js with scientific theme
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": ["#9d6cff", "#6aafff", "#4fd1c5", "#f687b3"]
+        },
+        "shape": {
+          "type": ["circle", "triangle", "polygon"],
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          }
+        },
+        "opacity": {
+          "value": 0.6,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 2,
+            "size_min": 0.3,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#9d6cff",
+          "opacity": 0.3,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1.5,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": true,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 0.8
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+
+    // Add scientific symbols to particles
+    const symbols = ["α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "λ", "μ", "π", "σ", "τ", "φ", "ψ", "ω", 
+                    "∑", "∏", "∫", "∂", "∇", "∞", "≈", "≠", "≡", "≤", "≥", "∈", "∉", "⊆", "∩", "∪"];
+    
+    const container = document.getElementById('particles-js');
+    const canvas = container.querySelector('canvas');
+    const ctx = canvas.getContext('2d');
+    
+    // Override particle drawing to include symbols
+    const pJS = window.pJSDom[0].pJS;
+    pJS.fn.particlesDraw = function() {
+      ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
+      
+      // Draw connecting lines first
+      for(let i = 0; i < pJS.particles.array.length; i++) {
+        for(let j = i + 1; j < pJS.particles.array.length; j++) {
+          const distance = Math.sqrt(
+            Math.pow(pJS.particles.array[i].x - pJS.particles.array[j].x, 2) + 
+            Math.pow(pJS.particles.array[i].y - pJS.particles.array[j].y, 2)
+          );
+          
+          if(distance <= pJS.particles.line_linked.distance) {
+            const opacity = 1 - distance / pJS.particles.line_linked.distance;
+            ctx.strokeStyle = `rgba(157, 108, 255, ${opacity * 0.3})`;
+            ctx.lineWidth = pJS.particles.line_linked.width;
+            ctx.beginPath();
+            ctx.moveTo(pJS.particles.array[i].x, pJS.particles.array[i].y);
+            ctx.lineTo(pJS.particles.array[j].x, pJS.particles.array[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+      
+      // Draw particles with symbols
+      for(let i = 0; i < pJS.particles.array.length; i++) {
+        const p = pJS.particles.array[i];
+        
+        // Draw shape
+        if(pJS.particles.shape.type === 'circle' || 
+           (Array.isArray(pJS.particles.shape.type) && p.shape === 'circle')) {
+          ctx.fillStyle = p.color;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.fill();
+        }
+        
+        // Add symbol to particle
+        ctx.font = `${p.radius * 1.5}px Arial`;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = '#ffffff';
+        const symbol = symbols[Math.floor(Math.random() * symbols.length)];
+        ctx.fillText(symbol, p.x, p.y);
+      }
+    };
+    
+    // Add periodic bursts of particles to simulate scientific discovery
+    setInterval(() => {
+      if(pJS.particles.array.length < 100) {
+        pJS.particles.array.push(
+          pJS.fn.particleCreate(
+            Math.random() * pJS.canvas.w,
+            Math.random() * pJS.canvas.h
+          )
+        );
+      }
+    }, 2000);
+    
+    // Add mouse move interaction for innovation effect
+    document.addEventListener('mousemove', (e) => {
+      const mouseX = e.clientX;
+      const mouseY = e.clientY;
+      
+      // Create ripple effect when mouse moves
+      for(let i = 0; i < 3; i++) {
+        setTimeout(() => {
+          const p = pJS.fn.particleCreate(mouseX, mouseY);
+          p.velocity.x = (Math.random() - 0.5) * 3;
+          p.velocity.y = (Math.random() - 0.5) * 3;
+          pJS.particles.array.push(p);
+        }, i * 100);
+      }
+    });
+  });
+</script>

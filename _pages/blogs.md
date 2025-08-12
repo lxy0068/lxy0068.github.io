@@ -500,7 +500,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 粒子数组
   const particles = [];
-  const particleCount = 60; // 粒子数量
+  const particleCount = 80; // 粒子数量
   const connectionDistance = 120; // 增加连接线距离阈值
   
   // 调整粒子密度以匹配屏幕尺寸

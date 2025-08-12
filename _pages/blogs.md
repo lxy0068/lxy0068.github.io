@@ -495,7 +495,7 @@ document.addEventListener('DOMContentLoaded', function() {
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
   
-  // 科研风格的色彩方案
+  // 色彩
   const colorPalette = ['#9d6cff', '#6aafff', '#7b68ee', '#9370db', '#4169e1'];
   
   // 粒子数组
@@ -529,7 +529,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // 粒子移动逻辑
   const moveParticles = () => {
     particles.forEach(particle => {
-      // 轻微改变方向（科研的不确定感）
+      // 轻微改变方向
       particle.direction += (Math.random() - 0.5) * 0.2;
       
       // 移动粒子
@@ -545,7 +545,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   };
   
-  // 创建连接线（体现科研协作）
+  // 创建连接线
   const drawConnections = () => {
     ctx.lineCap = 'round'; // 使连接线更平滑
     

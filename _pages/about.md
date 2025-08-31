@@ -34,7 +34,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉🎉 Our project "Threat Perception System Based on Lightweight Pre-training Model and Knowledge Fusion" wins the Second Prize <span style="color:red;">(Top 1%)</span> in Software Application and Development at the 18th Chinese Collegiate Computing Competition!
-- *2025.04*: &nbsp;🎉🎉 Win the [Second Prize](images/NECCS.png) in the National English Competition for College Students (NECCS)!
+- *2025.04*: &nbsp;🎉🎉 Win the [Second Prize](images/NECCS.png) <span style="color:red;">(Top 2%)</span> in the National English Competition for College Students (NECCS)!
 - *2025.03*: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
 - *2024.07*: &nbsp;🎉🎉 [Go to Wuxi Future Technology Joint Research Center for internship!](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)

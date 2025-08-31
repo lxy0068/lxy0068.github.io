@@ -38,14 +38,14 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - *2025.03*: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](images/firstblood_IJCNN.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
 - *2024.10*: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
 - *2024.07*: &nbsp;🎉🎉 [Go to Wuxi Future Technology Joint Research Center for internship!](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)
-- *2024.06*: &nbsp;🎉🎉 Win the [National College Student Innovation and Entrepreneurship Training Program](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1021244) Great Completion <span style="color:red;">(Top 5%)</span>! 
+- *2024.06*: &nbsp;🎉🎉 Win the [National College Student Innovation and Entrepreneurship Training Program](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1021244) [Great Completion](images/202310561174X.pdf) <span style="color:red;">(Top 5%)</span>! 
 - *2024.06*: &nbsp;🎉🎉 Win the Taihu Future Technology Innovation Award <span style="color:red;">(Top 3%)</span> by Wuxi government!
 - *2024.04*: &nbsp;🎉🎉 Authorized a software copyright!
 - *2024.02*: &nbsp;🎉🎉 Win the Bronze Award of the 14th SCUT "Xinwanda Cup" China University Students' Entrepreneurship Plan Competition!
-- *2023.11*: &nbsp;🎉🎉 Win the second place and the most popular award in the Creative Huayuan Challenge!
+- *2023.11*: &nbsp;🎉🎉 Win the Second Place and the most popular award in the Creative Huayuan Challenge!
 - *2023.09*: &nbsp;🎉🎉 Win the Second-Class South China University of Technology Scholarship!
-- *2023.09*: &nbsp;🎉🎉 Win the first prize in the Guangdong Division of the National Undergraduate Mathematical Modeling Contest!
-- *2023.05*: &nbsp;🎉🎉 Win the Meritorious Award in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
+- *2023.09*: &nbsp;🎉🎉 Win the [First Prize](images/2304010343_128518.pdf) in the Guangdong Division of the National Undergraduate Mathematical Modeling Contest!
+- *2023.05*: &nbsp;🎉🎉 Win the [Meritorious Award](images/2313019.pdf) in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
 - *2022.12*: &nbsp;🎉🎉 Win the Second Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM)!
 
 

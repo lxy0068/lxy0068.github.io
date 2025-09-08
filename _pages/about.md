@@ -26,6 +26,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 <!-- My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks. -->
 
 🔥**I drive myself to pursue truth and achieve compounded cognitive growth.**🔥
+
 **My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**
 
 

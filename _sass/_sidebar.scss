@@ -94,11 +94,18 @@
   img {
     max-width: 175px;
     min-width: 75px;
-    border-radius: 50%;
+    border-radius: 8px;       // 改为小圆角
+    width: 150px;            // 设置宽度
+    height: 200px;           // 设置高度（150 * 4/3 = 200）
+    object-fit: cover;       // 确保图片填充但不失真
+    aspect-ratio: 3/4;       // 设置宽高比（可选）
 
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+      /* 大屏幕下可能需要调整尺寸 */
+      width: 180px;          // 更大的宽度
+      height: 240px;         // 更大的高度（180 * 4/3 = 240）
     }
   }
 }

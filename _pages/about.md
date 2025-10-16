@@ -45,23 +45,26 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - *2024.04*: &nbsp;🎉🎉 Authorized a software copyright!
 - *2024.02*: &nbsp;🎉🎉 Win the Bronze Award of the 14th SCUT "Xinwanda Cup" China University Students' Entrepreneurship Plan Competition!
 - *2023.11*: &nbsp;🎉🎉 Win the Second Place and the most popular award in the Creative Huayuan Challenge!
-- *2023.09*: &nbsp;🎉🎉 Win the Second-Class South China University of Technology Scholarship!
 - *2023.09*: &nbsp;🎉🎉 Win the [First Prize](images/2304010343_128518.pdf) in the Guangdong Division of the National Undergraduate Mathematical Modeling Contest!
 - *2023.05*: &nbsp;🎉🎉 Win the [Meritorious Award](images/2313019.pdf) in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
 - *2022.12*: &nbsp;🎉🎉 Win the Second Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM)!
 
 
 # 🎖 Honors and Awards
-- *2024.10* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation, Hong Ping Evergreen Fund.
-- *2024.09* [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span> of Baidu Pinecone Elite Class of SCUT.
-- *2024.06* Second-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
-- *2024.06* Taihu Future Innovation Award<span style="color:red;">(Top 3%)</span>, Future Technology Taihu Innovation Award by Wuxi government.
-- *2024.05* Star Volunteer, SCUT.
-- *2023.11* Second Prize Scholarship for the Hongping Evergreen Fund Student Innovation, Hong Ping Evergreen Fund.
-- *2023.10* Excellent student cadres, SCUT.
-- *2023.10* Merit Student Honors, SCUT. 
-- *2023.09* Second-Class South China University of Technology Scholarship.
-- *2023.04* Outstanding student of the Entrepreneurship Elite Class by SCUT.
+- *2025.10* Academic Progress Scholarship, South China University of Technology
+- *2025.10* Third-Class Scholarship, South China University of Technology
+- *2024.10* Advanced Class Honor (Served as Monitor), South China University of Technology
+- *2024.10* Outstanding Individual, Student Union Organization of SCUT
+- *2024.10* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
+- *2024.09* [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span>, Baidu Pinecone Elite Class of SCUT
+- *2024.06* Second-class Academic Innovation Award, Future Technology Taihu Innovation Award (Wuxi Government)
+- *2024.06* Taihu Future Innovation Award<span style="color:red;"> (Top 3%)</span>, Future Technology Taihu Innovation Award (Wuxi Government)
+- *2024.05* Star Volunteer, South China University of Technology
+- *2023.11* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
+- *2023.10* Outstanding Individual, Student Union Organization of SCUT
+- *2023.10* Merit Student, South China University of Technology
+- *2023.10* Second-Class Scholarship, South China University of Technology
+- *2023.04* Outstanding Student, Entrepreneurship Elite Class by SCUT
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025 <span style="color:red;">(Oral)</span></div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>

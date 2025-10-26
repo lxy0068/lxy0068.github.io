@@ -51,7 +51,6 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 
 # 🎖 Honors and Awards
-- *2025.10* Academic Progress Scholarship, South China University of Technology
 - *2025.10* Third-Class Scholarship, South China University of Technology
 - *2024.10* Advanced Class Honor (Served as Monitor), South China University of Technology
 - *2024.10* Outstanding Individual, Student Union Organization of SCUT

@@ -24,7 +24,6 @@
     }
   }
 
-
   @include breakpoint($x-large) {
     padding-right: 0;
   }
@@ -68,68 +67,76 @@
 /*
    Author profile and links
    ========================================================================== */
-.profile_box{
+
+.profile_box {
+  /* 手机端改为垂直布局 */
+  display: block;
+  
   @include breakpoint($large) {
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
   }
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: center;
 }
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 75px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  display: block;
+  width: 100%;
+  text-align: center; /* 手机端居中显示头像 */
+  margin-bottom: 15px; /* 添加间距避免与文本冲突 */
 
   @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
+    display: table-cell;
+    vertical-align: top;
+    width: 75px;
+    text-align: left;
+    margin-bottom: 0;
   }
 
   img {
     max-width: 175px;
-    min-width: 75px;
-    border-radius: 8px;       // 改为小圆角
-    width: 150px;            // 设置宽度
-    height: 200px;           // 设置高度（150 * 4/3 = 200）
-    object-fit: cover;       // 确保图片填充但不失真
-    aspect-ratio: 3/4;       // 设置宽高比（可选）
+    /* 在手机端限制最大宽度，避免图片过大 */
+    width: 120px; /* 手机端适当缩小 */
+    height: 160px; /* 等比例调整高度 */
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 3/4;
 
     @include breakpoint($large) {
+      width: 150px;
+      height: 200px;
       padding: 5px;
       border: 1px solid $border-color;
-      /* 大屏幕下可能需要调整尺寸 */
-      width: 180px;          // 更大的宽度
-      height: 240px;         // 更大的高度（180 * 4/3 = 240）
+    }
+
+    @include breakpoint($x-large) {
+      width: 180px;
+      height: 240px;
     }
   }
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 10px;
-  min-width: 120px;
-  // padding-right: 25px;
-  line-height: 1;
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  line-height: 1.2;
 
   @include breakpoint($large) {
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 10px;
+    min-width: 120px;
   }
 }
 
 .author__name {
   margin: 0;
+  text-align: center; /* 手机端居中 */
 
   @include breakpoint($large) {
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -145,8 +152,10 @@
 
 .author__bio {
   margin: 0;
+  text-align: center; /* 手机端居中 */
 
   @include breakpoint($large) {
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -154,13 +163,17 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
-  margin-left: auto;
+  margin-left: 0;
   cursor: pointer;
+
+  @include breakpoint($large) {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+  }
 
   li:last-child {
     a {
@@ -168,16 +181,13 @@
     }
   }
 
-  @include breakpoint($large) {
-    display: block;
-  }
-
   button {
     margin-bottom: 0;
-    width: 120px;
+    width: 100%; /* 手机端全宽 */
     padding: 0.5em;
+    
     @include breakpoint($large) {
-      display: none;
+      width: 120px;
     }
   }
 }
@@ -260,18 +270,40 @@
   }
 }
 
-.author__urls_sm{
+/* 手机端社交媒体图标调整 */
+.author__urls_sm {
   padding: .25em;
-  font-size: 1.75em;
+  font-size: 1.5em; /* 手机端适当缩小图标 */
   display: block;
+  text-align: center; /* 手机端居中 */
+  
   a {
     color: inherit;
     text-decoration: none;
+    
     &:hover {
       text-decoration: underline;
     }
   }
+  
+  @include breakpoint($large) {
+    font-size: 1.75em;
+    text-align: left;
+    display: none;
+  }
+}
+
+/* 新增：手机端文本容器间距调整 */
+.author__content-mobile {
   @include breakpoint($large) {
     display: none;
+  }
+}
+
+.author__content-desktop {
+  display: none;
+  
+  @include breakpoint($large) {
+    display: block;
   }
 }

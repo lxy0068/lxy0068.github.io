@@ -69,41 +69,53 @@
    ========================================================================== */
 
 .profile_box {
-  /* 手机端改为垂直布局 */
+  /* 手机端：垂直布局，头像在上，内容在下 */
   display: block;
+  width: 100%;
   
   @include breakpoint($large) {
+    /* PC端：水平布局，头像在左，内容在右 */
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: flex-start;
-    align-content: flex-start;
-    align-items: center;
   }
 }
 
 .author__avatar {
+  /* 手机端设置 */
   display: block;
   width: 100%;
-  text-align: center; /* 手机端居中显示头像 */
-  margin-bottom: 15px; /* 添加间距避免与文本冲突 */
+  text-align: center;
+  margin-bottom: 15px;
 
   @include breakpoint($large) {
-    display: table-cell;
-    vertical-align: top;
-    width: 75px;
-    text-align: left;
+    /* PC端设置 */
+    display: block;
+    width: auto;
+    flex-shrink: 0;
+    margin-right: 15px;
     margin-bottom: 0;
+    text-align: left;
   }
 
   img {
-    max-width: 175px;
-    /* 在手机端限制最大宽度，避免图片过大 */
-    width: 120px; /* 手机端适当缩小 */
-    height: 160px; /* 等比例调整高度 */
     border-radius: 8px;
     object-fit: cover;
     aspect-ratio: 3/4;
-
+    
+    /* 手机端图片尺寸 */
+    width: 120px;
+    height: 160px;
+    
+    @include breakpoint($medium) {
+      /* 中等屏幕尺寸调整 */
+      width: 140px;
+      height: 186px;
+    }
+    
     @include breakpoint($large) {
+      /* PC端图片尺寸 */
       width: 150px;
       height: 200px;
       padding: 5px;
@@ -111,6 +123,7 @@
     }
 
     @include breakpoint($x-large) {
+      /* 大屏幕PC端图片尺寸 */
       width: 180px;
       height: 240px;
     }
@@ -118,61 +131,79 @@
 }
 
 .author__content {
+  /* 手机端设置 */
   display: block;
   width: 100%;
   padding-left: 0;
-  line-height: 1.2;
+  line-height: 1.4;
+  text-align: center;
 
   @include breakpoint($large) {
-    display: table-cell;
-    vertical-align: top;
-    padding-left: 10px;
-    min-width: 120px;
+    /* PC端设置 */
+    display: block;
+    flex: 1;
+    text-align: left;
+    padding-left: 0;
+    min-width: 0; /* 移除最小宽度限制 */
   }
 }
 
 .author__name {
-  margin: 0;
-  text-align: center; /* 手机端居中 */
-
-  @include breakpoint($large) {
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-
-.sidebar .author__name {
+  margin: 0 0 10px 0;
+  font-family: $sans-serif;
+  
   @include breakpoint($medium) {
     font-size: $type-size-3;
   }
-  font-family: $sans-serif;
-  font-size: $type-size-4;
+  
+  @include breakpoint($large) {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: $type-size-4;
+  }
 }
 
 .author__bio {
-  margin: 0;
-  text-align: center; /* 手机端居中 */
+  margin: 0 0 15px 0;
+  font-size: $type-size-6;
+  line-height: 1.5;
 
   @include breakpoint($large) {
-    text-align: left;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 20px;
+  }
+}
+
+/* 作者信息详情样式 */
+.author__details {
+  margin-bottom: 15px;
+  
+  .author__detail-item {
+    margin-bottom: 8px;
+    font-size: $type-size-6;
+    
+    strong {
+      font-weight: bold;
+    }
   }
 }
 
 .author__urls-wrapper {
   position: relative;
-  display: block;
   font-family: $sans-serif;
   z-index: 10;
-  margin-left: 0;
   cursor: pointer;
 
+  /* 手机端设置 */
+  display: block;
+  width: 100%;
+  margin-left: 0;
+
   @include breakpoint($large) {
-    display: table-cell;
-    vertical-align: middle;
-    margin-left: auto;
+    /* PC端设置 */
+    display: block;
+    margin-left: 0;
+    width: auto;
   }
 
   li:last-child {
@@ -183,11 +214,11 @@
 
   button {
     margin-bottom: 0;
-    width: 100%; /* 手机端全宽 */
+    width: 100%;
     padding: 0.5em;
     
     @include breakpoint($large) {
-      width: 120px;
+      display: none;
     }
   }
 }
@@ -270,12 +301,11 @@
   }
 }
 
-/* 手机端社交媒体图标调整 */
 .author__urls_sm {
   padding: .25em;
-  font-size: 1.5em; /* 手机端适当缩小图标 */
+  font-size: 1.5em;
   display: block;
-  text-align: center; /* 手机端居中 */
+  text-align: center;
   
   a {
     color: inherit;
@@ -293,17 +323,27 @@
   }
 }
 
-/* 新增：手机端文本容器间距调整 */
-.author__content-mobile {
-  @include breakpoint($large) {
-    display: none;
+/* 新增：确保内容区域不会溢出 */
+.sidebar__inner {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 响应式文本调整 */
+@media screen and (max-width: 1024px) {
+  .author__content {
+    font-size: 0.9em;
   }
 }
 
-.author__content-desktop {
-  display: none;
+@media screen and (max-width: 768px) {
+  .author__content {
+    font-size: 0.85em;
+    line-height: 1.3;
+  }
   
-  @include breakpoint($large) {
-    display: block;
+  .author__avatar img {
+    width: 100px;
+    height: 133px;
   }
 }

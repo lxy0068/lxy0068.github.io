@@ -25,40 +25,39 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 <!-- My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks. -->
 
-🔥
-<section class="mission-statement">
-    <h2>I drive myself to achieve<br><span class="gradient-text">Compounded Cognitive Growth.</span></h2>
-</section>🔥
+<div class="mission-statement">
+    <p>I drive myself to achieve <span class="gradient-text">Compounded Cognitive Growth.</span></p>
+</div>
+
+**My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**
+
+<strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>
+
+<style>
 .mission-statement {
     text-align: center;
-    padding: 4rem 1rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
 }
 
-.mission-statement h2 {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif; /* 使用现代字体 */
-    font-size: clamp(2rem, 5vw, 3.5rem); /* 响应式字体大小 */
-    font-weight: 700;
-    line-height: 1.2;
+.mission-statement p {
+    font-size: 1.3rem;
+    font-weight: 600;
     margin: 0;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 紫色到蓝色的渐变 */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    transition: transform 0.3s ease;
 }
-
-.mission-statement h2:hover .gradient-text {
-    transform: scale(1.02);
-}
-
-**My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**
-
-
-<strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>
+</style>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 

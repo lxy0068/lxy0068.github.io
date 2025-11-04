@@ -25,7 +25,35 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 <!-- My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks. -->
 
-🔥**I drive myself to pursue truth and achieve compounded cognitive growth.**🔥
+🔥
+<section class="mission-statement">
+    <h2>I drive myself to achieve<br><span class="gradient-text">Compounded Cognitive Growth.</span></h2>
+</section>🔥
+.mission-statement {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.mission-statement h2 {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif; /* 使用现代字体 */
+    font-size: clamp(2rem, 5vw, 3.5rem); /* 响应式字体大小 */
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 紫色到蓝色的渐变 */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.mission-statement h2:hover .gradient-text {
+    transform: scale(1.02);
+}
 
 **My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**
 

@@ -58,7 +58,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - *2024.06* Second-Class Academic Innovation Award, Future Technology Taihu Innovation Award (Wuxi Government)
 - *2024.06* Taihu Future Innovation Award<span style="color:red;"> (Top 3%)</span>, Future Technology Taihu Innovation Award (Wuxi Government)
 - *2024.05* Star Volunteer, South China University of Technology
-- *2023.11* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
+- *2023.10* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
 - *2023.10* Outstanding Individual, Student Union Organization of SCUT
 - *2023.10* Merit Student, South China University of Technology
 - *2023.10* Second-Class Scholarship, South China University of Technology

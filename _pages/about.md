@@ -77,6 +77,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 
 # 🎖 Honors and Awards
+- *2025.10* Merit Student, South China University of Technology
 - *2025.10* Third-Class Scholarship, South China University of Technology
 - *2024.10* Advanced Class Honor (Served as Monitor), South China University of Technology
 - *2024.10* Outstanding Individual, Student Union Organization of SCUT
@@ -89,7 +90,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - *2023.10* Outstanding Individual, Student Union Organization of SCUT
 - *2023.10* Merit Student, South China University of Technology
 - *2023.10* Second-Class Scholarship, South China University of Technology
-- *2023.04* Outstanding Student, Entrepreneurship Elite Class by SCUT
+- *2023.05* Outstanding Student, Entrepreneurship Elite Class by SCUT
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025 <span style="color:red;">(Oral)</span></div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>

@@ -968,5 +968,30 @@ window.addEventListener('resize', calculateTotalWidth);
 
 <br>
 
+<br>
+<br>
 
+---
+
+<div style="text-align: center; padding: 2rem; margin: 2rem 0; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #2563eb;">
+    <p style="margin: 0 0 0.5rem 0; font-weight: 600; color: #374151;">© 2025 Xingyan Liu. All rights reserved.</p>
+    <p style="margin: 0.5rem 0; color: #6b7280;">
+        This work is licensed under the 
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           style="color: #2563eb; text-decoration: none; font-weight: 500;">
+            Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+        </a>
+    </p>
+    <div style="margin-top: 1rem;">
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+           target="_blank" 
+           rel="noopener noreferrer">
+            <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" 
+                 alt="CC BY-NC-ND 4.0" 
+                 style="height: 31px; width: auto; border: 1px solid #e5e7eb; border-radius: 4px;">
+        </a>
+    </div>
+</div>
 

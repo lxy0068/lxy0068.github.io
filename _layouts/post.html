@@ -71,6 +71,50 @@
       color: #3498db;
     }
     
+    /* Navigation Buttons */
+    .navigation-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0 40px;
+      flex-wrap: wrap;
+    }
+    
+    .nav-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #3498db, #2980b9);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    }
+    
+    .nav-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+      background: linear-gradient(135deg, #2980b9, #3498db);
+    }
+    
+    .nav-button.home {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+    }
+    
+    .nav-button.home:hover {
+      box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+      background: linear-gradient(135deg, #c0392b, #e74c3c);
+    }
+    
+    .nav-button svg {
+      width: 18px;
+      height: 18px;
+    }
+    
     .article-content {
       font-size: 1.1rem;
     }
@@ -203,6 +247,15 @@
         padding: 4px 12px;
         font-size: 0.85rem;
       }
+      
+      .navigation-buttons {
+        gap: 15px;
+      }
+      
+      .nav-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
     }
     
     @media (max-width: 480px) {
@@ -216,6 +269,17 @@
       
       .section-title {
         font-size: 1.4rem;
+      }
+      
+      .navigation-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .nav-button {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
       }
     }
   </style>
@@ -242,12 +306,30 @@
       </div>
     </header>
     
+    <!-- Navigation Buttons -->
+    <div class="navigation-buttons">
+      <a href="https://lxy0068.github.io/" class="nav-button home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"/>
+          <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"/>
+        </svg>
+        <span>Home</span>
+      </a>
+      
+      <a href="https://lxy0068.github.io/blogs/" class="nav-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3.75 3.375c0-1.036.84-1.875 1.875-1.875h2.25c1.035 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-2.25A1.875 1.875 0 013.75 14.625V3.375zm6 0A1.875 1.875 0 0111.625 1.5h2.25c1.035 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-2.25A1.875 1.875 0 019.75 14.625V3.375zm5.625-1.875c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-2.25A1.875 1.875 0 0112 14.625v-11.25c0-1.036.84-1.875 1.875-1.875h2.25z"/>
+        </svg>
+        <span>Blog Directory</span>
+      </a>
+    </div>
+    
     <article class="article-content">
       {{ content }}
     </article>
     
     <footer class="article-footer">
-      <p>记录于{{ page.date | date: "%Y年%m月%d日" }}</p>
+      <p>Recorded on {{ page.date | date: "%B %d, %Y" }}</p>
       <p class="author-signature">Xingyan Liu</p>
     </footer>
   </div>

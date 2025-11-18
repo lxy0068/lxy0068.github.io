@@ -107,16 +107,3 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
-
-/* Times New Roman优化 */
-body {
-    font-size: 1.05em; /* 轻微增大5% */
-    font-weight: 430;  /* 轻微加粗（正常为400） */
-    line-height: 1.6;  /* 增加行高提高可读性 */
-}
-
-.page__content p, 
-.page__content li {
-    font-weight: 430;
-    margin-bottom: 0.5em;
-}

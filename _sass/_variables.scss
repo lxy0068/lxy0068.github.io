@@ -6,44 +6,41 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 14;
+$doc-font-size              : 15; /* 从14增加到15，轻微增大字体 */
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
-/* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
-// $sans-serif                 : Georgia, serif, sans-serif;
-
-// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* system typefaces - 修改为等宽字体 */
+$serif                      : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$sans-serif                 : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$monospace                  : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
 
 /* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$georgia                    : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$times                      : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$bodoni                     : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$calisto                    : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$garamond                   : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $monospace;
+$header-font-family         : $monospace;
+$caption-font-family        : $monospace;
 
-/* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.4em;  // ~25.008px
-$type-size-4                : 1.2em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 1em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+/* type scale - 轻微调整以适配等宽字体 */
+$type-size-1                : 2.3em;   // 从2.441em调整为2.3em
+$type-size-2                : 1.9em;   // 从1.953em调整为1.9em
+$type-size-3                : 1.5em;   // 从1.4em调整为1.5em
+$type-size-4                : 1.25em;  // 从1.2em调整为1.25em
+$type-size-5                : 1.05em;  // 从1em调整为1.05em
+$type-size-6                : 0.95em;  // 从1em调整为0.95em
+$type-size-7                : 0.85em;  // 从0.6875em调整为0.85em
+$type-size-8                : 0.75em;  // 从0.625em调整为0.75em
 
 
 /*

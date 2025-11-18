@@ -6,68 +6,68 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 15; /* 从14增加到15，轻微增大字体 */
+$doc-font-size              : 16; /* 增大基础字体大小提高可读性 */
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
-/* system typefaces - 修改为等宽字体 */
-$serif                      : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
-$sans-serif                 : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
-$monospace                  : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+/* system typefaces - 使用专业且易读的字体组合 */
+$serif                      : "SF Pro Display", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$sans-serif                 : "SF Pro Display", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$monospace                  : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$helvetica                  : "SF Pro Display", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
-$georgia                    : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
-$times                      : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
-$bodoni                     : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
-$calisto                    : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
-$garamond                   : "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Source Code Pro", monospace;
+$georgia                    : "SF Pro Display", Georgia, serif;
+$times                      : "SF Pro Display", Times, serif;
+$bodoni                     : "SF Pro Display", "Bodoni MT", serif;
+$calisto                    : "SF Pro Display", "Calisto MT", serif;
+$garamond                   : "SF Pro Display", Garamond, serif;
 
-$global-font-family         : $monospace;
-$header-font-family         : $monospace;
-$caption-font-family        : $monospace;
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $serif;
 
-/* type scale - 轻微调整以适配等宽字体 */
-$type-size-1                : 2.3em;   // 从2.441em调整为2.3em
-$type-size-2                : 1.9em;   // 从1.953em调整为1.9em
-$type-size-3                : 1.5em;   // 从1.4em调整为1.5em
-$type-size-4                : 1.25em;  // 从1.2em调整为1.25em
-$type-size-5                : 1.05em;  // 从1em调整为1.05em
-$type-size-6                : 0.95em;  // 从1em调整为0.95em
-$type-size-7                : 0.85em;  // 从0.6875em调整为0.85em
-$type-size-8                : 0.75em;  // 从0.625em调整为0.75em
+/* type scale - 优化层级比例，提高可读性 */
+$type-size-1                : 2.5em;   // ~40px - 主标题
+$type-size-2                : 2.0em;   // ~32px - 次级标题
+$type-size-3                : 1.6em;   // ~25.6px - 三级标题
+$type-size-4                : 1.3em;   // ~20.8px - 强调文本
+$type-size-5                : 1.1em;   // ~17.6px - 正文增大
+$type-size-6                : 1.0em;   // ~16px - 基础正文
+$type-size-7                : 0.9em;   // ~14.4px - 小文本
+$type-size-8                : 0.8em;   // ~12.8px - 注释文本
 
 
 /*
-   Colors
+   Colors - 优化为专业科研风格配色
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #5a6268; // 深灰色提高对比度
+$dark-gray                  : #2c3e50; // 接近黑色的深蓝灰，更专业
+$darker-gray                : #1a2530; // 更深的主色调
+$light-gray                 : #a0aab2; // 中灰色
+$lighter-gray               : #eef2f5; // 更浅的背景灰
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* 主色调调整为更专业的深蓝色系 */
+$body-color                 : #ffffff;
+$background-color           : #ffffff;
+$code-background-color      : #f8f9fa;
+$code-background-color-dark : #e9ecef;
+$text-color                 : #2c3e50; // 深蓝灰色文字，更易读
+$border-color               : #dee2e6;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #224b8d;
-// $info-color                 : #52adc8;
+$primary-color              : #3498db; // 专业蓝色
+$success-color              : #27ae60; // 成功绿色
+$warning-color              : #f39c12; // 警告橙色
+$danger-color               : #e74c3c; // 危险红色
+$info-color                 : #2980b9; // 信息蓝色
 
-/* brands */
+/* brands - 保持品牌色一致性 */
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
@@ -83,19 +83,19 @@ $rss-color                  : #fa9b39;
 $soundcloud-color           : #ff3300;
 $stackoverflow-color        : #fe7a15;
 $tumblr-color               : #32506d;
-$twitter-color              : #55acee;
+$twitter-color              : #1da1f2;
 $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
-$youtube-color              : #bb0000;
+$youtube-color              : #ff0000;
 $xing-color                 : #006567;
 
 
-/* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+/* links - 优化链接颜色和交互 */
+$link-color                 : #2980b9;
+$link-color-hover           : #3498db;
+$link-color-visited         : #8e44ad;
+$masthead-link-color        : #2c3e50;
+$masthead-link-color-hover  : #3498db;
 
 
 /*
@@ -103,19 +103,13 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-/*
-$small                      : 400px;
-$medium                     : 500px;
-$medium-wide                : 550px;
-$large                      : 1200px;
-$x-large                    : 1800px;
-*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 925px !default;
+$large                      : 1024px !default; // 调整为标准大屏断点
 $x-large                    : 1280px !default;
+
 
 /*
    Grid
@@ -147,8 +141,8 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : 6px; // 稍微增加圆角更现代
+$box-shadow                 : 0 2px 10px rgba(0, 0, 0, 0.1); // 更柔和的阴影
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$global-transition          : all 0.2s ease-in-out;
+$global-transition          : all 0.3s ease-in-out; // 延长过渡时间更平滑

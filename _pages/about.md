@@ -77,21 +77,22 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 
 # 🎖 Honors and Awards
-- *2025.10* Advanced Class Honor (Served as Monitor), South China University of Technology
-- *2025.10* Merit Student, South China University of Technology
+- *2025.11* Excellence Third-Class Scholarship, South China University of Technology - Excellence Group Public Welfare Special Fund
+- *2025.11* Advanced Class Honor (Served as Monitor), South China University of Technology
+- *2025.11* Merit Student, South China University of Technology
 - *2025.10* Third-Class Scholarship, South China University of Technology
-- *2024.10* Advanced Class Honor (Served as Monitor), South China University of Technology
-- *2024.10* Outstanding Individual, Student Union Organization of SCUT
-- *2024.10* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
-- *2024.09* [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span>, Baidu Pinecone Elite Class of SCUT
+- *2024.11* Advanced Class Honor (Served as Monitor), South China University of Technology
+- *2024.11* Outstanding Individual, Student Union Organization of South China University of Technology
+- *2024.10* Hongping Evergreen Second Prize Scholarship, South China University of Technology - Hongping Evergreen Fund Student Innovation Program
+- *2024.09* [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span>, Baidu Pinecone Elite Class of South China University of Technology
 - *2024.06* Second-Class Academic Innovation Award, Future Technology Taihu Innovation Award (Wuxi Government)
 - *2024.06* Taihu Future Innovation Award<span style="color:red;"> (Top 3%)</span>, Future Technology Taihu Innovation Award (Wuxi Government)
 - *2024.05* Star Volunteer, South China University of Technology
-- *2023.10* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
-- *2023.10* Outstanding Individual, Student Union Organization of SCUT
-- *2023.10* Merit Student, South China University of Technology
+- *2023.11* Second Prize Scholarship, Hongping Evergreen Fund Student Innovation Program
+- *2023.11* Outstanding Individual, Student Union Organization of South China University of Technology
+- *2023.11* Merit Student, South China University of Technology
 - *2023.10* Second-Class Scholarship, South China University of Technology
-- *2023.05* Outstanding Student, Entrepreneurship Elite Class by SCUT
+- *2023.05* Outstanding Student, Entrepreneurship Elite Class by South China University of Technology
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025 <span style="color:red;">(Oral)</span></div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>

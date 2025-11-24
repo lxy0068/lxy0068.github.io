@@ -77,19 +77,18 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 
 # 🎖 Honors and Awards
+- **2025.11** Excellent Student Cadre, SCUT
 - **2025.11** Excellence Third-Class Scholarship, SCUT - Excellence Group Public Welfare Special Fund
 - **2025.11** Advanced Class Honor (Served as Monitor), SCUT
 - **2025.11** Merit Student, SCUT
 - **2025.10** Third-Class Scholarship, SCUT
 - **2024.11** Advanced Class Honor (Served as Monitor), SCUT
-- **2024.11** Outstanding Individual, Student Union Organization of SCUT
-- **2024.10** Hongping Evergreen Second Prize Scholarship, SCUT - Hongping Evergreen Fund Student Innovation Program
+- **2024.11** Hongping Evergreen Second Prize Scholarship, SCUT - Hongping Evergreen Fund Student Innovation Program
 - **2024.09** [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span>, Baidu Pinecone Elite Class of SCUT
 - **2024.06** Second-Class Academic Innovation Award, Future Technology Taihu Innovation Award (Wuxi Government)
 - **2024.06** Taihu Future Innovation Award<span style="color:red;"> (Top 3%)</span>, Future Technology Taihu Innovation Award (Wuxi Government)
 - **2024.05** Star Volunteer, SCUT
 - **2023.11** Hongping Evergreen Second Prize Scholarship, SCUT - Hongping Evergreen Fund Student Innovation Program
-- **2023.11** Outstanding Individual, Student Union Organization of SCUT
 - **2023.11** Merit Student, SCUT
 - **2023.10** Second-Class Scholarship, SCUT
 - **2023.05** Outstanding Student, Entrepreneurship Elite Class by SCUT

@@ -65,7 +65,6 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - **2025.07**: &nbsp;🎉🎉 Our project "Threat Perception System Based on Lightweight Pre-training Model and Knowledge Fusion" wins the Second Prize <span style="color:red;">(Top 1%)</span> in Software Application and Development at the 18th Chinese Collegiate Computing Competition!
 - **2025.04**: &nbsp;🎉🎉 Win the [Second Prize](images/NECCS.png) <span style="color:red;">(Top 2%)</span> in the National English Competition for College Students (NECCS)!
 - **2025.03**: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](papers/Hyper-Relation_Fusion_for_Solving_Multi-depot_Vehicle_Routing_Problems.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
-- **2024.10**: &nbsp;🎉🎉 Proud to share, as the monitor, that our class has been awarded SCUT's "Advanced Class" title!
 - **2024.07**: &nbsp;🎉🎉 [Go to Wuxi Future Technology Joint Research Center for internship!](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)
 - **2024.06**: &nbsp;🎉🎉 Win the [National College Student Innovation and Entrepreneurship Training Program](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1021244) [Great Completion](images/202310561174X.pdf) <span style="color:red;">(Top 5%)</span>! 
 - **2024.06**: &nbsp;🎉🎉 Win the Taihu Future Technology Innovation Award <span style="color:red;">(Top 3%)</span> by Wuxi government!
@@ -82,12 +81,12 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - **2025.11** Advanced Class Honor (Served as Monitor), SCUT
 - **2025.11** Merit Student, SCUT
 - **2025.10** Third-Class Scholarship, SCUT
+- **2025.05** Star Volunteer, SCUT
 - **2024.11** Advanced Class Honor (Served as Monitor), SCUT
 - **2024.11** Hongping Evergreen Second Prize Scholarship, SCUT - Hongping Evergreen Fund Student Innovation Program
 - **2024.09** [Outstanding student](images/Baiduclass.jpg)<span style="color:red;"> (Top 1)</span>, Baidu Pinecone Elite Class of SCUT
 - **2024.06** Second-Class Academic Innovation Award, Future Technology Taihu Innovation Award (Wuxi Government)
-- **2024.06** Taihu Future Innovation Award<span style="color:red;"> (Top 3%)</span>, Future Technology Taihu Innovation Award (Wuxi Government)
-- **2024.05** Star Volunteer, SCUT
+- **2024.06** [Taihu Future Innovation Award](https://www2.scut.edu.cn/ft/2024/0614/c29758a556527/page.htm)<span style="color:red;"> (Top 3%)</span>, Future Technology Taihu Innovation Award (Wuxi Government)
 - **2023.11** Hongping Evergreen Second Prize Scholarship, SCUT - Hongping Evergreen Fund Student Innovation Program
 - **2023.11** Merit Student, SCUT
 - **2023.10** Second-Class Scholarship, SCUT

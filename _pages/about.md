@@ -110,7 +110,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 <!-- Projects Section Start -->
 <section id="projects">
   <div class="projects-grid">
-        <!-- Project 4 -->
+    <!-- Project 4 -->
     <div class="project-card">
       <div class="project-media">
         <img 
@@ -120,7 +120,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
           onerror="this.parentElement.classList.add('image-error')"
         >
         <div class="project-overlay">
-          <a href="images/2025050873.pdf" 
+          <a href="https://github.com/lxy0068/lxy0068.github.io/blob/main/images/2025050873.pdf" 
              target="_blank" 
              class="view-project-btn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -133,7 +133,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
       
       <div class="project-content">
         <h3 class="project-title">
-          <a href="images/2025050873.pdf" 
+          <a href="https://github.com/lxy0068/lxy0068.github.io/blob/main/images/2025050873.pdf" 
              target="_blank"
              class="project-link">
             FloWise TuringS

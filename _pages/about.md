@@ -192,10 +192,8 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         
         <div class="project-meta">
           <div class="tech-tags">
-            <span>Python</span>
             <span>Django</span>
             <span>React</span>
-            <span>Machine Learning</span>
           </div>
         </div>
       </div>
@@ -238,7 +236,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         
         <div class="project-meta">
           <div class="tech-tags">
-            <span>YOLOv8</span>
+            <span>YOLO</span>
             <span>PyTorch</span>
             <span>Flask</span>
           </div>
@@ -283,7 +281,6 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         
         <div class="project-meta">
           <div class="tech-tags">
-            <span>Reinforcement Learning</span>
             <span>MCTS</span>
             <span>PyGame</span>
           </div>

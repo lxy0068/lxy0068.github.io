@@ -110,6 +110,51 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 <!-- Projects Section Start -->
 <section id="projects">
   <div class="projects-grid">
+        <!-- Project 4 -->
+    <div class="project-card">
+      <div class="project-media">
+        <img 
+          src="images/project5_1.png" 
+          alt="FloWise TuringS" 
+          class="project-image"
+          onerror="this.parentElement.classList.add('image-error')"
+        >
+        <div class="project-overlay">
+          <a href="image/2025050873.pdf" 
+             target="_blank" 
+             class="view-project-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
+            </svg>
+            View Project
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <h3 class="project-title">
+          <a href="https://github.com/lxy0068/Data-classification-prediction-based-on-Grey-Wolf-Optimization-Algorithm-GWO_LSSVM-Adaboost" 
+             target="_blank"
+             class="project-link">
+            GWO-LSSVM-Adaboost Classification
+          </a>
+        </h3>
+        
+        <p class="project-description">
+          FloWise TuringS is a threat perception system that leverages lightweight AI models—including a distilled RoBERTa-MiniLM-based SFDM for system log analysis and an LSTM-driven NFCM for network traffic classification (F1 score of 0.84)—alongside a knowledge graph-powered Q&A module, Sherlock, to deliver real-time, accurate cybersecurity threat identification and insights.
+        </p>
+        
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span>RoBERTa</span>
+            <span>LSTM</span>
+            <span>Knowledge Graph</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
     <!-- Project 1 -->
     <div class="project-card">
       <div class="project-media">
@@ -182,7 +227,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
           <a href="https://github.com/lxy0068/DLCV" 
              target="_blank"
              class="project-link">
-            Traffic Sign Recognition (YOLOv8)
+            Traffic Sign Recognition (YOLO)
           </a>
         </h3>
         
@@ -193,7 +238,6 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         
         <div class="project-meta">
           <div class="tech-tags">
-            <span>Computer Vision</span>
             <span>YOLOv8</span>
             <span>PyTorch</span>
             <span>Flask</span>
@@ -242,58 +286,10 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
             <span>Reinforcement Learning</span>
             <span>MCTS</span>
             <span>PyGame</span>
-            <span>AI Algorithms</span>
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- Project 4 -->
-    <div class="project-card">
-      <div class="project-media">
-        <img 
-          src="images/Project4.png" 
-          alt="GWO-LSSVM-Adaboost classification system" 
-          class="project-image"
-          onerror="this.parentElement.classList.add('image-error')"
-        >
-        <div class="project-overlay">
-          <a href="https://github.com/lxy0068/Data-classification-prediction-based-on-Grey-Wolf-Optimization-Algorithm-GWO_LSSVM-Adaboost" 
-             target="_blank" 
-             class="view-project-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
-            </svg>
-            View Project
-          </a>
-        </div>
-      </div>
-      
-      <div class="project-content">
-        <h3 class="project-title">
-          <a href="https://github.com/lxy0068/Data-classification-prediction-based-on-Grey-Wolf-Optimization-Algorithm-GWO_LSSVM-Adaboost" 
-             target="_blank"
-             class="project-link">
-            GWO-LSSVM-Adaboost Classification
-          </a>
-        </h3>
-        
-        <p class="project-description">
-          Mathematical modeling competition solution using Grey Wolf Optimization to optimize
-          LSSVM parameters with Adaboost ensemble for robust data classification
-        </p>
-        
-        <div class="project-meta">
-          <div class="tech-tags">
-            <span>Matlab</span>
-            <span>GWO Algorithm</span>
-            <span>LSSVM</span>
-            <span>Ensemble Learning</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <style>

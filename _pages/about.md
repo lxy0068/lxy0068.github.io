@@ -120,7 +120,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
           onerror="this.parentElement.classList.add('image-error')"
         >
         <div class="project-overlay">
-          <a href="https://raw.githubusercontent.com/lxy0068/lxy0068.github.io/main/images/2025050873.pdf" 
+          <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/lxy0068/lxy0068.github.io/main/images/2025050873.pdf" 
              target="_blank" 
              class="view-project-btn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -133,7 +133,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
       
       <div class="project-content">
         <h3 class="project-title">
-          <a href="https://raw.githubusercontent.com/lxy0068/lxy0068.github.io/main/images/2025050873.pdf" 
+          <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/lxy0068/lxy0068.github.io/main/images/2025050873.pdf" 
              target="_blank"
              class="project-link">
             FloWise TuringS
@@ -147,7 +147,6 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         <div class="project-meta">
           <div class="tech-tags">
             <span>RoBERTa</span>
-            <span>LSTM</span>
             <span>Knowledge Graph</span>
           </div>
         </div>

@@ -110,7 +110,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 <!-- Projects Section Start -->
 <section id="projects">
   <div class="projects-grid">
-    <!-- Project 4 -->
+    <!-- Project 1: FloWise TuringS -->
     <div class="project-card">
       <div class="project-media">
         <img 
@@ -120,20 +120,20 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
           onerror="this.parentElement.classList.add('image-error')"
         >
         <div class="project-overlay">
-          <a href="https://github.com/lxy0068/lxy0068.github.io/blob/main/images/2025050873.pdf" 
+          <a href="https://raw.githubusercontent.com/lxy0068/lxy0068.github.io/main/images/2025050873.pdf" 
              target="_blank" 
              class="view-project-btn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
               <path d="M7 17L17 7M17 7H9M17 7V15"></path>
             </svg>
-            View Project
+            View PDF Report
           </a>
         </div>
       </div>
       
       <div class="project-content">
         <h3 class="project-title">
-          <a href="https://github.com/lxy0068/lxy0068.github.io/blob/main/images/2025050873.pdf" 
+          <a href="https://raw.githubusercontent.com/lxy0068/lxy0068.github.io/main/images/2025050873.pdf" 
              target="_blank"
              class="project-link">
             FloWise TuringS
@@ -141,7 +141,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         </h3>
         
         <p class="project-description">
-          FloWise TuringS is a threat perception system that leverages lightweight AI models—including a distilled RoBERTa-MiniLM-based SFDM for system log analysis and an LSTM-driven NFCM for network traffic classification (F1 score of 0.84)—alongside a knowledge graph-powered Q&A module, Sherlock, to deliver real-time, accurate cybersecurity threat identification and insights.
+          FloWise TuringS is a threat detection system that uses a distilled RoBERTa-MiniLM for log analysis and an LSTM for network traffic classification (F1-score: 0.84), enhanced by a knowledge-graph Q&A module to provide real-time, accurate threat identification and insights.
         </p>
         
         <div class="project-meta">
@@ -153,9 +153,8 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         </div>
       </div>
     </div>
-  </div>
-  
-    <!-- Project 1 -->
+    
+    <!-- Project 2: Quantitative Stock Analysis Platform -->
     <div class="project-card">
       <div class="project-media">
         <img 
@@ -199,7 +198,51 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
       </div>
     </div>
     
-    <!-- Project 2 -->
+    <!-- Project 3: AlphaZero Reinforcement Learning Agent -->
+    <div class="project-card">
+      <div class="project-media">
+        <img 
+          src="images/Project3.png" 
+          alt="AlphaZero game interface" 
+          class="project-image"
+          onerror="this.parentElement.classList.add('image-error')"
+        >
+        <div class="project-overlay">
+          <a href="https://github.com/lxy0068/AlphaZero-Gobang" 
+             target="_blank" 
+             class="view-project-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
+            </svg>
+            View Project
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-content">
+        <h3 class="project-title">
+          <a href="https://github.com/lxy0068/AlphaZero-Gobang" 
+             target="_blank"
+             class="project-link">
+            AlphaZero Reinforcement Learning Agent
+          </a>
+        </h3>
+        
+        <p class="project-description">
+          Monte Carlo Tree Search implementation achieving 85% win rate against professional
+          players in tournament settings
+        </p>
+        
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span>MCTS</span>
+            <span>PyGame</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Project 4: Traffic Sign Recognition (YOLO) -->
     <div class="project-card">
       <div class="project-media">
         <img 
@@ -243,50 +286,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
         </div>
       </div>
     </div>
-    
-    <!-- Project 3 -->
-    <div class="project-card">
-      <div class="project-media">
-        <img 
-          src="images/Project3.png" 
-          alt="AlphaZero game interface" 
-          class="project-image"
-          onerror="this.parentElement.classList.add('image-error')"
-        >
-        <div class="project-overlay">
-          <a href="https://github.com/lxy0068/AlphaZero-Gobang" 
-             target="_blank" 
-             class="view-project-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-              <path d="M7 17L17 7M17 7H9M17 7V15"></path>
-            </svg>
-            View Project
-          </a>
-        </div>
-      </div>
-      
-      <div class="project-content">
-        <h3 class="project-title">
-          <a href="https://github.com/lxy0068/AlphaZero-Gobang" 
-             target="_blank"
-             class="project-link">
-            AlphaZero Reinforcement Learning Agent
-          </a>
-        </h3>
-        
-        <p class="project-description">
-          Monte Carlo Tree Search implementation achieving 85% win rate against professional
-          players in tournament settings
-        </p>
-        
-        <div class="project-meta">
-          <div class="tech-tags">
-            <span>MCTS</span>
-            <span>PyGame</span>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
 </section>
 
 <style>
@@ -316,6 +316,12 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
   .emoji-icon {
     font-size: 2.2rem;
     display: inline-block;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
   }
   
   .section-divider {
@@ -363,7 +369,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
     transition: transform 0.5s ease;
   }
   
-  .project-media:hover .project-image {
+  .project-card:hover .project-image {
     transform: scale(1.05);
   }
   
@@ -511,6 +517,36 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
     }
   }
 </style>
+
+<script>
+  // 增强图片加载处理
+  document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.project-image');
+    
+    images.forEach(img => {
+      // 如果图片已经加载失败
+      if (img.complete && img.naturalHeight === 0) {
+        img.parentElement.classList.add('image-error');
+      }
+      
+      // 监听图片加载错误
+      img.addEventListener('error', function() {
+        this.parentElement.classList.add('image-error');
+      });
+      
+      // 监听图片加载成功
+      img.addEventListener('load', function() {
+        this.parentElement.classList.remove('image-error');
+      });
+    });
+    
+    // 为外部链接添加安全属性
+    const externalLinks = document.querySelectorAll('a[target="_blank"]');
+    externalLinks.forEach(link => {
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  });
+</script>
 <!-- Projects Section End -->
 
 

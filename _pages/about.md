@@ -570,8 +570,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 
-# 💻 Internships
-
+<!-- # 💻 Internships
 <table>
   <tr>
     <td valign="top" width="80">
@@ -590,11 +589,13 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
     </td>
   </tr>
 </table>
+-->
 
 # 🎓 Social Service
 - **2022.09 - present** I Volunteer cumulative volunteer time 120h+.
 - **2022.09 - present** Monitor of Artificial Intelligence Class 1, 2022, School of Future Technology, South China University of Technology.
 - **2022.09 - 2024.05** Secretary of Cooperation and Development Department of Artificial Intelligence Association of SCUT.
+
 
 
 # 🩴 My Interesting Life

@@ -31,7 +31,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 **My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**
 
-<strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong>
+<!-- <strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong> -->
 
 <style>
 .mission-statement {

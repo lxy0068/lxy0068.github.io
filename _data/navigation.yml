@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "Blogs"
-    url: "/blogs/"
+  #- title: "Blogs"
+  #  url: "/blogs/"
     
   - title: "News"
     url: "/#-news"
@@ -21,11 +21,11 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "Internships"
-    url: "/#-internships"
+ # - title: "Internships"
+ #   url: "/#-internships"
     
-  - title: "Social Service"
-    url: "/#-social-service"
+ # - title: "Social Service"
+ #   url: "/#-social-service"
 
-  - title: "My Interesting Life"
-    url: "/#-my-interesting-life"
+ # - title: "My Interesting Life"
+ #   url: "/#-my-interesting-life"

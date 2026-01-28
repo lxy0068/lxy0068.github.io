@@ -27,5 +27,5 @@ main:
  # - title: "Social Service"
  #   url: "/#-social-service"
 
- # - title: "My Interesting Life"
- #   url: "/#-my-interesting-life"
+  - title: "My Interesting Life"
+    url: "/#-my-interesting-life"

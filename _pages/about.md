@@ -25,11 +25,11 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 
 <!-- My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks. -->
 
-<!-- <div class="mission-statement">
+<div class="mission-statement">
     <p>I drive myself to achieve <span class="gradient-text">Compounded Cognitive Growth.</span></p>
 </div>
 
-**My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**-->
+**My approach is to deconstruct complex challenges into actionable components. Guided by pragmatism and adaptive evolution, I apply iterative reasoning and validation to forge clear paths to measurable results.**
 
 <!-- <strong><span style="color:red; font-size:larger;">Sincerely looking for a Ph.D position!</span></strong> -->
 
@@ -590,6 +590,412 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
   </tr>
 </table>
 -->
+# 🩴 My Interesting Life
+
+<style>
+  .life-events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+  }
+
+  .life-event {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .life-event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+
+  .event-content {
+    padding: 30px;
+  }
+
+  .event-date {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #e74c3c;
+    margin-bottom: 15px;
+    padding: 6px 15px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 50px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+  .event-description {
+    font-size: 1.15rem;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
+
+  .event-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .gallery-item {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    height: 270px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.35s ease;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-item:hover .image-caption {
+    opacity: 1;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .event-gallery {
+      gap: 15px;
+    }
+    .gallery-item {
+      height: 250px;
+    }
+    .event-content {
+      padding: 25px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .event-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .event-description {
+      font-size: 1.1rem;
+    }
+    .event-date {
+      font-size: 1.1rem;
+    }
+    .life-event {
+      border-radius: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .event-gallery {
+      grid-template-columns: 1fr;
+    }
+    .event-content {
+      padding: 20px;
+    }
+    .life-events-container {
+      gap: 35px;
+    }
+  }
+
+  /* Animation for events */
+  @keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .life-event {
+    animation: fadeSlideUp 0.6s ease-out forwards;
+  }
+
+  .life-event:nth-child(1) { animation-delay: 0.1s; }
+  .life-event:nth-child(2) { animation-delay: 0.2s; }
+  .life-event:nth-child(3) { animation-delay: 0.3s; }
+  .life-event:nth-child(4) { animation-delay: 0.4s; }
+</style>
+
+<div class="life-events-container">
+    <!-- Event : Taian -->
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2025.07</span>
+      <p class="event-description">I traveled to Tai'an to participate in the 18th Chinese Collegiate Computing Competition and experience the majesty of Mount Tai!</p>
+
+
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/taian1.jpg" alt="Taian">
+          <div class="image-caption">Closing ceremony</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/taian2.jpg" alt="Taian">
+          <div class="image-caption">Award-winning</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/taian3.jpg" alt="Taian">
+          <div class="image-caption">The majestic power of Mount Tai</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Event : Travel to Nanjing, Suzhou and Shanghai -->
+
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2024.08</span>
+      <p class="event-description">I traveled to Nanjing, Suzhou and Shanghai to experience the traditional Chinese culture and modern charm!</p>
+
+
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/nanjing1.jpg" alt="Nanjing trip">
+          <div class="image-caption">Nanjing</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/nanjing2.jpg" alt="Nanjing trip">
+          <div class="image-caption">Nanjing</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/nanjing3.jpg" alt="Nanjing trip">
+          <div class="image-caption">Nanjing</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/suzhou1.jpg" alt="Suzhou trip">
+          <div class="image-caption">Suzhou</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/suzhou2.jpg" alt="Suzhou trip">
+          <div class="image-caption">Suzhou</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/suzhou3.jpg" alt="Suzhou trip">
+          <div class="image-caption">Suzhou</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/shanghai1.jpg" alt="Shanghai trip">
+          <div class="image-caption">Shanghai</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/shanghai2.jpg" alt="Shanghai trip">
+          <div class="image-caption">Shanghai</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/shanghai3.jpg" alt="Shanghai trip">
+          <div class="image-caption">Shanghai</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Event : Baidu Create AI Developer Conference -->
+
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2024.04</span>
+      <p class="event-description">My partners and I were invited to attend the 2024 Baidu Create AI Developer Conference!</p>
+
+
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/baidu2.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/baidu3.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/baidu4.jpg" alt="Baidu Conference">
+          <div class="image-caption">Baidu Conference</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Event : Bay Entrepreneurship Camp -->
+
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2023.08</span>
+      <p class="event-description">I participated in the 2023 "Bay Entrepreneurship Camp" - a youth maker exchange activity in the Guangdong-Hong Kong-Macao Greater Bay Area, visited well-known companies such as Tencent, BYD, and INSEPP, and received entrepreneurship-themed training and "face-to-face" guidance from professional mentors!</p>
+
+
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/wanchuang1.jpg" alt="Bay Entrepreneurship Camp">
+          <div class="image-caption">Entrepreneurship Camp</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/wanchuang2.jpg" alt="Bay Entrepreneurship Camp">
+          <div class="image-caption">Group photo</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/wanchuang3.jpg" alt="Bay Entrepreneurship Camp">
+          <div class="image-caption">Listen to the report</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Event : Entrepreneurship Elite Class -->
+
+  <div class="life-event">
+    <div class="event-content">
+      <span class="event-date">2023.05</span>
+      <p class="event-description">I participated in the Entrepreneurship Elite Class held by the School of Entrepreneurship Education of South China University of Technology and communicated with Microsoft mentor Guan Zhen!</p>
+
+
+      <div class="event-gallery">
+        <div class="gallery-item">
+          <img src="images/chuangyuan1.jpg" alt="Entrepreneurship Elite Class">
+          <div class="image-caption">Elite Class Session</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/chuangyuan2.jpg" alt="Entrepreneurship Elite Class">
+          <div class="image-caption">Discussion with Mentor</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="slider" style="width: 900px; overflow: hidden; margin-left: 56px;">
+    <div id="slider-inner">
+        <img src="images/wuxi1.jpg" alt="Image 5">
+        <img src="images/wuxi2.jpg" alt="Image 6">
+        <img src="images/friends1.jpg" alt="Image 1">
+        <img src="images/friends2.jpg" alt="Image 2">
+        <img src="images/friends3.jpg" alt="Image 3">
+        <img src="images/friends4.jpg" alt="Image 4">
+    </div>
+</div>
+
+
+<script>
+var slider = document.getElementById('slider');
+var sliderInner = document.getElementById('slider-inner');
+var images = sliderInner.getElementsByTagName('img');
+var totalWidth = 0;
+var currentOffset = 0;
+var animationSpeed = 1;
+
+
+
+// 计算所有图片的总宽度
+function calculateTotalWidth() {
+    totalWidth = Array.from(images).reduce((acc, img) => acc + img.offsetWidth + 10, 0); // 加上margin的宽度
+}
+
+// 动态移动图片以实现无限滚动
+function cycleImages() {
+    var firstImageWidth = images[0].offsetWidth + 10; // 加上margin的宽度
+
+    if (currentOffset >= firstImageWidth) {
+        sliderInner.appendChild(images[0]); // 将第一张图片移动到最后
+        currentOffset -= firstImageWidth; // 调整当前偏移量
+        sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
+    }
+
+}
+
+// 更新滚动动画
+function updateAnimation() {
+    currentOffset += animationSpeed;
+    sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
+    cycleImages(); // 检查是否需要循环图片
+    requestAnimationFrame(updateAnimation);
+}
+
+// 初始化
+calculateTotalWidth();
+requestAnimationFrame(updateAnimation);
+
+// 当窗口大小变化时重新计算宽度
+window.addEventListener('resize', calculateTotalWidth);
+</script>
+
+<style>
+#slider img {
+    max-height: 280px;
+    height: auto;
+    min-width: 100px; /* 根据实际情况调整 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-right: 10px; /* 增加间距 */
+    border-radius: 10px; /* 圆角边框 */
+    flex-shrink: 0;
+}
+
+
+
+#slider-inner {
+    display: flex;
+    align-items: center;
+    transition: none; /* 移除过渡效果以避免移动时的跳动 */
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-1 * var(--totalWidth))); }
+}
+
+#slider img:hover {
+    transform: scale(1.50); /* 鼠标悬停时放大 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* 鼠标悬停时增加阴影 */
+}
+
+/* 如果图片未加载，显示一个简单的加载动画 */
+#slider img:not([src]), 
+#slider img:empty {
+    min-width: 100px;
+    background: linear-gradient(130deg, #e6e9f0 0%, #eef1f5 50%, #e6e9f0 100%);
+    background-size: 200% 100%;
+    animation: loadingAnimation 1s infinite;
+}
+
+@keyframes loadingAnimation {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+</style>
 
 <br>
 

@@ -21,7 +21,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <!--<strong> ✨ Welcome to my personal website! 🎓 </strong>-->
 
-I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at the [School of Future Technology](https://www2.scut.edu.cn/ft/), [South China University of Technology](https://www.scut.edu.cn/new/) in Guangzhou, China. My advisor is [Prof. Qi Liu](https://drliuqi.github.io/), an IEEE Senior Member.
+I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at the [School of Future Technology](https://www2.scut.edu.cn/ft/), [South China University of Technology](https://www.scut.edu.cn/new/) in Guangzhou, China. 
 
 <!-- My research focuses on multimodal learning, data mining, and pattern recognition to decode complex, heterogeneous datasets through cross-modal integration, extracting domain-invariant patterns that drive generalizable AI frameworks. -->
 

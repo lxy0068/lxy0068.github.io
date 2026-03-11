@@ -16,7 +16,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-# ⌨️ About Me
+# About Me
 
 <span class='anchor' id='about-me'></span>
 <!--<strong> ✨ Welcome to my personal website! 🎓 </strong>-->
@@ -61,7 +61,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-# 🔥 News
+# News
 - **2025.07**: &nbsp;🎉🎉 Our project "Threat Perception System Based on Lightweight Pre-training Model and Knowledge Fusion" wins the Second Prize <span style="color:red;">(Top 2%)</span> in Software Application and Development at the 18th Chinese Collegiate Computing Competition!
 - **2025.04**: &nbsp;🎉🎉 Win the Second Prize <span style="color:red;">(Top 3%)</span> in the National English Competition for College Students (NECCS)!
 - **2025.03**: &nbsp;🎉🎉 Our work [Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems](papers/Hyper-Relation_Fusion_for_Solving_Multi-depot_Vehicle_Routing_Problems.pdf) has been accepted by IJCNN2025<span style="color:red;">(Oral)</span>. This is my starting point and will be my path forward!
@@ -75,7 +75,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - **2023.05**: &nbsp;🎉🎉 Win the [Meritorious Award](images/2313019.pdf) in the American Undergraduate Mathematical Contest in Modeling<span style="color:red;">(Top 7%)</span>!
 
 
-# 🎖 Honors and Awards
+# Honors and Awards
 - **2025.11** Excellent Student Cadre, SCUT
 - **2025.11** Excellence Third-Class Scholarship, SCUT - Excellence Group Public Welfare Special Fund
 - **2025.11** Advanced Class Honor (Served as Monitor), SCUT
@@ -92,7 +92,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 - **2023.10** Second-Class Scholarship, SCUT
 - **2023.05** Outstanding Student, Entrepreneurship Elite Class by SCUT
 
-# 📝 Publications
+# Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2025 <span style="color:red;">(Oral)</span></div><img src='images/IJCNN2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -105,7 +105,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
 </div>
 </div>
 
-# 🤖 Projects
+# Projects
 
 <!-- Projects Section Start -->
 <section id="projects">
@@ -590,7 +590,7 @@ I'm **Xingyan Liu**, currently pursuing my undergraduate studies as a senior at 
   </tr>
 </table>
 -->
-# 🩴 My Interesting Life
+# My Interesting Life
 
 <style>
   .life-events-container {

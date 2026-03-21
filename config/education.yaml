@@ -10,36 +10,38 @@ education:
     date: "Sep. 2021 - Jun. 2025"
     logo: "assets/images/logo/scut.jpg"
     
-  - details:
-    en: |
-      GPA: 3.6/4.0
+    details:
+      en: |
+        GPA: 3.6/4.0
 
-      Core Curriculum (GPA 4.0/4.0):
-      - Introduction to Artificial Intelligence: 4.0/4.0
-      - Digital Image Processing: 4.0/4.0
-      - Artificial Intelligence System Comprehensive Design: 4.0/4.0
-      - Artificial Intelligence Application Topics: 4.0/4.0
-      - Optimization Methods: 4.0/4.0
-      - Design Thinking Innovation and Practice: 4.0/4.0
-      - Robotics: 4.0/4.0
-      - Machine Learning in Audio Signal Processing: 4.0/4.0
-      - Matrix Analysis and Computation: 4.0/4.0
-      - Advanced Language Programming Practical Training: 4.0/4.0
-      - Machine Learning Course Design: 4.0/4.0
-      - Big Data and Data Mining Course Practical Training: 4.0/4.0
-    zh: |
-      GPA: 3.6/4.0
+        Core Curriculum (GPA 4.0/4.0):
+        - Introduction to Artificial Intelligence: 4.0/4.0
+        - Digital Image Processing: 4.0/4.0
+        - Artificial Intelligence System Comprehensive Design: 4.0/4.0
+        - Artificial Intelligence Application Topics: 4.0/4.0
+        - Optimization Methods: 4.0/4.0
+        - Design Thinking Innovation and Practice: 4.0/4.0
+        - Robotics: 4.0/4.0
+        - Machine Learning in Audio Signal Processing: 4.0/4.0
+        - Matrix Analysis and Computation: 4.0/4.0
+        - Advanced Language Programming Practical Training: 4.0/4.0
+        - Machine Learning Course Design: 4.0/4.0
+        - Big Data and Data Mining Course Practical Training: 4.0/4.0
+        ......
+      zh: |
+        GPA: 3.6/4.0
 
-      核心课程 (绩点 4.0/4.0):
-      - 人工智能导论: 4.0/4.0
-      - 数字图像处理: 4.0/4.0
-      - 人工智能系统综合设计: 4.0/4.0
-      - 人工智能应用专题: 4.0/4.0
-      - 优化方法: 4.0/4.0
-      - 设计思维创新与实践: 4.0/4.0
-      - 机器人学: 4.0/4.0
-      - 音频信号处理中的机器学习: 4.0/4.0
-      - 矩阵分析与计算: 4.0/4.0
-      - 高级语言程序设计实训: 4.0/4.0
-      - 机器学习课程设计: 4.0/4.0
-      - 大数据及数据挖掘课程实训: 4.0/4.0
+        核心课程 (绩点 4.0/4.0):
+        - 人工智能导论: 4.0/4.0
+        - 数字图像处理: 4.0/4.0
+        - 人工智能系统综合设计: 4.0/4.0
+        - 人工智能应用专题: 4.0/4.0
+        - 优化方法: 4.0/4.0
+        - 设计思维创新与实践: 4.0/4.0
+        - 机器人学: 4.0/4.0
+        - 音频信号处理中的机器学习: 4.0/4.0
+        - 矩阵分析与计算: 4.0/4.0
+        - 高级语言程序设计实训: 4.0/4.0
+        - 机器学习课程设计: 4.0/4.0
+        - 大数据及数据挖掘课程实训: 4.0/4.0
+        ......

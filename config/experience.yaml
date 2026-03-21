@@ -5,13 +5,13 @@ experience:
       en: "Huawei Intelligent Automotive Solution BU"
       zh: "华为智能汽车解决方案BU"
     role:
-      en: "AI Software Engineer (14A)"
-      zh: "AI软件工程师 (14A)"
+      en: "AI Software Engineer 14A"
+      zh: "AI软件工程师 14A"
     date: "From Jul. 2026 to Future"
     logo: "assets/images/logo/Huawei.png"
     description:
       en: |
-        - Served as a Level 14A AI Software Engineer, focusing on developing end-to-end intelligent vehicle solutions utilizing self-developed components such as the Qiankun Intelligent Driving platform and Harmony Cockpit.
+        - Served as a AI Software Engineer, focusing on developing end-to-end intelligent vehicle solutions utilizing self-developed components such as the Qiankun Intelligent Driving platform and Harmony Cockpit.
         - Involved in work spanning product experience definition, system architecture design, AI-enabled vehicle research, and simulation & validation.
         - Primarily responsible for the design and implementation of AI algorithms in areas such as neural networks and machine learning, computer vision, autonomous driving, path planning, intelligent decision-making, and recommender systems, and for developing and optimizing the software toolchain for product integration and testing.
       zh: |

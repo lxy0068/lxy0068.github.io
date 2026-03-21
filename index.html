@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xingyan Liu - AI Engineer">
+    <title>Xingyan Liu</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" id="nav-logo">Haolan Kang</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active" data-i18n="nav.home">Home</a></li>
+                <li><a href="#news" class="nav-link" data-i18n="nav.news">News</a></li>
+                <li><a href="#education" class="nav-link" data-i18n="nav.education">Education</a></li>
+                <li><a href="#publications" class="nav-link" data-i18n="nav.publications">Publications</a></li>
+                <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a></li>
+                <li><a href="#awards" class="nav-link" data-i18n="nav.awards">Awards</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+                <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+                    EN
+                </button>
+                <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section section-home">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-avatar-container">
+                        <div class="home-avatar">
+                            <img src="assets/images/avatar.jpg" alt="Profile Photo" id="avatar-img">
+                        </div>
+                        <!-- Wakatime Heatmap under avatar -->
+                        <div class="wakatime-chart">
+                            <embed src="https://wakatime.com/share/@514682f6-4fc3-44d3-8cd8-821a014aba02/5584f0f3-ece9-4a40-93fa-e4598486620c.svg">
+                        </div>
+                        <!-- Social links under wakatime -->
+                        <div class="home-social" id="social-links">
+                            <!-- Social links will be loaded from YAML -->
+                        </div>
+                    </div>
+                    <div class="home-info">
+                        <h1 class="home-name" id="profile-name">Xingyan Liu</h1>
+                        <p class="home-title" id="profile-title">AI Engineer</p>
+                        <p class="home-affiliation" id="profile-affiliation">South China University of Technology</p>
+                        <div class="home-bio" id="profile-bio">
+                            <!-- Bio content will be loaded from YAML -->
+                        </div>
+                        <!-- CV Download Link -->
+                        <div class="home-cv">
+                            <a href="assets/files/cv.pdf" class="cv-link" target="_blank" data-i18n="cv.download">
+                                <i class="fas fa-file-pdf"></i> Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="section section-news">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.news">News</h2>
+                <div class="news-list" id="news-list">
+                    <!-- News items will be loaded from YAML -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section section-education">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.education">Education</h2>
+                <div class="education-list" id="education-list">
+                    <!-- Education items will be loaded from YAML -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section section-publications">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.publications">Publications</h2>
+                <div class="publications-list" id="publications-list">
+                    <!-- Publications will be loaded from YAML -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section section-experience">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.experience">Experience</h2>
+                <div class="experience-list" id="experience-list">
+                    <!-- Experience items will be loaded from YAML -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards" class="section section-awards">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.awards">Awards</h2>
+                <div class="awards-list" id="awards-list">
+                    <!-- Awards will be loaded from YAML -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- ClusterMaps Visitor Map -->
+            <div class="footer-clustermaps" id="clustermaps-container">
+                <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=vC95FEoz_R_YI2WlqI_azA0GipGnQ1ZYmsTJbuhJU3c&cl=ffffff&w=a"></script>
+            </div>
+            <p class="footer-copyright">
+                &copy; <span id="current-year"></span> <span id="footer-name">Xingyan Liu</span>. All rights reserved.
+            </p>
+            <p class="footer-last-modified" id="last-modified">
+                <!-- 最新修改时间将在这里显示 -->
+            </p>
+        </div>
+    </footer>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+
+    <!-- App Scripts -->
+    <script src="js/theme.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

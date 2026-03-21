@@ -45,14 +45,13 @@ experience:
     logo: "/assets/images/logo/scut.jpg"
     description:
       en: |
-        - Conducted research on the Multi-Depot Vehicle Routing Problem under the SRP program, aiming to optimize logistics with multiple warehouses and capacity constraints. Proposed and implemented the Hyper-Relation Fusion algorithm, a novel neural combinatorial optimization method integrating Graph Neural Networks and Deep Reinforcement Learning within an encoder-decoder architecture.
+        - Participated in the SRP program, researching combinatorial optimization problems such as the Traveling Salesman Problem (TSP) and Job Shop Scheduling (JSP), with a primary focus on the Multi-Depot Vehicle Routing Problem (MDVRP). Aimed to address logistics optimization challenges involving multiple warehouses with capacity constraints. Proposed and implemented the Hyper-Relation Fusion algorithm, a novel neural combinatorial optimization method integrating Graph Neural Networks and Deep Reinforcement Learning within an encoder-decoder architecture.
         - Designed the fusion mechanism of HRF to integrate raw node features with homogeneous (spatial topology) and heterogeneous (role-based) relational features, enhancing representation learning for routing decisions. Engineered efficient inference strategies, including greedy sampling and instance augmentation, to improve solution quality and diversity.
-        - Achieved state-of-the-art results on synthetic and benchmark datasets, outperforming meta-heuristics (HGA, VTNS) and learning-based methods (POMO, MD-MTA) in terms of objective value and optimality gap. Also explored other combinatorial optimization problems, such as the Traveling Salesman Problem and Job Shop Scheduling .
+        - Achieved state-of-the-art results on synthetic and benchmark datasets, outperforming meta-heuristics (HGA, VTNS) and learning-based methods (POMO, MD-MTA) in terms of objective value and optimality gap. The project outcomes were published as the first author at IJCNN 2025. The work was supported by the National Natural Science Foundation of China (Grant No. 62206098).
       zh: |
-        - 参与SRP项目，研究多仓库车辆路径问题，致力于解决带容量约束的多仓库物流路径优化挑战。提出并实现了超关系融合算法，一种结合图神经网络与深度强化学习的神经组合优化方法，采用编码器-解码器架构。
-        - 设计了HRF的融合机制，整合原始节点特征、同质关系（空间拓扑）与异质关系（角色差异）特征，以增强路由决策的表示学习。开发了高效的推理策略，包括贪婪采样与实例增强，以提升解决方案的质量与多样性。
-        - 在合成与基准数据集上取得了最先进的性能，在目标函数值与最优间隙上均优于元启发式算法（HGA, VTNS）与现有学习方法（POMO, MD-MTA）。同时研究了其他组合优化问题，如旅行商问题（TSP）与作业车间调度问题（JSP）。
-
+        - 参与SRP项目，研究组合优化问题，如旅行商问题（TSP）与作业车间调度问题（JSP），重点研究多仓库车辆路径规划问题（MDVRP），致力于解决带容量约束的多仓库物流路径优化挑战。提出并实现了超关系融合算法，一种结合图神经网络与深度强化学习的神经组合优化方法，采用编码器-解码器架构。
+        - 设计了HRF的融合机制，整合原始节点特征、同质关系（空间拓扑）与异质关系（角色差异）特征，以增强路由决策的表示学习。开发高效推理策略，包括贪婪采样与实例增强，以提升解决方案的质量与多样性。
+        - 在合成与基准数据集上取得了最先进的性能，在目标函数值与最优间隙上均优于元启发式算法（HGA, VTNS）与现有学习方法（POMO, MD-MTA）。项目成果作为第一作者发表于IJCNN 2025，工作获得国家自然科学基金（62206098）的支持。
   - company:
       en: "HSBC Technology China"
       zh: "汇丰科技中国"

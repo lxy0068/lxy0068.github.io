@@ -8,13 +8,12 @@ education:
       en: "B.Eng. in  Artificial Intelligence"
       zh: "人工智能学士"
     date: "Sep. 2021 - Jun. 2025"
-    logo: "assets/images/logo/scut.jpg"
-    
+    logo: "assets/images/logo/scut.jpg" 
     details:
       en: |
         GPA: 3.6/4.0
 
-        Core Curriculum (GPA 4.0/4.0):
+        **Core Curriculum (GPA 4.0/4.0):**
         - Introduction to Artificial Intelligence: 4.0/4.0
         - Digital Image Processing: 4.0/4.0
         - Artificial Intelligence System Comprehensive Design: 4.0/4.0
@@ -31,7 +30,7 @@ education:
       zh: |
         GPA: 3.6/4.0
 
-        核心课程 (绩点 4.0/4.0):
+        **核心课程 (绩点 4.0/4.0):**
         - 人工智能导论: 4.0/4.0
         - 数字图像处理: 4.0/4.0
         - 人工智能系统综合设计: 4.0/4.0

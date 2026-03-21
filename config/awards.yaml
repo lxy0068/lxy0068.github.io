@@ -1,0 +1,56 @@
+# Awards List
+awards:
+  - date: "Jul. 2025"
+    content:
+      en: "Second Prize (Top 2%) in Software Application and Development, 18th Chinese Collegiate Computing Competition"
+      zh: "获第十八届中国大学生计算机设计大赛软件应用与开发类全国二等奖 (Top 2%)"
+
+  - date: "Jun. 2024"
+    content:
+      en: "National College Student Innovation and Entrepreneurship Training Program - Great Completion (Top 5%)"
+      zh: "国家级大学生创新创业训练计划良好结题 (Top 5%)"
+
+  - date: "Sep. 2023"
+    content:
+      en: "First Prize in the Guangdong Division, National Undergraduate Mathematical Modeling Contest"
+      zh: "获全国大学生数学建模竞赛广东赛区一等奖"
+
+  - date: "May. 2023"
+    content:
+      en: "Meritorious Award (Top 7%), American Undergraduate Mathematical Contest in Modeling"
+      zh: "获美国大学生数学建模竞赛优异奖 (Meritorious Winner, Top 7%)"
+
+  - date: "Sep. 2024"
+    content:
+      en: "Outstanding Student, Baidu Pinecone Elite Class of SCUT"
+      zh: "获华南理工大学百度松果菁英班优秀学员"
+
+  - date: "Jun. 2024"
+    content:
+      en: "Taihu Future Innovation Award (Top 3%) & Second-Class Academic Innovation Award, Future Technology Taihu Innovation Award (Wuxi Government)"
+      zh: "获太湖未来技术创新奖 (Top 3%) 及学术创新二等奖，未来技术太湖创新奖学金（无锡市政府）"
+
+  - date: "Oct. 2023"
+    content:
+      en: "Second-Class Scholarship, South China University of Technology (SCUT)"
+      zh: "获华南理工大学二等奖学金"
+
+  - date: "Oct. 2025"
+    content:
+      en: "Third-Class Scholarship, South China University of Technology (SCUT)"
+      zh: "获华南理工大学三等奖学金"
+
+  - date: "Nov. 2025"
+    content:
+      en: "Excellence Third-Class Scholarship (Excellence Group Public Welfare Special Fund), SCUT"
+      zh: "获华南理工大学卓越三等奖学金（卓越集团公益基金专项）"
+
+  - date: "Nov. 2023, Nov. 2025"
+    content:
+      en: "Merit Student, South China University of Technology (SCUT)"
+      zh: "获华南理工大学三好学生 (2023, 2025)"
+
+  - date: "Nov. 2025"
+    content:
+      en: "Excellent Student Cadre, South China University of Technology (SCUT)"
+      zh: "获华南理工大学优秀学生干部"

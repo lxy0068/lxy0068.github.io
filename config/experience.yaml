@@ -1,0 +1,54 @@
+# Experience List
+
+experience:
+  - company:
+      en: "[Huawei Intelligent Automotive Solution BU](https://auto.huawei.com/cn/)"
+      zh: "[华为智能汽车解决方案BU](https://auto.huawei.com/cn/)"
+    role:
+      en: "AI Software Engineer"
+      zh: "AI软件工程师"
+    date: "From Jul. 2026 to Future"
+    logo: "assets/images/logo/huawei.png"
+    description:
+      en: |
+        - Served as a Level 14A AI Software Engineer, focusing on developing end-to-end intelligent vehicle solutions utilizing self-developed components such as the Qiankun Intelligent Driving platform and Harmony Cockpit.
+        - Involved in work spanning product experience definition, system architecture design, AI-enabled vehicle research, and simulation & validation.
+        - Primarily responsible for the design and implementation of AI algorithms in areas such as neural networks and machine learning, computer vision, autonomous driving, path planning, intelligent decision-making, and recommender systems, and for developing and optimizing the software toolchain for product integration and testing.
+      zh: |
+        - 担任14A级AI软件工程师，部门致力于基于乾崑智驾、鸿蒙座舱等自研部件打造端到端的智能汽车解决方案。
+        - 参与的工作涵盖产品体验与性能定义、系统架构与功能设计、AI使能车辆研究以及仿真验证。
+        - 主要负责神经网络与机器学习、计算机视觉、无人驾驶、路径规划、智能决策、推荐系统等领域AI算法的设计与实现，开发、优化用于产品集成与测试的软件工具链。
+
+  - company:
+      en: "South China University of Technology"
+      zh: "华南理工大学"
+    role:
+      en: "Research Assistant"
+      zh: "研究助理"
+    date: "Mar. 2024 - Mar. 2025"
+    logo: "/assets/images/logo/scut.jpg"
+    description:
+      en: |
+        - Conducted research on the Multi-Depot Vehicle Routing Problem under the SRP program, aiming to optimize logistics with multiple warehouses and capacity constraints. Proposed and implemented the Hyper-Relation Fusion (HRF) algorithm, a novel neural combinatorial optimization method integrating Graph Neural Networks and Deep Reinforcement Learning within an encoder-decoder architecture.
+        - Designed the fusion mechanism of HRF to integrate raw node features with homogeneous (spatial topology) and heterogeneous (role-based) relational features, enhancing representation learning for routing decisions. Engineered efficient inference strategies, including greedy sampling and instance augmentation, to improve solution quality and diversity.
+        - Achieved state-of-the-art results on synthetic and benchmark datasets, outperforming meta-heuristics (HGA, VTNS) and learning-based methods (POMO, MD-MTA) in terms of objective value and optimality gap. Also explored other combinatorial optimization problems, such as the Traveling Salesman Problem and Job Shop Scheduling .
+      zh: |
+        - 参与SRP项目，研究多仓库车辆路径问题，致力于解决带容量约束的多仓库物流路径优化挑战。提出并实现了超关系融合算法，一种结合图神经网络（GNN）与深度强化学习（DRL）的新型神经组合优化方法，采用编码器-解码器架构。
+        - 设计了HRF的融合机制，整合原始节点特征、同质关系（空间拓扑）与异质关系（角色差异）特征，以增强路由决策的表示学习。开发了高效的推理策略，包括贪婪采样与实例增强，以提升解决方案的质量与多样性。
+        - 在合成与基准数据集上取得了最先进的性能，在目标函数值与最优间隙上均优于元启发式算法（HGA, VTNS）与现有学习方法（POMO, MD-MTA）。同时研究了其他组合优化问题，如旅行商问题（TSP）与作业车间调度问题（JSP）。
+
+  - company:
+      en: "2023 Greater Bay Innovation Camp: Guangdong-Hong Kong-Macao Greater Bay Area Youth Innovators Exchange Event"
+      zh: "2023‘湾创营’——粤港澳大湾区青年创客交流活动"
+    role:
+      en: "Junior Project Manager"
+      zh: "初级项目经理"
+    date: "Aug. 2023"
+    logo: "assets/images/logo/wanchuang.png"
+    description:
+      en: |
+        - Learned and practiced business thinking, design thinking, first principles thinking, and Maslow's hierarchy of needs during the summer camp.
+        - Participated in the innovative research and development process of smart hardware solutions, successfully transformed innovative thinking into actual products, demonstrated the whole product management process from conceptualisation to prototyping, and exemplified excellent problem-solving and innovation skills.
+      zh: |
+        - 在夏令营期间学习和实践了商业思维、设计思维、第一性原理思维和马斯洛需求层次理论。
+        - 参与智能硬件解决方案的创新研发过程，成功将创新思维转化为实际产品，展示了从概念到原型的完整产品管理流程，展现了出色的问题解决和创新能力。

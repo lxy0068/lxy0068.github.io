@@ -1,0 +1,7 @@
+# Site Configuration
+title: "Xingyan Liu"
+description: "AI Engineer"
+default_language: "en"  # en | zh
+
+# Google Analytics (replace with your GA4 ID)
+google_analytics_id: "G-XXXXXXXXXX"

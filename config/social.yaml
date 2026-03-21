@@ -1,0 +1,22 @@
+# Social Links Configuration
+
+social:
+  - name: "Email"
+    icon: "email"
+    url: "mailto:xingyanliu10@gmail.com"
+
+  - name: "GitHub"
+    icon: "github"
+    url: "https://github.com/lxy0068"
+
+  - name: "Google Scholar"
+    icon: "google-scholar"
+    url: "https://scholar.google.com/citations?hl=en&user=008bCQQAAAAJ"
+
+  - name: "Xiaohongshu"
+    icon: "xiaohongshu"
+    url: "https://www.xiaohongshu.com/user/profile/64590d700000000014010170?m_source=pwa"
+
+  - name: "WeChat"
+    icon: "wechat"
+    url: "assets/images/wechat_code.jpeg"

@@ -1,0 +1,23 @@
+# Publications List
+
+publications:
+  - title: "Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems"
+    authors: "Xingyan Liu, Yang Wang, Fansen Meng, Ya-Hui Jia"
+    year: 2025
+    type: "Conference"
+    venue: "IJCNN 2025"
+    status: "Accepted"
+    thumbnail: "assets/images/papers/IJCNN2025.png"
+    description:
+      en: |
+        ⭐️ The Multi-Depot Vehicle Routing Problemis a core combinatorial optimization challenge in logistics. Traditional solvers struggle with scalability (exact methods) or require heavy manual tuning (metaheuristics).
+        💡 We propose a Hyper-Relation Fusion neural solver that innovatively models both the *heterogeneous* relationships (depot-customer vs. customer-customer) and *homogeneous* spatial relationships within the problem graph. By fusing features extracted via a dedicated Graph Attention Network (HeGNN) and a Graph Convolutional Network (HoGNN) through an encoder-decoder architecture, HRF learns to jointly optimize customer assignment and routing sequencing effectively.
+        📈 Comprehensive experiments on synthetic and benchmark datasets show that HRF outperforms state-of-the-art metaheuristic and learning-based methods in solution quality.
+      zh: |
+        ⭐️ 多仓库车辆路径问题是物流领域的核心组合优化难题。传统求解器在可扩展性（精确方法）或需要大量手动调参（元启发式方法）方面存在局限。
+        💡 我们提出了一种超关系融合神经求解器，创新性地对问题图中的*异构*关系（仓库-客户 vs. 客户-客户）和*同构*空间拓扑关系进行联合建模。通过编码器-解码器架构,融合由专用的图注意力网络（HeGNN）和图卷积网络（HoGNN）提取的特征，HRF能够有效学习并联合优化客户分配与路径规划序列。
+        📈 在合成和基准数据集上的综合实验表明，HRF在求解质量上超越了当前最先进的元启发式和基于学习的方法。
+    links:
+      Pdf: "https://ieeexplore.ieee.org/document/11227879"
+      Code: "https://github.com/lxy0068/HRF-MDVRP"
+

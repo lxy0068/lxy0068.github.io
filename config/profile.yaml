@@ -1,0 +1,47 @@
+# Personal Profile Configuration
+
+name:
+  en: "Xingyan Liu"
+  zh: "刘兴琰"
+
+title:
+  en: "AI Engineer"
+  zh: "人工智能工程师"
+
+affiliation:
+  en: "The University of Hong Kong"
+  zh: "华南理工大学"
+
+bio:
+  en: |
+    Hello! I am an enthusiast in algorithms and engineering practice, and I'm about to join the [Huawei Intelligent Automotive Solution BU](https://auto.huawei.com/cn/) as an AI Software Engineer. 
+
+    I am dedicated to translating cutting-edge algorithmic research into high-performance, high-reliability practical systems, striving for breakthroughs between AI model innovation and full-stack engineering implementation. 
+
+    I have studied under the guidance of [Prof. Qi Liu](https://drliuqi.github.io/) and [Prof. Yahui Jia](https://www2.scut.edu.cn/ft/2021/1105/c45109a450065/page.htm), accumulating solid research training in the direction of intelligent optimization algorithms and systems. 
+
+    In terms of engineering practice, I have experience leading multiple AI projects from end to end, covering the entire process cycle: from requirements analysis and problem definition, algorithm research and selection, system architecture design, and model iteration optimization, to deployment integration, performance tuning, and cross-team collaboration. 
+
+    I firmly believe in and practice the concept of "Compound Interest in Cognitive Growth." I am passionate about decomposing complex real-world challenges into executable modules. 
+    
+    Guided by pragmatism and iterative evolutionary thinking, I aim to carve out a clear path to quantifiable outcomes through systematic reasoning and validation. 
+
+    Feel free to contact me anytime to discuss any topic.
+
+
+
+  zh: |
+    你好！我是一名算法与工程实践的爱好者，即将入职[华为智能汽车解决方案BU](https://auto.huawei.com/cn/)，担任AI软件开发工程师。 
+
+    我致力于将前沿的算法研究转化为高性能、高可靠的实用系统，在AI模型创新与全栈工程实现之间寻求突破。
+
+    我曾在[刘琦教授](https://drliuqi.github.io/)与[贾亚晖教授](https://www2.scut.edu.cn/ft/2021/1105/c45109a450065/page.htm)的指导下学习，在智能优化算法与系统方向积累了扎实的科研训练。
+
+    在工程实践上，我具备多次主导AI项目端到端交付的经验，完整覆盖从需求分析与问题定义、算法调研与选型、系统架构设计、模型迭代优化，到部署集成、性能调优及跨团队协作的全流程闭环。 
+
+    我坚信并践行 "复利认知成长" 的理念，热衷于将复杂的现实挑战分解为可执行的模块，在务实主义和迭代进化思维的指导下，通过系统性的推理与验证，开辟通往可量化成果的清晰路径。 
+
+    欢迎随时联系我，讨论任何话题。
+
+avatar: "assets/images/avatar.jpg"
+email: "xingyanliu10@gmail.com"

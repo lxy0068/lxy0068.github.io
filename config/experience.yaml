@@ -1,5 +1,3 @@
-# Experience List
-
 experience:
   - company:
       en: "Huawei Intelligent Automotive Solution BU"
@@ -20,23 +18,22 @@ experience:
         - 主要负责神经网络与机器学习、计算机视觉、无人驾驶、路径规划、智能决策、推荐系统等领域AI算法的设计与实现，开发、优化用于产品集成与测试的软件工具链。
 
   - company:
-    en: "Beijing Zhipu Huazhang Technology Co., Ltd."
-    zh: "北京智谱华章科技有限公司"
-  role:
-    en: "Large Language Model Technology Intern"
-    zh: "大模型技术实习生"
-  date: "Aug. 2025 - Nov. 2025"
-  logo: "assets/images/logo/zhipu.png"
-  description:
-    en: |
-      - Conducted in-depth research on Computer-Using Agent technology, evaluating multiple mainstream solutions. Independently led the technical route exploration for the GLM-PC project, selecting and implementing a vision-language model based solution. Modified the Midscene open-source framework to enable automated data collection and constructed a multimodal fine-tuning dataset, achieving a format compliance rate improvement from 10% to 100% for the 7B model.
-      - Participated in the full lifecycle development of the domain-specific LLM "Hanmo" for the hydropower industry. Responsible for constructing high-quality domain data, including 0.8B tokens of incremental pre-training data and instruction-tuning data generated via knowledge-guided distillation. Gained deep hands-on experience with the complete training pipeline encompassing incremental pre-training, instruction tuning, and model fusion strategies.
-      - Explored automated knowledge graph construction for the field of materials science. Utilized the Qwen-long model with carefully designed two-stage prompts to accurately extract entities, concepts, and their complex relationships from academic literature, and automated the conversion and upload of results to the platform.
-    zh: |
-      - 深入研究计算机使用智能体技术，评估多种主流方案。独立主导GLM-PC项目的技术路线探索，选择并实现了基于视觉语言模型的解决方案。修改Midscene开源框架以实现自动化数据采集，并构建了多模态微调数据集，使7B模型的格式合规率从10%提升至100%。
-      - 参与水利水电领域大模型“翰沫”的全生命周期研发。负责构建高质量领域数据，包括0.8B token的增量预训练数据及通过知识引导型蒸馏生成的指令微调数据。深入实践了包含增量预训练、指令微调及模型融合策略的完整训练流程。
-      - 探索材料科学领域的自动化知识图谱构建。利用Qwen-long模型配合精心设计的两阶段提示词，从学术文献中精准抽取实体、概念及其复杂关系，并实现了结果到平台的可视化知识图谱的自动化转换与上传。
-
+      en: "Beijing Zhipu Huazhang Technology Co., Ltd."
+      zh: "北京智谱华章科技有限公司"
+    role:
+      en: "Large Language Model Technology Intern"
+      zh: "大模型技术实习生"
+    date: "Aug. 2025 - Nov. 2025"
+    logo: "assets/images/logo/zhipu.png"
+    description:
+      en: |
+        - Conducted in-depth research on Computer-Using Agent technology, evaluating multiple mainstream solutions. Independently led the technical route exploration for the GLM-PC project, selecting and implementing a vision-language model based solution. Modified the Midscene open-source framework to enable automated data collection and constructed a multimodal fine-tuning dataset, achieving a format compliance rate improvement from 10% to 100% for the 7B model.
+        - Participated in the full lifecycle development of the domain-specific LLM "Hanmo" for the hydropower industry. Responsible for constructing high-quality domain data, including 0.8B tokens of incremental pre-training data and instruction-tuning data generated via knowledge-guided distillation. Gained deep hands-on experience with the complete training pipeline encompassing incremental pre-training, instruction tuning, and model fusion strategies.
+        - Explored automated knowledge graph construction for the field of materials science. Utilized the Qwen-long model with carefully designed two-stage prompts to accurately extract entities, concepts, and their complex relationships from academic literature, and automated the conversion and upload of results to the platform.
+      zh: |
+        - 深入研究计算机使用智能体技术，评估多种主流方案。独立主导GLM-PC项目的技术路线探索，选择并实现了基于视觉语言模型的解决方案。修改Midscene开源框架以实现自动化数据采集，并构建了多模态微调数据集，使7B模型的格式合规率从10%提升至100%。
+        - 参与水利水电领域大模型“翰沫”的全生命周期研发。负责构建高质量领域数据，包括0.8B token的增量预训练数据及通过知识引导型蒸馏生成的指令微调数据。深入实践了包含增量预训练、指令微调及模型融合策略的完整训练流程。
+        - 探索材料科学领域的自动化知识图谱构建。利用Qwen-long模型配合精心设计的两阶段提示词，从学术文献中精准抽取实体、概念及其复杂关系，并实现了结果到平台的可视化知识图谱的自动化转换与上传。
 
   - company:
       en: "South China University of Technology"

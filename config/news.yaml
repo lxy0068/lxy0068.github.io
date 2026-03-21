@@ -2,23 +2,28 @@
 news:
   - date: "2026-03"
     content:
-      en: "I will soon join [**Huawei Intelligent Automotive Solution BU**](https://auto.huawei.com/cn/) in Shanghai as an AI Software Engineer. 🎉"
-      zh: "我即将加入[**华为智能汽车解决方案BU**](https://auto.huawei.com/cn/)（上海），担任AI软件开发工程师. 🎉"
-
+      en: "I will soon join [**Huawei Intelligent Automotive Solution BU**](https://auto.huawei.com/cn/) in Shanghai as an AI Software Engineer. Dedicated to the mission of 'Bring Intelligence to Every Vehicle, for a Safer Journey and Better Life.' 🎉"
+      zh: "我将加入[**华为智能汽车解决方案BU**](https://auto.huawei.com/cn/)（上海），担任AI软件开发工程师。致力于把智能带入每一辆车，让出行更安全、生活更美好。 🎉"
+      
+  - date: "2025-08"
+    content:
+      en: "I joined [**Beijing Zhipu Huazhang Technology Co., Ltd.**](https://www.zhipuai.cn/zh) as a Large Language Model Technology Intern. Focused on Computer-Using Agents, domain-specific LLMs, and knowledge graph construction. 🎯"
+      zh: "我以“大模型技术实习生”身份加入[**北京智谱华章科技有限公司**](https://www.zhipu.com/)。专注于计算机使用智能体、领域大模型与知识图谱构建。🎯"
+    
   - date: "2025-07"
     content:
-      en: "Won [**Second Prize (Top 2%)**](assets/files/4C_PPT.pdf) in Software Application and Development at the 18th Chinese Collegiate Computing Competition! 🎉"
-      zh: "在第十八届中国大学生计算机设计大赛软件应用与开发类中获得[**全国二等奖 (Top 2%)**](assets/files/4C_PPT.pdf)！ 🎉"
+      en: "Our project, [**a threat awareness system based on a lightweight pre-trained model and knowledge fusion**](assets/files/4C_PPT.pdf), won the **National Second Prize (Top 2%)** in the Software Application and Development category at the 18th Chinese Collegiate Computing Competition! 🎉"
+      zh: "我们的项目[**基于轻量预训练模型与知识融合的威胁感知系统**](assets/files/4C_PPT.pdf)，在第十八届中国大学生计算机设计大赛软件应用与开发类中获得**全国二等奖 (Top 2%)**！🎉"   
 
   - date: "2025-03"
     content:
-      en: "Paper 'Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems' accepted by IJCNN 2025 (Oral)!🎉"
-      zh: "论文'Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems' 被 IJCNN 2025 (Oral)录用！🎉"
+      en: "Paper 'Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems' was accepted by IJCNN 2025 (Oral)!🎉"
+      zh: "论文 'Hyper-Relation Fusion for Solving Multi-depot Vehicle Routing Problems' 被 IJCNN 2025 (Oral)录用！🎉"
 
   - date: "2024-07"
     content:
-      en: "Completed internship at [**Wuxi Future Technology Joint Research Center**](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)! 🎉"
-      zh: "在[**无锡未来技术联合研究中心**](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)完成实习！ 🎉"
+      en: "Completed a social practice internship at the [**Wuxi Future Technology Joint Research Center**](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)! Gained in-depth exposure to cutting-edge enterprises and innovation platforms in fields like autonomous driving and smart cities during the study tour in Wuxi. 🎉"
+      zh: "在[**无锡未来技术联合研究中心**](https://www.wnd.gov.cn/doc/2024/09/04/4385960.shtml)完成社会实习实践！在锡研学期间，深入参访了自动驾驶、智能家居等领域的领军企业与创新平台，受益匪浅。🎉"
 
   - date: "2024-06"
     content:

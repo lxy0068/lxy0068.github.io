@@ -20,6 +20,25 @@ experience:
         - 主要负责神经网络与机器学习、计算机视觉、无人驾驶、路径规划、智能决策、推荐系统等领域AI算法的设计与实现，开发、优化用于产品集成与测试的软件工具链。
 
   - company:
+    en: "Beijing Zhipu Huazhang Technology Co., Ltd."
+    zh: "北京智谱华章科技有限公司"
+  role:
+    en: "Large Language Model Technology Intern"
+    zh: "大模型技术实习生"
+  date: "Aug. 2025 - Nov. 2025"
+  logo: "assets/images/logo/zhipu.png"
+  description:
+    en: |
+      - Conducted in-depth research on Computer-Using Agent technology, evaluating multiple mainstream solutions. Independently led the technical route exploration for the GLM-PC project, selecting and implementing a vision-language model based solution. Modified the Midscene open-source framework to enable automated data collection and constructed a multimodal fine-tuning dataset, achieving a format compliance rate improvement from 10% to 100% for the 7B model.
+      - Participated in the full lifecycle development of the domain-specific LLM "Hanmo" for the hydropower industry. Responsible for constructing high-quality domain data, including 0.8B tokens of incremental pre-training data and instruction-tuning data generated via knowledge-guided distillation. Gained deep hands-on experience with the complete training pipeline encompassing incremental pre-training, instruction tuning, and model fusion strategies.
+      - Explored automated knowledge graph construction for the field of materials science. Utilized the Qwen-long model with carefully designed two-stage prompts to accurately extract entities, concepts, and their complex relationships from academic literature, and automated the conversion and upload of results to the platform.
+    zh: |
+      - 深入研究计算机使用智能体技术，评估多种主流方案。独立主导GLM-PC项目的技术路线探索，选择并实现了基于视觉语言模型的解决方案。修改Midscene开源框架以实现自动化数据采集，并构建了多模态微调数据集，使7B模型的格式合规率从10%提升至100%。
+      - 参与水利水电领域大模型“翰沫”的全生命周期研发。负责构建高质量领域数据，包括0.8B token的增量预训练数据及通过知识引导型蒸馏生成的指令微调数据。深入实践了包含增量预训练、指令微调及模型融合策略的完整训练流程。
+      - 探索材料科学领域的自动化知识图谱构建。利用Qwen-long模型配合精心设计的两阶段提示词，从学术文献中精准抽取实体、概念及其复杂关系，并实现了结果到平台的可视化知识图谱的自动化转换与上传。
+
+
+  - company:
       en: "South China University of Technology"
       zh: "华南理工大学"
     role:
@@ -29,26 +48,28 @@ experience:
     logo: "/assets/images/logo/scut.jpg"
     description:
       en: |
-        - Conducted research on the Multi-Depot Vehicle Routing Problem under the SRP program, aiming to optimize logistics with multiple warehouses and capacity constraints. Proposed and implemented the Hyper-Relation Fusion (HRF) algorithm, a novel neural combinatorial optimization method integrating Graph Neural Networks and Deep Reinforcement Learning within an encoder-decoder architecture.
+        - Conducted research on the Multi-Depot Vehicle Routing Problem under the SRP program, aiming to optimize logistics with multiple warehouses and capacity constraints. Proposed and implemented the Hyper-Relation Fusion algorithm, a novel neural combinatorial optimization method integrating Graph Neural Networks and Deep Reinforcement Learning within an encoder-decoder architecture.
         - Designed the fusion mechanism of HRF to integrate raw node features with homogeneous (spatial topology) and heterogeneous (role-based) relational features, enhancing representation learning for routing decisions. Engineered efficient inference strategies, including greedy sampling and instance augmentation, to improve solution quality and diversity.
         - Achieved state-of-the-art results on synthetic and benchmark datasets, outperforming meta-heuristics (HGA, VTNS) and learning-based methods (POMO, MD-MTA) in terms of objective value and optimality gap. Also explored other combinatorial optimization problems, such as the Traveling Salesman Problem and Job Shop Scheduling .
       zh: |
-        - 参与SRP项目，研究多仓库车辆路径问题，致力于解决带容量约束的多仓库物流路径优化挑战。提出并实现了超关系融合算法，一种结合图神经网络（GNN）与深度强化学习（DRL）的新型神经组合优化方法，采用编码器-解码器架构。
+        - 参与SRP项目，研究多仓库车辆路径问题，致力于解决带容量约束的多仓库物流路径优化挑战。提出并实现了超关系融合算法，一种结合图神经网络与深度强化学习的神经组合优化方法，采用编码器-解码器架构。
         - 设计了HRF的融合机制，整合原始节点特征、同质关系（空间拓扑）与异质关系（角色差异）特征，以增强路由决策的表示学习。开发了高效的推理策略，包括贪婪采样与实例增强，以提升解决方案的质量与多样性。
         - 在合成与基准数据集上取得了最先进的性能，在目标函数值与最优间隙上均优于元启发式算法（HGA, VTNS）与现有学习方法（POMO, MD-MTA）。同时研究了其他组合优化问题，如旅行商问题（TSP）与作业车间调度问题（JSP）。
 
   - company:
-      en: "2023 Greater Bay Innovation Camp: Guangdong-Hong Kong-Macao Greater Bay Area Youth Innovators Exchange Event"
-      zh: "2023‘湾创营’——粤港澳大湾区青年创客夏令营"
+      en: "HSBC Technology China"
+      zh: "汇丰科技中国"
     role:
-      en: "Junior Project Manager"
-      zh: "初级项目经理"
-    date: "Aug. 2023"
-    logo: "assets/images/logo/wanchuang.png"
+      en: "Data Engineering Intern"
+      zh: "数据工程实习生"
+    date: "Apr. 2023 - Nov. 2023"
+    logo: "assets/images/logo/HSBC.png"
     description:
       en: |
-        - Learned and practiced business thinking, design thinking, first principles thinking, and Maslow's hierarchy of needs during the summer camp.
-        - Participated in the innovative research and development process of smart hardware solutions, successfully transformed innovative thinking into actual products, demonstrated the whole product management process from conceptualisation to prototyping, and exemplified excellent problem-solving and innovation skills.
+        - Participated in the construction of an enterprise-grade data pipeline based on MongoDB. Responsible for designing the document schema for customer interaction logs and implementing the data collection module. Conducted in-depth performance analysis and optimization for core queries, including the design of composite indexes and refinement of aggregation pipelines, achieving an average reduction of approximately 70% in query response time.
+        - Developed a distributed ETL pipeline using PySpark to process billions of daily transaction records for the machine learning platform. Designed and implemented feature extraction modules. Addressed severe data skew issues by employing techniques such as salting and two-stage aggregation, resulting in a reduction of approximately 60% in job execution time.
+        - Independently designed and implemented a data cleaning and anomaly detection system for financial data sources. The system featured a configurable, declarative rule engine supporting various imputation methods and anomaly detection algorithms. It was successfully deployed to serve downstream risk control models, significantly improving training data quality.
       zh: |
-        - 在夏令营期间学习和实践了商业思维、设计思维、第一性原理思维和马斯洛需求层次理论。
-        - 参与智能硬件解决方案的创新研发过程，成功将创新思维转化为实际产品，展示了从概念到原型的完整产品管理流程，展现了出色的问题解决和创新能力。
+        - 参与基于MongoDB的企业级数据管道搭建。负责设计客户交互记录的文档结构并实现数据采集模块。对核心查询进行深入的性能分析与优化，包括设计复合索引与调优聚合管道，将查询平均响应时间降低约70%。
+        - 使用PySpark为机器学习平台构建分布式ETL流程，处理日均数十亿条交易记录。设计并实现了特征提取模块。通过采用加盐、两阶段聚合等方法解决严重的数据倾斜问题，使作业执行时间缩短约60%。
+        - 独立设计并实现了一套面向金融数据源的清洗与异常检测系统。系统包含可配置的声明式规则引擎，支持多种缺失值处理与异常检测算法，并成功上线服务于下游风控模型，显著提升了训练数据质量。

@@ -13,10 +13,6 @@ social:
     icon: "google-scholar"
     url: "https://scholar.google.com/citations?hl=en&user=008bCQQAAAAJ"
 
-  - name: "Xiaohongshu"
-    icon: "xiaohongshu"
-    url: "https://www.xiaohongshu.com/user/profile/64590d700000000014010170?m_source=pwa"
-
   - name: "WeChat"
     icon: "wechat"
     url: "assets/images/wechat_code.jpeg"

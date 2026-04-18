@@ -4,16 +4,11 @@
  * ripple, magnetic buttons, typewriter, name glitch
  */
 const Animations = {
-    _loadingTimer: null,
- 
     init() {
         this._initScrollProgress();
-        this._startLoadingBar();
     },
- 
     // Called by App after all content is rendered
     onContentReady() {
-        this._hideLoadingScreen();
         this._initScrollReveal();
         this._initTilt();
         this._initRipple();
@@ -21,39 +16,11 @@ const Animations = {
         this._initTypewriter();
         this._initGlitch();
     },
- 
     // Re-run after language switch (typewriter + glitch re-init)
     onLanguageSwitch() {
         this._initTypewriter();
         this._initGlitch();
     },
- 
-    // ── Loading screen ────────────────────────────────────────────
-    _startLoadingBar() {
-        const bar = document.getElementById('loading-bar');
-        if (!bar) return;
-        let pct = 0;
-        this._loadingTimer = setInterval(() => {
-            pct += Math.random() * 18;
-            if (pct > 88) pct = 88;
-            bar.style.width = pct + '%';
-        }, 220);
-        // Hard-timeout: always dismiss after 8 s no matter what
-        setTimeout(() => this._hideLoadingScreen(), 8000);
-    },
- 
-    _hideLoadingScreen() {
-        const screen = document.getElementById('loading-screen');
-        const bar    = document.getElementById('loading-bar');
-        if (!screen) return;
-        clearInterval(this._loadingTimer);
-        if (bar) bar.style.width = '100%';
-        setTimeout(() => {
-            screen.classList.add('loading-exit');
-            setTimeout(() => screen.remove(), 700);
-        }, 250);
-    },
- 
     // ── Scroll progress bar ───────────────────────────────────────
     _initScrollProgress() {
         const bar = document.getElementById('scroll-progress');
@@ -65,14 +32,12 @@ const Animations = {
         window.addEventListener('scroll', update, { passive: true });
         update();
     },
- 
     // ── Scroll reveal (Intersection Observer) ────────────────────
     _initScrollReveal() {
         const targets = document.querySelectorAll(
             '.news-item, .education-item, .publication-card, ' +
             '.experience-item, .award-item, .section-title, .home-content'
         );
- 
         targets.forEach(el => {
             el.classList.add('reveal-hidden');
             // stagger siblings
@@ -80,7 +45,6 @@ const Animations = {
             const idx = siblings.indexOf(el);
             if (idx > 0) el.style.transitionDelay = `${idx * 0.07}s`;
         });
- 
         const io = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -89,21 +53,16 @@ const Animations = {
                 }
             });
         }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
- 
         targets.forEach(el => io.observe(el));
     },
- 
     // ── 3-D card tilt on hover ────────────────────────────────────
     _initTilt() {
         if (window.matchMedia('(pointer: coarse)').matches) return;
- 
         const cards = document.querySelectorAll(
             '.publication-card, .education-item, .experience-item'
         );
- 
         cards.forEach(card => {
             card.style.transition = 'transform 0.15s ease, box-shadow 0.3s ease';
- 
             card.addEventListener('mousemove', e => {
                 const r  = card.getBoundingClientRect();
                 const cx = r.left + r.width  / 2;
@@ -112,13 +71,11 @@ const Animations = {
                 const ty = ((e.clientX - cx) / (r.width  / 2)) *  7;
                 card.style.transform = `perspective(900px) rotateX(${tx}deg) rotateY(${ty}deg) translateZ(6px)`;
             });
- 
             card.addEventListener('mouseleave', () => {
                 card.style.transform = '';
             });
         });
     },
- 
     // ── Ripple click effect ────────────────────────────────────────
     _initRipple() {
         const sel = '.cv-link, .social-link, .publication-link, .theme-toggle, .lang-toggle';
@@ -140,14 +97,11 @@ const Animations = {
             });
         });
     },
- 
     // ── Magnetic pull on social / CV buttons ─────────────────────
     _initMagnetic() {
         if (window.matchMedia('(pointer: coarse)').matches) return;
- 
         const btns = document.querySelectorAll('.cv-link, .social-link');
         const S = 0.28;
- 
         btns.forEach(btn => {
             btn.addEventListener('mousemove', e => {
                 const r  = btn.getBoundingClientRect();
@@ -160,17 +114,14 @@ const Animations = {
             });
         });
     },
- 
     // ── Typewriter on the title ───────────────────────────────────
     _initTypewriter() {
         const el = document.getElementById('profile-title');
         if (!el) return;
         const text = el.textContent.trim();
         if (!text) return;
- 
         el.textContent = '';
         el.classList.add('typewriter-active');
- 
         let i = 0;
         const tick = () => {
             el.textContent += text[i++];
@@ -179,7 +130,6 @@ const Animations = {
         };
         setTimeout(tick, 400);
     },
- 
     // ── Glitch hover on name ──────────────────────────────────────
     _initGlitch() {
         const el = document.getElementById('profile-name');
@@ -188,5 +138,4 @@ const Animations = {
         el.classList.add('glitch-text');
     },
 };
- 
 document.addEventListener('DOMContentLoaded', () => Animations.init());

@@ -21,6 +21,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">XL</div>
+            <div class="loading-name">Xingyan Liu</div>
+            <div class="loading-bar-wrap">
+                <div class="loading-bar" id="loading-bar"></div>
+            </div>
+            <div class="loading-subtitle">Initializing portfolio…</div>
+        </div>
+    </div>
+ 
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+ 
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas" class="particle-canvas"></canvas>
+ 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
@@ -162,6 +180,8 @@
     <!-- App Scripts -->
     <script src="js/theme.js"></script>
     <script src="js/i18n.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/animations.js"></script>
     <script src="js/main.js"></script>
     <script src="js/cursor.js"></script>
 </body>

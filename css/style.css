@@ -330,13 +330,14 @@ img:hover {
     border-radius: 0;
     object-fit: cover;
     border: 4px solid var(--border);
-    transition: all var(--transition-normal);
+    transition: opacity var(--transition-normal), transform var(--transition-normal), box-shadow var(--transition-normal);
     box-shadow: var(--tech-glow);
+    cursor: none;
 }
 
 .home-avatar img:hover {
+    opacity: 0;
     transform: scale(1.03);
-    box-shadow: 0 0 25px var(--accent-glow);
 }
 
 .wakatime-chart {

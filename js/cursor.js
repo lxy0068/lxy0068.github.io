@@ -54,6 +54,19 @@ const Cursor = {
             dot.style.opacity  = '';
             ring.style.opacity = '';
         });
+
+        // Hide cursor entirely when over the profile photo
+        const avatar = document.getElementById('avatar-img');
+        if (avatar) {
+            avatar.addEventListener('mouseenter', () => {
+                dot.style.opacity  = '0';
+                ring.style.opacity = '0';
+            });
+            avatar.addEventListener('mouseleave', () => {
+                dot.style.opacity  = '';
+                ring.style.opacity = '';
+            });
+        }
  
         const LERP = 0.12;
         const tick = () => {

@@ -7,58 +7,58 @@ const App = {
     config: {},
 
     async init() {
-        // Set current year in footer
-        document.getElementById('current-year').textContent = new Date().getFullYear();
+        try {
+            // Set current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
+            // Initialize navigation
+            this.initNavigation();
+            
+            // Load all config files
+            await this.loadConfigs();
+            
+            // Initialize i18n with default language from config
+            I18n.init(this.config.site?.default_language || 'en');
+            // Render all sections
 
-        // Initialize navigation
-        this.initNavigation();
-
-        // Load all config files
-        await this.loadConfigs();
-
-        // Initialize i18n with default language from config
-        I18n.init(this.config.site?.default_language || 'en');
-
-        // Render all sections
-        this.renderProfile();
-        this.renderSocial();
-        this.renderNews();
-        this.renderEducation();
-        this.renderPublications();
-        this.renderExperience();
-        this.renderAwards();
-
-        // Load and display last modified time
-        await this.loadLastModified();
-
-        // Store last modified time for language switching
-        this.lastModifiedTime = null;
-
-        // Listen for language changes
-        window.addEventListener('languageChanged', () => {
             this.renderProfile();
+            this.renderSocial();
             this.renderNews();
             this.renderEducation();
             this.renderPublications();
             this.renderExperience();
             this.renderAwards();
-            if (this.lastModifiedTime) {
-                this.renderLastModified(this.lastModifiedTime);
-            }
-            if (window.Animations) {
-                Animations.onLanguageSwitch();
-                Animations._initScrollReveal();
-                Animations._initTilt();
-                Animations._initRipple();
-                Animations._initMagnetic();
-            }
-        });
+            
 
-        // Signal animations module that content is ready
-        if (window.Animations) Animations.onContentReady();
- 
-        // Initialize Google Analytics if configured
-        this.initAnalytics();
+            // Load and display last modified time
+            await this.loadLastModified();
+            // Listen for language changes
+            window.addEventListener('languageChanged', () => {
+                this.renderProfile();
+                this.renderNews();
+                this.renderEducation();
+                this.renderPublications();
+                this.renderExperience();
+                this.renderAwards();
+                if (this.lastModifiedTime) {
+                    this.renderLastModified(this.lastModifiedTime);
+                }
+                if (window.Animations) {
+                    Animations.onLanguageSwitch();
+                    Animations._initScrollReveal();
+                    Animations._initTilt();
+                    Animations._initRipple();
+                    Animations._initMagnetic();
+                }
+            });
+            // Initialize Google Analytics if configured
+            this.initAnalytics();
+        } catch (err) {
+            console.error('App.init error:', err);
+        } finally {
+            // Always signal content ready so the loading screen is never stuck
+            if (window.Animations) Animations.onContentReady();
+        }
     },
 
     // ==========================================

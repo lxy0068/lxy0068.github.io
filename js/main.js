@@ -42,12 +42,21 @@ const App = {
             this.renderPublications();
             this.renderExperience();
             this.renderAwards();
-            // Update last modified time display when language changes
             if (this.lastModifiedTime) {
                 this.renderLastModified(this.lastModifiedTime);
             }
+            if (window.Animations) {
+                Animations.onLanguageSwitch();
+                Animations._initScrollReveal();
+                Animations._initTilt();
+                Animations._initRipple();
+                Animations._initMagnetic();
+            }
         });
 
+        // Signal animations module that content is ready
+        if (window.Animations) Animations.onContentReady();
+ 
         // Initialize Google Analytics if configured
         this.initAnalytics();
     },

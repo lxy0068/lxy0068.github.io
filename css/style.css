@@ -1010,6 +1010,117 @@ img:hover {
 }
 
 /* ==========================================
+   Custom Cursor
+   ========================================== */
+@media (hover: hover) and (pointer: fine) {
+    body {
+        cursor: none;
+    }
+ 
+    a, button, [role="button"], input, textarea, select {
+        cursor: none !important;
+    }
+}
+ 
+.cursor-dot,
+.cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    will-change: transform;
+}
+ 
+.cursor-dot {
+    width: 5px;
+    height: 5px;
+    background: var(--accent);
+    z-index: 99999;
+    transition: width 0.15s ease, height 0.15s ease, opacity 0.15s ease;
+}
+ 
+.cursor-ring {
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid var(--accent);
+    opacity: 0.55;
+    z-index: 99998;
+    transition: width 0.25s ease, height 0.25s ease, opacity 0.25s ease,
+                border-width 0.25s ease, background-color 0.25s ease;
+}
+ 
+/* Crosshair tick marks at N/S/E/W */
+.cursor-ring::before,
+.cursor-ring::after {
+    content: '';
+    position: absolute;
+    opacity: 0.55;
+}
+ 
+.cursor-ring::before {
+    top: 50%;
+    left: -5px;
+    right: -5px;
+    height: 1px;
+    transform: translateY(-0.5px);
+    background: linear-gradient(
+        to right,
+        var(--accent) 0px, var(--accent) 5px,
+        transparent 5px, transparent calc(100% - 5px),
+        var(--accent) calc(100% - 5px), var(--accent) 100%
+    );
+}
+ 
+.cursor-ring::after {
+    left: 50%;
+    top: -5px;
+    bottom: -5px;
+    width: 1px;
+    transform: translateX(-0.5px);
+    background: linear-gradient(
+        to bottom,
+        var(--accent) 0px, var(--accent) 5px,
+        transparent 5px, transparent calc(100% - 5px),
+        var(--accent) calc(100% - 5px), var(--accent) 100%
+    );
+}
+ 
+/* Hover: ring expands and fills with accent glow */
+.cursor-dot.is-hovering {
+    width: 3px;
+    height: 3px;
+    opacity: 0.35;
+}
+ 
+.cursor-ring.is-hovering {
+    width: 40px;
+    height: 40px;
+    opacity: 0.9;
+    background-color: var(--accent-glow);
+}
+ 
+/* Click: ring contracts sharply */
+.cursor-dot.is-clicking {
+    width: 3px;
+    height: 3px;
+}
+ 
+.cursor-ring.is-clicking {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    border-width: 2px;
+}
+ 
+@media (hover: none), (pointer: coarse) {
+    .cursor-dot,
+    .cursor-ring {
+        display: none;
+    }
+}
+
+/* ==========================================
    Responsive Design
    ========================================== */
 @media (max-width: 768px) {
@@ -1129,3 +1240,5 @@ img:hover {
         min-width: auto;
     }
 }
+
+css/style.css

@@ -38,6 +38,8 @@ const Animations = {
             if (pct > 88) pct = 88;
             bar.style.width = pct + '%';
         }, 220);
+        // Hard-timeout: always dismiss after 8 s no matter what
+        setTimeout(() => this._hideLoadingScreen(), 8000);
     },
  
     _hideLoadingScreen() {
